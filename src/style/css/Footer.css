@@ -1,0 +1,14 @@
+.footer {
+  background: linear-gradient(180deg, rgb(25, 25, 25) 0%, rgb(34, 34, 34) 100%);
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer h3 {
+  font-weight: 700;
+}
+.footer h3 span {
+  color: #f4fa1a;
+}

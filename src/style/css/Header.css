@@ -1,0 +1,50 @@
+header {
+  width: 100vw;
+  height: 92px;
+  position: fixed;
+  top: 0;
+  font-size: 20px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  padding: 0 95px;
+  z-index: 2;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+}
+header nav h4 {
+  cursor: pointer;
+  color: #ffffff;
+}
+header nav h4 span {
+  color: #f4fa1a;
+}
+header nav .second-header-div ul {
+  display: flex;
+  gap: 15px;
+}
+header nav .second-header-div ul li {
+  list-style: none;
+}
+header nav .second-header-div ul li a {
+  transition: color 0.4s;
+  text-decoration: none;
+}
+header nav .second-header-div ul li a:link {
+  color: #ffffff;
+}
+header nav .second-header-div ul li a:visited {
+  color: #ffffff;
+}
+header nav .second-header-div ul li a:hover {
+  color: #a9a8a8;
+}
+header nav .second-header-div ul li:nth-of-type(1) a {
+  color: #f4fa1a !important;
+}
+header nav .second-header-div ul li:nth-of-type(1) a:hover {
+  color: rgba(244, 250, 26, 0.6) !important;
+}
