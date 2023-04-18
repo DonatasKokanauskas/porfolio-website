@@ -17,8 +17,8 @@
   bottom: 0;
   width: 100%;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   padding: 0 40px 0 95px;
   z-index: 1;
 }
@@ -40,6 +40,13 @@
   font-weight: 400;
   line-height: 47.48px;
 }
+.hero__content__about-me a:link {
+  color: #ffffff;
+  text-decoration: none;
+}
+.hero__content__about-me a:visited {
+  color: #ffffff;
+}
 .hero__content__about-me button {
   border: 1px solid #f4fa1a;
   border-radius: 15px;
@@ -56,10 +63,11 @@
   justify-content: center;
   gap: 5px;
   cursor: pointer;
-  transition: background-color 0.35s;
+  transition: all 0.35s;
 }
 .hero__content__about-me button:hover {
-  background-color: rgb(19, 19, 19);
+  background-color: #f4fa1a;
+  color: #000000;
 }
 .hero__content__my-photo {
   width: 500px;

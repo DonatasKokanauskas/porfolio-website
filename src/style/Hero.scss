@@ -1,7 +1,10 @@
+@mixin flex {
+  display: flex;
+  align-items: center;
+}
 .hero {
   width: 100vw;
   height: 80vh;
-  // border-bottom: 1px solid rgb(25, 25, 25);
   position: relative;
   top: 0px;
   background-color: #191919;
@@ -17,9 +20,8 @@
     position: absolute;
     bottom: 0;
     width: 100%;
-    display: flex;
+    @include flex;
     justify-content: space-between;
-    align-items: center;
     padding: 0 40px 0 95px;
     z-index: 1;
     &__about-me {
@@ -39,6 +41,13 @@
         font-weight: 400;
         line-height: 47.48px;
       }
+      a:link {
+        color: #ffffff;
+        text-decoration: none;
+      }
+      a:visited {
+        color: #ffffff;
+      }
       button {
         border: 1px solid #f4fa1a;
         border-radius: 15px;
@@ -50,15 +59,15 @@
         color: #ffffff;
         background: rgba(19, 19, 19, 0.4);
         margin-top: 23px;
-        display: flex;
-        align-items: center;
+        @include flex;
         justify-content: center;
         gap: 5px;
         cursor: pointer;
-        transition: background-color 0.35s;
+        transition: all 0.35s;
       }
       button:hover {
-        background-color: rgba(19, 19, 19, 1);
+        background-color: #f4fa1a;
+        color: #000000;
       }
     }
     &__my-photo {
@@ -77,10 +86,4 @@
     rgba(23, 23, 23, 1) 0%,
     rgba(23, 23, 23, 0) 5%
   );
-  // background: linear-gradient(
-  //   0deg,
-  //   rgba(45, 45, 45, 0.29735644257703087) 0%,
-  //   rgba(45, 45, 45, 0.10688025210084029) 2%,
-  //   rgba(45, 45, 45, 0) 5%
-  // );
 }

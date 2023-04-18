@@ -11,6 +11,8 @@
   border-radius: 0.5rem;
   color: #f4fa1a;
   animation: bounce 2s ease-in-out infinite;
+  visibility: hidden;
+  z-index: -100;
 }
 
 .show-link {

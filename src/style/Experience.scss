@@ -1,3 +1,12 @@
+@mixin experience {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .experience {
   background-color: #191919;
   width: 100vw;
@@ -11,7 +20,7 @@
     left: 0;
     width: 100vw;
     height: 100%;
-    opacity: 0.4;
+    opacity: 0.6;
   }
 
   &__page-name {
@@ -66,12 +75,7 @@
 }
 
 .experience:after {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
+  @include experience;
   background: linear-gradient(
     180deg,
     rgba(23, 23, 23, 1) 0%,
@@ -80,12 +84,7 @@
 }
 
 .experience:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
+  @include experience;
   background: linear-gradient(
     0deg,
     rgba(23, 23, 23, 1) 0%,

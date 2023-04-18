@@ -2,9 +2,13 @@ import React from "react";
 import "../style/css/ScrollButton.css";
 import { FaArrowUp } from "react-icons/fa";
 
-const ScrollButton = () => {
+const ScrollButton = ({ scroll, handleClick }) => {
   return (
-    <a className="top-link" href="#home">
+    <a
+      className={`top-link ${scroll > 500 && "show-link"}`}
+      href="#hero"
+      onClick={handleClick}
+    >
       <FaArrowUp />
     </a>
   );
