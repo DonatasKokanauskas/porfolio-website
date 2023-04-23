@@ -19,7 +19,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 40px 0 95px;
+  padding: 0 2.1% 0 5%;
   z-index: 1;
 }
 .hero__content__about-me {
@@ -79,4 +79,326 @@
   width: 100%;
   height: 100%;
   background: linear-gradient(0deg, rgb(23, 23, 23) 0%, rgba(23, 23, 23, 0) 5%);
+}
+
+@media screen and (min-width: 0px) and (max-width: 150px) {
+  .hero__content {
+    display: block;
+  }
+  .hero__content .hero__content__about-me h3 {
+    font-size: 3rem;
+  }
+  .hero__content .hero__content__about-me h1 {
+    font-size: 6.8rem;
+    line-height: 85px;
+  }
+  .hero__content .hero__content__about-me h2 {
+    font-size: 3.6rem;
+  }
+  .hero__content .hero__content__about-me button {
+    font-size: 3rem;
+    width: 80vw;
+    height: 41px;
+  }
+  .hero__content .photo-div {
+    display: flex;
+    justify-content: end;
+  }
+  .hero__content .photo-div .hero__content__my-photo {
+    width: 98vw;
+  }
+}
+@media screen and (min-width: 151px) and (max-width: 200px) {
+  .hero__content {
+    display: block;
+  }
+  .hero__content .hero__content__about-me h3 {
+    font-size: 2.5rem;
+  }
+  .hero__content .hero__content__about-me h1 {
+    font-size: 6.3rem;
+    line-height: 90px;
+  }
+  .hero__content .hero__content__about-me h2 {
+    font-size: 3.1rem;
+  }
+  .hero__content .hero__content__about-me button {
+    font-size: 2.5rem;
+    width: 70vw;
+    height: 43px;
+  }
+  .hero__content .photo-div {
+    display: flex;
+    justify-content: end;
+  }
+  .hero__content .photo-div .hero__content__my-photo {
+    width: 95vw;
+  }
+}
+@media screen and (min-width: 201px) and (max-width: 280px) {
+  .hero__content {
+    display: block;
+  }
+  .hero__content .hero__content__about-me h3 {
+    font-size: 2rem;
+  }
+  .hero__content .hero__content__about-me h1 {
+    font-size: 5.8rem;
+    line-height: 95px;
+  }
+  .hero__content .hero__content__about-me h2 {
+    font-size: 2.6rem;
+  }
+  .hero__content .hero__content__about-me button {
+    font-size: 2rem;
+    width: 60vw;
+    height: 46px;
+  }
+  .hero__content .photo-div {
+    display: flex;
+    justify-content: end;
+  }
+  .hero__content .photo-div .hero__content__my-photo {
+    width: 92vw;
+  }
+}
+@media screen and (min-width: 281px) and (max-width: 350px) {
+  .hero__content {
+    display: block;
+  }
+  .hero__content .hero__content__about-me h3 {
+    font-size: 1.8rem;
+  }
+  .hero__content .hero__content__about-me h1 {
+    font-size: 5.65rem;
+    line-height: 100px;
+  }
+  .hero__content .hero__content__about-me h2 {
+    font-size: 2.4rem;
+  }
+  .hero__content .hero__content__about-me button {
+    font-size: 1.8rem;
+    width: 51vw;
+    height: 47px;
+  }
+  .hero__content .photo-div {
+    display: flex;
+    justify-content: end;
+  }
+  .hero__content .photo-div .hero__content__my-photo {
+    width: 88vw;
+  }
+}
+@media screen and (min-width: 351px) and (max-width: 400px) {
+  .hero__content {
+    display: block;
+  }
+  .hero__content .hero__content__about-me h3 {
+    font-size: 1.63rem;
+  }
+  .hero__content .hero__content__about-me h1 {
+    font-size: 5.56rem;
+  }
+  .hero__content .hero__content__about-me h2 {
+    font-size: 2.26rem;
+  }
+  .hero__content .hero__content__about-me button {
+    font-size: 1.63rem;
+    width: 45vw;
+    height: 48px;
+  }
+  .hero__content .photo-div {
+    display: flex;
+    justify-content: end;
+  }
+  .hero__content .photo-div .hero__content__my-photo {
+    width: 85vw;
+  }
+}
+@media screen and (min-width: 401px) and (max-width: 470px) {
+  .hero__content {
+    display: block;
+  }
+  .hero__content .hero__content__about-me h3 {
+    font-size: 1.6rem;
+  }
+  .hero__content .hero__content__about-me h1 {
+    font-size: 5.53rem;
+  }
+  .hero__content .hero__content__about-me h2 {
+    font-size: 2.23rem;
+  }
+  .hero__content .hero__content__about-me button {
+    font-size: 1.6rem;
+    width: 41vw;
+    height: 50px;
+  }
+  .hero__content .photo-div {
+    display: flex;
+    justify-content: end;
+  }
+  .hero__content .photo-div .hero__content__my-photo {
+    width: 75vw;
+  }
+}
+@media screen and (min-width: 471px) and (max-width: 550px) {
+  .hero__content {
+    display: block;
+  }
+  .hero__content .hero__content__about-me h3 {
+    font-size: 1.57rem;
+  }
+  .hero__content .hero__content__about-me h1 {
+    font-size: 5.5rem;
+  }
+  .hero__content .hero__content__about-me h2 {
+    font-size: 2.2rem;
+  }
+  .hero__content .hero__content__about-me button {
+    font-size: 1.57rem;
+    width: 37vw;
+    height: 51px;
+  }
+  .hero__content .photo-div {
+    display: flex;
+    justify-content: end;
+  }
+  .hero__content .photo-div .hero__content__my-photo {
+    width: 70vw;
+  }
+}
+@media screen and (min-width: 551px) and (max-width: 600px) {
+  .hero__content {
+    display: block;
+  }
+  .hero__content .hero__content__about-me h3 {
+    font-size: 1.52rem;
+  }
+  .hero__content .hero__content__about-me h1 {
+    font-size: 5.45rem;
+  }
+  .hero__content .hero__content__about-me h2 {
+    font-size: 2.16rem;
+  }
+  .hero__content .hero__content__about-me button {
+    font-size: 1.52rem;
+    width: 35vw;
+    height: 53px;
+  }
+  .hero__content .photo-div {
+    display: flex;
+    justify-content: end;
+  }
+  .hero__content .photo-div .hero__content__my-photo {
+    width: 62vw;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 740px) {
+  .hero__content {
+    display: block;
+  }
+  .hero__content .hero__content__about-me h3 {
+    font-size: 1.5rem;
+  }
+  .hero__content .hero__content__about-me h1 {
+    font-size: 5.43rem;
+  }
+  .hero__content .hero__content__about-me h2 {
+    font-size: 2.14rem;
+  }
+  .hero__content .hero__content__about-me button {
+    font-size: 1.5rem;
+    width: 30vw;
+    height: 55px;
+  }
+  .hero__content .photo-div {
+    display: flex;
+    justify-content: end;
+  }
+  .hero__content .photo-div .hero__content__my-photo {
+    width: 56vw;
+  }
+}
+@media screen and (min-width: 741px) and (max-width: 970px) {
+  .hero__content {
+    display: block;
+  }
+  .hero__content .hero__content__about-me h3 {
+    font-size: 1.45rem;
+  }
+  .hero__content .hero__content__about-me h1 {
+    font-size: 5.38rem;
+  }
+  .hero__content .hero__content__about-me h2 {
+    font-size: 2.09rem;
+  }
+  .hero__content .hero__content__about-me button {
+    font-size: 1.45rem;
+    width: 26vw;
+    height: 55px;
+  }
+  .hero__content .photo-div {
+    display: flex;
+    justify-content: end;
+  }
+  .hero__content .photo-div .hero__content__my-photo {
+    width: 43vw;
+  }
+}
+@media screen and (min-width: 971px) and (max-width: 1280px) {
+  .hero__content .hero__content__about-me h3 {
+    font-size: 1.42rem;
+  }
+  .hero__content .hero__content__about-me h1 {
+    font-size: 5.35rem;
+  }
+  .hero__content .hero__content__about-me h2 {
+    font-size: 2.06rem;
+  }
+  .hero__content .hero__content__about-me button {
+    font-size: 1.42rem;
+    width: 21.4vw;
+    height: 60px;
+  }
+  .hero__content .hero__content__my-photo {
+    width: 39vw;
+  }
+}
+@media screen and (min-width: 1281px) and (max-width: 1600px) {
+  .hero__content .hero__content__about-me h3 {
+    font-size: 1.4rem;
+  }
+  .hero__content .hero__content__about-me h1 {
+    font-size: 5.33rem;
+  }
+  .hero__content .hero__content__about-me h2 {
+    font-size: 2.03rem;
+  }
+  .hero__content .hero__content__about-me button {
+    font-size: 1.4rem;
+    width: 17.188vw;
+    height: 66px;
+  }
+  .hero__content .hero__content__my-photo {
+    width: 31vw;
+  }
+}
+@media screen and (min-width: 1601px) and (max-width: 1920px) {
+  .hero__content .hero__content__about-me h3 {
+    font-size: 1.38rem;
+  }
+  .hero__content .hero__content__about-me h1 {
+    font-size: 5.31rem;
+  }
+  .hero__content .hero__content__about-me h2 {
+    font-size: 1.99rem;
+  }
+  .hero__content .hero__content__about-me button {
+    font-size: 1.38rem;
+    width: 14.323vw;
+    height: 66px;
+  }
+  .hero__content .hero__content__my-photo {
+    width: 26.042vw;
+  }
 }
