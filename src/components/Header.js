@@ -5,6 +5,8 @@ import "../style/css/Header.css";
 const Header = ({ scroll, handleClick, navHeight }) => {
   const liLine = { paddingBottom: "2px", borderBottom: "3px solid #f4fa1a" };
 
+  const hero = document.querySelector(".hero");
+
   const about = document.querySelector(".about");
   const [aboutOffSetTop, setAboutOffSetTop] = useState(0);
 
@@ -18,27 +20,45 @@ const Header = ({ scroll, handleClick, navHeight }) => {
   const [projectsOffSetTop, setProjectsOffSetTop] = useState(0);
 
   const contact = document.querySelector(".contact");
-  const [contactHeight, setContactHeight] = useState(0);
+  // const [contactHeight, setContactHeight] = useState(0);
   const [contactOffSetTop, setContactOffSetTop] = useState(0);
 
   const [isChecked, setIsChecked] = useState(false);
 
   useEffect(() => {
     if (about) {
-      setAboutOffSetTop(about.offsetTop - navHeight);
+      setAboutOffSetTop(
+        about.offsetTop - navHeight - hero.getBoundingClientRect().height * 0.3
+      );
     }
     if (skills) {
-      setSkillsOffSetTop(skills.offsetTop - navHeight);
+      setSkillsOffSetTop(
+        skills.offsetTop -
+          navHeight -
+          about.getBoundingClientRect().height * 0.3
+      );
     }
     if (experience) {
-      setExperienceOffSetTop(experience.offsetTop - navHeight);
+      setExperienceOffSetTop(
+        experience.offsetTop -
+          navHeight -
+          skills.getBoundingClientRect().height * 0.3
+      );
     }
     if (projects) {
-      setProjectsOffSetTop(projects.offsetTop - navHeight);
+      setProjectsOffSetTop(
+        projects.offsetTop -
+          navHeight -
+          experience.getBoundingClientRect().height * 0.3
+      );
     }
     if (contact) {
-      setContactHeight(contact.getBoundingClientRect().height - navHeight);
-      setContactOffSetTop(contact.offsetTop - navHeight);
+      // setContactHeight(contact.getBoundingClientRect().height - navHeight);
+      setContactOffSetTop(
+        contact.offsetTop -
+          navHeight -
+          projects.getBoundingClientRect().height * 0.3
+      );
     }
   });
 
@@ -84,7 +104,7 @@ const Header = ({ scroll, handleClick, navHeight }) => {
           <ul className="links">
             <li
               style={
-                scroll >= aboutOffSetTop
+                scroll >= aboutOffSetTop && aboutOffSetTop != 0
                   ? { paddingBottom: "0px", border: "none" }
                   : {}
               }
@@ -143,9 +163,10 @@ const Header = ({ scroll, handleClick, navHeight }) => {
             </li>
             <li
               style={
-                scroll >= contactOffSetTop &&
-                scroll < contactOffSetTop + contactHeight
-                  ? liLine
+                scroll >= contactOffSetTop
+                  ? // &&
+                    // scroll < contactOffSetTop + contactHeight
+                    liLine
                   : null
               }
             >

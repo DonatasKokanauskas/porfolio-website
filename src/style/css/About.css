@@ -2,7 +2,7 @@
   background-color: #191919;
   width: 100vw;
   height: 80vh;
-  padding: 53px 95px;
+  padding: 53px 5%;
 }
 .about__page-name h2 {
   font-weight: 700;
@@ -22,16 +22,18 @@
   justify-content: space-between;
 }
 .about__me__photo {
+  position: relative;
   width: 479px;
-  height: 398px;
+  height: 411px;
   border: 5px solid #f4fa1a;
   border-radius: 20px;
   margin-top: 100px;
 }
 .about__me__photo img {
-  position: relative;
+  width: 120%;
+  position: absolute;
   left: -10px;
-  top: -90px;
+  top: -70px;
 }
 .about__me__description {
   width: 675px;
@@ -45,6 +47,7 @@
   margin-bottom: 40px;
 }
 .about__me__description p {
+  font-size: 18px;
   margin-top: 20px;
   font-weight: 400;
   line-height: 150.38%;
@@ -52,4 +55,346 @@
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+@media screen and (min-width: 0px) and (max-width: 150px) {
+  .about__page-name h2 {
+    font-size: 4.8rem;
+  }
+  .about__page-name__line {
+    width: 7.6rem;
+    margin-top: 0;
+  }
+  .about__me {
+    display: block;
+  }
+  .about__me__photo {
+    width: 85.7vw;
+    height: 73.4vw;
+  }
+  .about__me__photo img {
+    left: -5px;
+    top: -20px;
+  }
+  .about__me__description {
+    margin: 60px auto;
+    width: 100%;
+  }
+  .about__me__description h4 {
+    font-size: 3.4rem;
+  }
+  .about__me__description p {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 151px) and (max-width: 200px) {
+  .about__page-name h2 {
+    font-size: 4.2rem;
+  }
+  .about__page-name__line {
+    width: 6.8rem;
+    margin-top: 0;
+  }
+  .about__me {
+    display: block;
+  }
+  .about__me__photo {
+    width: 85.7vw;
+    height: 73.4vw;
+  }
+  .about__me__photo img {
+    left: -5px;
+    top: -25px;
+  }
+  .about__me__description {
+    margin: 60px auto;
+    width: 100%;
+  }
+  .about__me__description h4 {
+    font-size: 3rem;
+  }
+  .about__me__description p {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (min-width: 201px) and (max-width: 280px) {
+  .about__page-name h2 {
+    font-size: 3.8rem;
+  }
+  .about__page-name__line {
+    width: 6.4rem;
+  }
+  .about__me {
+    display: block;
+  }
+  .about__me__photo {
+    width: 85.7vw;
+    height: 73.4vw;
+  }
+  .about__me__photo img {
+    top: -35px;
+  }
+  .about__me__description {
+    margin: 60px auto;
+    width: 100%;
+  }
+  .about__me__description h4 {
+    font-size: 2.8rem;
+  }
+  .about__me__description p {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (min-width: 281px) and (max-width: 350px) {
+  .about__page-name h2 {
+    font-size: 3.7rem;
+  }
+  .about__page-name__line {
+    width: 6.3rem;
+  }
+  .about__me {
+    display: block;
+  }
+  .about__me__photo {
+    width: 85.7vw;
+    height: 73.4vw;
+  }
+  .about__me__photo img {
+    top: -50px;
+  }
+  .about__me__description {
+    margin: 60px auto;
+    width: 100%;
+  }
+  .about__me__description h4 {
+    font-size: 2.7rem;
+  }
+  .about__me__description p {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 351px) and (max-width: 400px) {
+  .about__page-name h2 {
+    font-size: 3.6rem;
+  }
+  .about__page-name__line {
+    width: 6.2rem;
+  }
+  .about__me {
+    display: block;
+  }
+  .about__me__photo {
+    width: 76.5vw;
+    height: 65.5vw;
+  }
+  .about__me__photo img {
+    top: -50px;
+  }
+  .about__me__description {
+    margin: 60px auto;
+    width: 100%;
+  }
+  .about__me__description h4 {
+    font-size: 2.6rem;
+  }
+  .about__me__description p {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 401px) and (max-width: 470px) {
+  .about__page-name h2 {
+    font-size: 3.5rem;
+  }
+  .about__page-name__line {
+    width: 6.1rem;
+  }
+  .about__me {
+    display: block;
+  }
+  .about__me__photo {
+    width: 76.5vw;
+    height: 65.5vw;
+  }
+  .about__me__photo img {
+    top: -50px;
+  }
+  .about__me__description {
+    margin: 60px auto;
+    width: 95%;
+  }
+  .about__me__description h4 {
+    font-size: 2.6rem;
+  }
+  .about__me__description p {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 471px) and (max-width: 550px) {
+  .about__page-name h2 {
+    font-size: 3.4rem;
+  }
+  .about__page-name__line {
+    width: 6rem;
+  }
+  .about__me {
+    display: block;
+  }
+  .about__me__photo {
+    width: 60vw;
+    height: 51.3vw;
+  }
+  .about__me__photo img {
+    top: -50px;
+  }
+  .about__me__description {
+    margin: 60px auto;
+    width: 90%;
+  }
+  .about__me__description h4 {
+    font-size: 2.5rem;
+  }
+  .about__me__description p {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (min-width: 551px) and (max-width: 600px) {
+  .about__page-name h2 {
+    font-size: 3.3rem;
+  }
+  .about__page-name__line {
+    width: 5.9rem;
+  }
+  .about__me {
+    display: block;
+  }
+  .about__me__photo {
+    width: 60vw;
+    height: 51.3vw;
+  }
+  .about__me__photo img {
+    top: -50px;
+  }
+  .about__me__description {
+    margin: 60px auto;
+    width: 90%;
+  }
+  .about__me__description h4 {
+    font-size: 2.4rem;
+  }
+  .about__me__description p {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 740px) {
+  .about__page-name h2 {
+    font-size: 3.2rem;
+  }
+  .about__page-name__line {
+    width: 5.7rem;
+  }
+  .about__me {
+    display: block;
+  }
+  .about__me__photo {
+    width: 54vw;
+    height: 46.3vw;
+  }
+  .about__me__photo img {
+    top: -60px;
+  }
+  .about__me__description {
+    margin: 60px auto;
+    width: 90%;
+  }
+  .about__me__description h4 {
+    font-size: 2.3rem;
+  }
+  .about__me__description p {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (min-width: 741px) and (max-width: 970px) {
+  .about__page-name h2 {
+    font-size: 2.9rem;
+  }
+  .about__page-name__line {
+    width: 5.3rem;
+  }
+  .about__me {
+    display: block;
+  }
+  .about__me__photo {
+    width: 41.2vw;
+    height: 35.3vw;
+  }
+  .about__me__description {
+    margin: 60px auto;
+    width: 80%;
+  }
+  .about__me__description h4 {
+    font-size: 2.2rem;
+  }
+  .about__me__description p {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (min-width: 971px) and (max-width: 1280px) {
+  .about__page-name h2 {
+    font-size: 2.77rem;
+  }
+  .about__page-name__line {
+    width: 5.18rem;
+  }
+  .about__me__photo {
+    width: 37.4vw;
+    height: 32.1vw;
+  }
+  .about__me__description {
+    width: 40%;
+  }
+  .about__me__description h4 {
+    font-size: 2.1rem;
+  }
+  .about__me__description p {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 1281px) and (max-width: 1600px) {
+  .about__page-name h2 {
+    font-size: 2.66rem;
+  }
+  .about__page-name__line {
+    width: 4.99rem;
+  }
+  .about__me__photo {
+    width: 29.9vw;
+    height: 25.6vw;
+  }
+  .about__me__description {
+    width: 40%;
+  }
+  .about__me__description h4 {
+    font-size: 2rem;
+  }
+  .about__me__description p {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 1601px) and (max-width: 1920px) {
+  .about__page-name h2 {
+    font-size: 2.65rem;
+  }
+  .about__page-name__line {
+    width: 4.97rem;
+  }
+  .about__me__photo {
+    width: 24.9vw;
+    height: 21.4vw;
+  }
+  .about__me__description h4 {
+    font-size: 1.98rem;
+  }
+  .about__me__description p {
+    font-size: 1rem;
+  }
 }

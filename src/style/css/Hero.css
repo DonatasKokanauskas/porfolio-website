@@ -132,7 +132,7 @@
     justify-content: end;
   }
   .hero__content .photo-div .hero__content__my-photo {
-    width: 95vw;
+    width: 99vw;
   }
 }
 @media screen and (min-width: 201px) and (max-width: 280px) {
@@ -159,7 +159,7 @@
     justify-content: end;
   }
   .hero__content .photo-div .hero__content__my-photo {
-    width: 92vw;
+    width: 97vw;
   }
 }
 @media screen and (min-width: 281px) and (max-width: 350px) {
@@ -186,7 +186,7 @@
     justify-content: end;
   }
   .hero__content .photo-div .hero__content__my-photo {
-    width: 88vw;
+    width: 95vw;
   }
 }
 @media screen and (min-width: 351px) and (max-width: 400px) {
@@ -212,7 +212,7 @@
     justify-content: end;
   }
   .hero__content .photo-div .hero__content__my-photo {
-    width: 85vw;
+    width: 92vw;
   }
 }
 @media screen and (min-width: 401px) and (max-width: 470px) {
@@ -238,7 +238,7 @@
     justify-content: end;
   }
   .hero__content .photo-div .hero__content__my-photo {
-    width: 75vw;
+    width: 82vw;
   }
 }
 @media screen and (min-width: 471px) and (max-width: 550px) {
@@ -264,7 +264,7 @@
     justify-content: end;
   }
   .hero__content .photo-div .hero__content__my-photo {
-    width: 70vw;
+    width: 75vw;
   }
 }
 @media screen and (min-width: 551px) and (max-width: 600px) {
@@ -290,7 +290,7 @@
     justify-content: end;
   }
   .hero__content .photo-div .hero__content__my-photo {
-    width: 62vw;
+    width: 65vw;
   }
 }
 @media screen and (min-width: 601px) and (max-width: 740px) {
