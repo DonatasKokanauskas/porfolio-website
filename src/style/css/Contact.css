@@ -1,8 +1,9 @@
 .contact {
   background-color: #191919;
   width: 100vw;
-  height: 90vh;
-  padding: 53px 95px;
+  height: 100vh;
+  min-height: 790px;
+  padding: 4% 5%;
   position: relative;
 }
 .contact__page-name {
@@ -17,6 +18,7 @@
   font-weight: 700;
   font-size: 48px;
   line-height: 63px;
+  white-space: nowrap;
 }
 .contact__page-name__container .contact__page-name__line {
   position: absolute;
@@ -27,14 +29,14 @@
   background: #f4fa1a;
 }
 .contact__content {
-  margin-top: 66px;
+  margin-top: 100px;
   width: 35%;
 }
 .contact__content h3 {
   font-weight: 700;
-  font-size: 25px;
+  font-size: 30px;
   line-height: 40px;
-  margin: 15px 0;
+  margin: 25px 0;
 }
 .contact__content h3 span {
   color: #f4fa1a;
@@ -43,7 +45,7 @@
 }
 .contact__content p {
   font-weight: 400;
-  font-size: 19px;
+  font-size: 20px;
   line-height: 32px;
   margin: 27px 0 40px 0;
 }
@@ -56,4 +58,284 @@
   width: 100%;
   height: 100%;
   background: linear-gradient(180deg, rgb(23, 23, 23) 0%, rgba(23, 23, 23, 0) 5%);
+}
+
+@media screen and (min-width: 0px) and (max-width: 150px) {
+  .contact__page-name h2 {
+    font-size: 4.8rem;
+  }
+  .contact__page-name__line {
+    width: 7.6rem !important;
+    margin-top: 0;
+  }
+  .contact__content {
+    margin-top: 50px;
+    width: 100%;
+  }
+  .contact__content h3 {
+    font-size: 2rem;
+    margin: 15px 0;
+  }
+  .contact__content h3 span {
+    margin-right: 2px;
+    font-size: 2rem;
+  }
+  .contact__content p {
+    line-height: 23px;
+    font-size: 1.9rem;
+  }
+}
+@media screen and (min-width: 151px) and (max-width: 200px) {
+  .contact__page-name h2 {
+    font-size: 4.2rem;
+  }
+  .contact__page-name__line {
+    width: 6.8rem !important;
+    margin-top: 0;
+  }
+  .contact__content {
+    margin-top: 70px;
+    width: 100%;
+  }
+  .contact__content h3 {
+    font-size: 2rem;
+    margin: 15px 0;
+  }
+  .contact__content h3 span {
+    margin-right: 2px;
+    font-size: 2rem;
+  }
+  .contact__content p {
+    line-height: 25px;
+    font-size: 1.8rem;
+  }
+}
+@media screen and (min-width: 201px) and (max-width: 280px) {
+  .contact__page-name h2 {
+    font-size: 3.8rem;
+  }
+  .contact__page-name__line {
+    width: 6.4rem !important;
+  }
+  .contact__content {
+    width: 100%;
+  }
+  .contact__content h3 {
+    font-size: 2.2rem;
+  }
+  .contact__content h3 span {
+    margin-right: 5px;
+    font-size: 2.2rem;
+  }
+  .contact__content p {
+    line-height: 27px;
+    font-size: 1.72rem;
+  }
+}
+@media screen and (min-width: 281px) and (max-width: 350px) {
+  .contact__page-name h2 {
+    font-size: 3.7rem;
+  }
+  .contact__page-name__line {
+    width: 6.3rem !important;
+  }
+  .contact__content {
+    width: 100%;
+  }
+  .contact__content h3 {
+    font-size: 2.4rem;
+  }
+  .contact__content h3 span {
+    font-size: 2.4rem;
+  }
+  .contact__content p {
+    line-height: 28px;
+    font-size: 1.67rem;
+  }
+}
+@media screen and (min-width: 351px) and (max-width: 400px) {
+  .contact__page-name h2 {
+    font-size: 3.6rem;
+  }
+  .contact__page-name__line {
+    width: 6.2rem !important;
+  }
+  .contact__content {
+    width: 100%;
+  }
+  .contact__content h3 {
+    font-size: 2.4rem;
+  }
+  .contact__content h3 span {
+    font-size: 2.4rem;
+  }
+  .contact__content p {
+    line-height: 30px;
+    font-size: 1.6rem;
+  }
+}
+@media screen and (min-width: 401px) and (max-width: 470px) {
+  .contact__page-name h2 {
+    font-size: 3.5rem;
+  }
+  .contact__page-name__line {
+    width: 6.1rem !important;
+  }
+  .contact__content {
+    width: 90%;
+  }
+  .contact__content h3 {
+    font-size: 2.4rem;
+  }
+  .contact__content h3 span {
+    font-size: 2.4rem;
+  }
+  .contact__content p {
+    line-height: 30px;
+    font-size: 1.52rem;
+  }
+}
+@media screen and (min-width: 471px) and (max-width: 550px) {
+  .contact__page-name h2 {
+    font-size: 3.4rem;
+  }
+  .contact__page-name__line {
+    width: 6rem !important;
+  }
+  .contact__content {
+    width: 80%;
+  }
+  .contact__content h3 {
+    font-size: 2.38rem;
+  }
+  .contact__content h3 span {
+    font-size: 2.38rem;
+  }
+  .contact__content p {
+    line-height: 30px;
+    font-size: 1.45rem;
+  }
+}
+@media screen and (min-width: 551px) and (max-width: 600px) {
+  .contact__page-name h2 {
+    font-size: 3.3rem;
+  }
+  .contact__page-name__line {
+    width: 5.9rem !important;
+  }
+  .contact__content {
+    width: 70%;
+  }
+  .contact__content h3 {
+    font-size: 2.3rem;
+  }
+  .contact__content h3 span {
+    font-size: 2.3rem;
+  }
+  .contact__content p {
+    line-height: 30px;
+    font-size: 1.4rem;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 740px) {
+  .contact__page-name h2 {
+    font-size: 3.2rem;
+  }
+  .contact__page-name__line {
+    width: 5.7rem !important;
+  }
+  .contact__content {
+    width: 65%;
+  }
+  .contact__content h3 {
+    font-size: 2.2rem;
+  }
+  .contact__content h3 span {
+    font-size: 2.2rem;
+  }
+  .contact__content p {
+    line-height: 30px;
+    font-size: 1.35rem;
+  }
+}
+@media screen and (min-width: 741px) and (max-width: 970px) {
+  .contact__page-name h2 {
+    font-size: 2.9rem;
+  }
+  .contact__page-name__line {
+    width: 5.3rem !important;
+  }
+  .contact__content {
+    width: 60%;
+  }
+  .contact__content h3 {
+    font-size: 2rem;
+  }
+  .contact__content h3 span {
+    font-size: 2rem;
+  }
+  .contact__content p {
+    line-height: 30px;
+    font-size: 1.3rem;
+  }
+}
+@media screen and (min-width: 971px) and (max-width: 1280px) {
+  .contact__page-name h2 {
+    font-size: 2.77rem;
+  }
+  .contact__page-name__line {
+    width: 5.18rem !important;
+  }
+  .contact__content {
+    width: 55%;
+  }
+  .contact__content h3 {
+    font-size: 1.73rem;
+  }
+  .contact__content h3 span {
+    font-size: 1.73rem;
+  }
+  .contact__content p {
+    font-size: 1.15rem;
+  }
+}
+@media screen and (min-width: 1281px) and (max-width: 1600px) {
+  .contact__page-name h2 {
+    font-size: 2.66rem;
+  }
+  .contact__page-name__line {
+    width: 4.99rem !important;
+  }
+  .contact__content {
+    width: 50%;
+  }
+  .contact__content h3 {
+    font-size: 1.66rem;
+  }
+  .contact__content h3 span {
+    font-size: 1.66rem;
+  }
+  .contact__content p {
+    font-size: 1.11rem;
+  }
+}
+@media screen and (min-width: 1601px) and (max-width: 1920px) {
+  .contact__page-name h2 {
+    font-size: 2.65rem;
+  }
+  .contact__page-name__line {
+    width: 4.97rem !important;
+  }
+  .contact__content {
+    width: 45%;
+  }
+  .contact__content h3 {
+    font-size: 1.65rem;
+  }
+  .contact__content h3 span {
+    font-size: 1.65rem;
+  }
+  .contact__content p {
+    font-size: 1.1rem;
+  }
 }

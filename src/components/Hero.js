@@ -21,9 +21,8 @@ const Hero = ({ handleClick }) => {
             </button>
           </a>
         </div>
-        <div className="photo-div">
-          <img className="hero__content__my-photo" src={photo} alt="my photo" />
-        </div>
+
+        <img className="hero__content__my-photo" src={photo} alt="my photo" />
       </div>
     </div>
   );

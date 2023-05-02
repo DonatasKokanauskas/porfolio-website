@@ -1,7 +1,7 @@
 import React from "react";
 import "../style/css/Contact.css";
 import { BsFillPersonFill } from "react-icons/bs";
-import { MdAlternateEmail } from "react-icons/md";
+import { SiGmail } from "react-icons/si";
 import { AiFillLinkedin } from "react-icons/ai";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { MdLocationPin } from "react-icons/md";
@@ -31,9 +31,9 @@ const Contact = () => {
         </h3>
         <h3>
           <span>
-            <MdAlternateEmail />{" "}
+            <SiGmail />{" "}
           </span>{" "}
-          amiyer1803@gmail.com
+          donatas.kokanauskas
         </h3>
         <h3>
           <span>

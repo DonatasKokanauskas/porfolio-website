@@ -1,8 +1,9 @@
 .about {
   background-color: #191919;
   width: 100vw;
-  height: 80vh;
-  padding: 53px 5%;
+  height: 100vh;
+  min-height: 860px;
+  padding: 4% 5%;
 
   &__page-name {
     h2 {
@@ -21,7 +22,7 @@
   }
 
   &__me {
-    margin-top: 66px;
+    margin-top: 120px;
     display: flex;
     justify-content: space-between;
     &__photo {
@@ -88,9 +89,11 @@
         width: 100%;
         h4 {
           font-size: 3.4rem;
+          margin-bottom: 10px;
         }
         p {
           font-size: 1.5rem;
+          margin-top: 10px;
         }
       }
     }
@@ -122,9 +125,11 @@
         width: 100%;
         h4 {
           font-size: 3rem;
+          margin-bottom: 12px;
         }
         p {
           font-size: 1.4rem;
+          margin-top: 12px;
         }
       }
     }
@@ -151,13 +156,15 @@
         }
       }
       &__description {
-        margin: 60px auto;
+        margin: 70px auto;
         width: 100%;
         h4 {
           font-size: 2.8rem;
+          margin-bottom: 15px;
         }
         p {
           font-size: 1.3rem;
+          margin-top: 15px;
         }
       }
     }
@@ -184,13 +191,15 @@
         }
       }
       &__description {
-        margin: 60px auto;
+        margin: 70px auto;
         width: 100%;
         h4 {
           font-size: 2.7rem;
+          margin-bottom: 15px;
         }
         p {
           font-size: 1.2rem;
+          margin-top: 15px;
         }
       }
     }
@@ -217,13 +226,15 @@
         }
       }
       &__description {
-        margin: 60px auto;
+        margin: 70px auto;
         width: 100%;
         h4 {
           font-size: 2.6rem;
+          margin-bottom: 15px;
         }
         p {
           font-size: 1.2rem;
+          margin-top: 15px;
         }
       }
     }
@@ -250,13 +261,15 @@
         }
       }
       &__description {
-        margin: 60px auto;
+        margin: 70px auto;
         width: 95%;
         h4 {
           font-size: 2.6rem;
+          margin-bottom: 15px;
         }
         p {
           font-size: 1.2rem;
+          margin-top: 15px;
         }
       }
     }
@@ -283,13 +296,15 @@
         }
       }
       &__description {
-        margin: 60px auto;
+        margin: 80px auto;
         width: 90%;
         h4 {
           font-size: 2.5rem;
+          margin-bottom: 15px;
         }
         p {
           font-size: 1.1rem;
+          margin-top: 15px;
         }
       }
     }
@@ -316,13 +331,15 @@
         }
       }
       &__description {
-        margin: 60px auto;
+        margin: 80px auto;
         width: 90%;
         h4 {
           font-size: 2.4rem;
+          margin-bottom: 15px;
         }
         p {
           font-size: 1.1rem;
+          margin-top: 15px;
         }
       }
     }
@@ -341,21 +358,23 @@
     }
     &__me {
       &__photo {
-        width: 54vw;
-        height: 46.3vw;
+        width: 52vw;
+        height: 44.3vw;
         img {
           top: -60px;
         }
       }
       display: block;
       &__description {
-        margin: 60px auto;
+        margin: 80px auto;
         width: 90%;
         h4 {
           font-size: 2.3rem;
+          margin-bottom: 15px;
         }
         p {
           font-size: 1.1rem;
+          margin-top: 15px;
         }
       }
     }
@@ -375,17 +394,19 @@
     &__me {
       display: block;
       &__photo {
-        width: 41.2vw;
-        height: 35.3vw;
+        width: 39.2vw;
+        height: 32.3vw;
       }
       &__description {
-        margin: 60px auto;
+        margin: 80px auto;
         width: 80%;
         h4 {
           font-size: 2.2rem;
+          margin-bottom: 15px;
         }
         p {
           font-size: 1.1rem;
+          margin-top: 15px;
         }
       }
     }
@@ -403,6 +424,7 @@
       }
     }
     &__me {
+      margin-top: 140px;
       &__photo {
         width: 37.4vw;
         height: 32.1vw;
@@ -411,6 +433,7 @@
         width: 40%;
         h4 {
           font-size: 2.1rem;
+          margin-bottom: 30px;
         }
         p {
           font-size: 1rem;
@@ -431,6 +454,7 @@
       }
     }
     &__me {
+      margin-top: 140px;
       &__photo {
         width: 29.9vw;
         height: 25.6vw;

@@ -1,8 +1,9 @@
 .about {
   background-color: #191919;
   width: 100vw;
-  height: 80vh;
-  padding: 53px 5%;
+  height: 100vh;
+  min-height: 860px;
+  padding: 4% 5%;
 }
 .about__page-name h2 {
   font-weight: 700;
@@ -17,7 +18,7 @@
   background-color: #f4fa1a;
 }
 .about__me {
-  margin-top: 66px;
+  margin-top: 120px;
   display: flex;
   justify-content: space-between;
 }
@@ -82,9 +83,11 @@
   }
   .about__me__description h4 {
     font-size: 3.4rem;
+    margin-bottom: 10px;
   }
   .about__me__description p {
     font-size: 1.5rem;
+    margin-top: 10px;
   }
 }
 @media screen and (min-width: 151px) and (max-width: 200px) {
@@ -112,9 +115,11 @@
   }
   .about__me__description h4 {
     font-size: 3rem;
+    margin-bottom: 12px;
   }
   .about__me__description p {
     font-size: 1.4rem;
+    margin-top: 12px;
   }
 }
 @media screen and (min-width: 201px) and (max-width: 280px) {
@@ -135,14 +140,16 @@
     top: -35px;
   }
   .about__me__description {
-    margin: 60px auto;
+    margin: 70px auto;
     width: 100%;
   }
   .about__me__description h4 {
     font-size: 2.8rem;
+    margin-bottom: 15px;
   }
   .about__me__description p {
     font-size: 1.3rem;
+    margin-top: 15px;
   }
 }
 @media screen and (min-width: 281px) and (max-width: 350px) {
@@ -163,14 +170,16 @@
     top: -50px;
   }
   .about__me__description {
-    margin: 60px auto;
+    margin: 70px auto;
     width: 100%;
   }
   .about__me__description h4 {
     font-size: 2.7rem;
+    margin-bottom: 15px;
   }
   .about__me__description p {
     font-size: 1.2rem;
+    margin-top: 15px;
   }
 }
 @media screen and (min-width: 351px) and (max-width: 400px) {
@@ -191,14 +200,16 @@
     top: -50px;
   }
   .about__me__description {
-    margin: 60px auto;
+    margin: 70px auto;
     width: 100%;
   }
   .about__me__description h4 {
     font-size: 2.6rem;
+    margin-bottom: 15px;
   }
   .about__me__description p {
     font-size: 1.2rem;
+    margin-top: 15px;
   }
 }
 @media screen and (min-width: 401px) and (max-width: 470px) {
@@ -219,14 +230,16 @@
     top: -50px;
   }
   .about__me__description {
-    margin: 60px auto;
+    margin: 70px auto;
     width: 95%;
   }
   .about__me__description h4 {
     font-size: 2.6rem;
+    margin-bottom: 15px;
   }
   .about__me__description p {
     font-size: 1.2rem;
+    margin-top: 15px;
   }
 }
 @media screen and (min-width: 471px) and (max-width: 550px) {
@@ -247,14 +260,16 @@
     top: -50px;
   }
   .about__me__description {
-    margin: 60px auto;
+    margin: 80px auto;
     width: 90%;
   }
   .about__me__description h4 {
     font-size: 2.5rem;
+    margin-bottom: 15px;
   }
   .about__me__description p {
     font-size: 1.1rem;
+    margin-top: 15px;
   }
 }
 @media screen and (min-width: 551px) and (max-width: 600px) {
@@ -275,14 +290,16 @@
     top: -50px;
   }
   .about__me__description {
-    margin: 60px auto;
+    margin: 80px auto;
     width: 90%;
   }
   .about__me__description h4 {
     font-size: 2.4rem;
+    margin-bottom: 15px;
   }
   .about__me__description p {
     font-size: 1.1rem;
+    margin-top: 15px;
   }
 }
 @media screen and (min-width: 601px) and (max-width: 740px) {
@@ -296,21 +313,23 @@
     display: block;
   }
   .about__me__photo {
-    width: 54vw;
-    height: 46.3vw;
+    width: 52vw;
+    height: 44.3vw;
   }
   .about__me__photo img {
     top: -60px;
   }
   .about__me__description {
-    margin: 60px auto;
+    margin: 80px auto;
     width: 90%;
   }
   .about__me__description h4 {
     font-size: 2.3rem;
+    margin-bottom: 15px;
   }
   .about__me__description p {
     font-size: 1.1rem;
+    margin-top: 15px;
   }
 }
 @media screen and (min-width: 741px) and (max-width: 970px) {
@@ -324,18 +343,20 @@
     display: block;
   }
   .about__me__photo {
-    width: 41.2vw;
-    height: 35.3vw;
+    width: 39.2vw;
+    height: 32.3vw;
   }
   .about__me__description {
-    margin: 60px auto;
+    margin: 80px auto;
     width: 80%;
   }
   .about__me__description h4 {
     font-size: 2.2rem;
+    margin-bottom: 15px;
   }
   .about__me__description p {
     font-size: 1.1rem;
+    margin-top: 15px;
   }
 }
 @media screen and (min-width: 971px) and (max-width: 1280px) {
@@ -344,6 +365,9 @@
   }
   .about__page-name__line {
     width: 5.18rem;
+  }
+  .about__me {
+    margin-top: 140px;
   }
   .about__me__photo {
     width: 37.4vw;
@@ -354,6 +378,7 @@
   }
   .about__me__description h4 {
     font-size: 2.1rem;
+    margin-bottom: 30px;
   }
   .about__me__description p {
     font-size: 1rem;
@@ -365,6 +390,9 @@
   }
   .about__page-name__line {
     width: 4.99rem;
+  }
+  .about__me {
+    margin-top: 140px;
   }
   .about__me__photo {
     width: 29.9vw;

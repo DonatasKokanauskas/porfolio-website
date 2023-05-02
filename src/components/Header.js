@@ -20,7 +20,7 @@ const Header = ({ scroll, handleClick, navHeight }) => {
   const [projectsOffSetTop, setProjectsOffSetTop] = useState(0);
 
   const contact = document.querySelector(".contact");
-  // const [contactHeight, setContactHeight] = useState(0);
+  const [contactHeight, setContactHeight] = useState(0);
   const [contactOffSetTop, setContactOffSetTop] = useState(0);
 
   const [isChecked, setIsChecked] = useState(false);
@@ -53,7 +53,7 @@ const Header = ({ scroll, handleClick, navHeight }) => {
       );
     }
     if (contact) {
-      // setContactHeight(contact.getBoundingClientRect().height - navHeight);
+      setContactHeight(contact.getBoundingClientRect().height - navHeight);
       setContactOffSetTop(
         contact.offsetTop -
           navHeight -
@@ -163,10 +163,9 @@ const Header = ({ scroll, handleClick, navHeight }) => {
             </li>
             <li
               style={
-                scroll >= contactOffSetTop
-                  ? // &&
-                    // scroll < contactOffSetTop + contactHeight
-                    liLine
+                scroll >= contactOffSetTop &&
+                scroll < contactOffSetTop + contactHeight
+                  ? liLine
                   : null
               }
             >
