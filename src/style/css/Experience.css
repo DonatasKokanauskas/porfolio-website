@@ -87,7 +87,8 @@
 
 @media screen and (min-width: 0px) and (max-width: 150px) {
   .experience__page-name h2 {
-    font-size: 4rem;
+    font-size: 3.6rem;
+    line-height: 42px;
   }
   .experience__page-name__line {
     width: 7.6rem !important;
@@ -115,6 +116,7 @@
 @media screen and (min-width: 151px) and (max-width: 200px) {
   .experience__page-name h2 {
     font-size: 3.6rem;
+    line-height: 48px;
   }
   .experience__page-name__line {
     width: 6.8rem !important;
@@ -142,9 +144,11 @@
 @media screen and (min-width: 201px) and (max-width: 280px) {
   .experience__page-name h2 {
     font-size: 3.8rem;
+    line-height: 55px;
   }
   .experience__page-name__line {
     width: 6.4rem !important;
+    margin-top: 0px !important;
   }
   .experience__content {
     margin-top: 50px;

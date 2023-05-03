@@ -61,6 +61,7 @@
 @media screen and (min-width: 0px) and (max-width: 150px) {
   .about__page-name h2 {
     font-size: 4.8rem;
+    line-height: 48px;
   }
   .about__page-name__line {
     width: 7.6rem;
@@ -93,6 +94,7 @@
 @media screen and (min-width: 151px) and (max-width: 200px) {
   .about__page-name h2 {
     font-size: 4.2rem;
+    line-height: 48px;
   }
   .about__page-name__line {
     width: 6.8rem;
@@ -125,9 +127,11 @@
 @media screen and (min-width: 201px) and (max-width: 280px) {
   .about__page-name h2 {
     font-size: 3.8rem;
+    line-height: 55px;
   }
   .about__page-name__line {
     width: 6.4rem;
+    margin-top: 0px;
   }
   .about__me {
     display: block;

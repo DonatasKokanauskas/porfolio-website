@@ -101,7 +101,8 @@
   .experience {
     &__page-name {
       h2 {
-        font-size: 4rem;
+        font-size: 3.6rem;
+        line-height: 42px;
       }
       &__line {
         width: 7.6rem !important;
@@ -134,6 +135,7 @@
     &__page-name {
       h2 {
         font-size: 3.6rem;
+        line-height: 48px;
       }
       &__line {
         width: 6.8rem !important;
@@ -166,9 +168,11 @@
     &__page-name {
       h2 {
         font-size: 3.8rem;
+        line-height: 55px;
       }
       &__line {
         width: 6.4rem !important;
+        margin-top: 0px !important;
       }
     }
     &__content {

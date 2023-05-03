@@ -30,7 +30,7 @@
 }
 .contact__content {
   margin-top: 100px;
-  width: 35%;
+  width: 40%;
 }
 .contact__content h3 {
   font-weight: 700;
@@ -63,6 +63,7 @@
 @media screen and (min-width: 0px) and (max-width: 150px) {
   .contact__page-name h2 {
     font-size: 4.8rem;
+    line-height: 48px;
   }
   .contact__page-name__line {
     width: 7.6rem !important;
@@ -88,6 +89,7 @@
 @media screen and (min-width: 151px) and (max-width: 200px) {
   .contact__page-name h2 {
     font-size: 4.2rem;
+    line-height: 48px;
   }
   .contact__page-name__line {
     width: 6.8rem !important;
@@ -113,9 +115,11 @@
 @media screen and (min-width: 201px) and (max-width: 280px) {
   .contact__page-name h2 {
     font-size: 3.8rem;
+    line-height: 55px;
   }
   .contact__page-name__line {
     width: 6.4rem !important;
+    margin-top: 0px !important;
   }
   .contact__content {
     width: 100%;
