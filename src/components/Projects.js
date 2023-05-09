@@ -32,8 +32,10 @@ const Projects = () => {
               <div className="projects__content__first-div__first-project__hovered">
                 <h3>Netflix Clone</h3>
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Illo, est!
+                  This is my first larger React project, in which I created a
+                  Netflix clone. The purpose of this project was to deepen my
+                  skills and build my portfolio, and it was both fun and useful
+                  for me.
                 </p>
                 <div className="spans-div">
                   <span>React</span>
@@ -44,8 +46,14 @@ const Projects = () => {
                 </div>
 
                 <div className="buttons-div">
-                  <button>Visit</button>
-                  <button>GitHub</button>
+                  <button>
+                    <a href="donatask.lt/netflix-clone">Visit</a>{" "}
+                  </button>
+                  <button>
+                    <a href="https://github.com/DonatasKokanauskas/netlix-clone">
+                      GitHub{" "}
+                    </a>
+                  </button>
                 </div>
               </div>
             )}

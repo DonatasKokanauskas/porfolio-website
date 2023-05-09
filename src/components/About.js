@@ -1,6 +1,6 @@
 import React from "react";
 import "../style/css/About.css";
-import photo2 from "../images/my-photo2.png";
+import photo2 from "../images/my-photo2.jpeg";
 
 const About = () => {
   return (
@@ -16,15 +16,16 @@ const About = () => {
         <div className="about__me__description">
           <h4>Who I Am?</h4>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at
-            tellus semper lacus varius suscipit. Suspendisse pulvinar, justo id
-            scelerisque efficitur, quam augue pharetra metus, ultricies finibus
-            elit ipsum vitae.
-          </p>
-          <p>
-            Cupiditate recusandae laudantium esse, harum animi aspernatur
-            quisquam et delectus ipsum quam alias quaerat? Quasi hic quidem
-            illum
+            I am a front-end web developer with over six months of intense
+            self-learning experience. Additionally, I am certified by Vilnius
+            Coding School with excellent grades. My passion for new technologies
+            and interest in website structure and functionality led me to pursue
+            this profession. In my previous job, I gained valuable experience by
+            working collaboratively with a team, which gave me the necessary
+            skills to work effectively within a company and alongside positive
+            team members. I am now seeking new opportunities and challenges that
+            will allow me to expand my skill set, and I am ready to take on new
+            projects and solve coding issues.
           </p>
         </div>
       </div>

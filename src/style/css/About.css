@@ -2,7 +2,7 @@
   background-color: #191919;
   width: 100vw;
   height: 100vh;
-  min-height: 860px;
+  min-height: 900px;
   padding: 4% 5%;
 }
 .about__page-name h2 {
@@ -23,18 +23,17 @@
   justify-content: space-between;
 }
 .about__me__photo {
-  position: relative;
-  width: 479px;
-  height: 411px;
+  width: 430px;
   border: 5px solid #f4fa1a;
   border-radius: 20px;
   margin-top: 100px;
 }
 .about__me__photo img {
-  width: 120%;
-  position: absolute;
-  left: -10px;
-  top: -70px;
+  width: 100%;
+  position: relative;
+  left: 35px;
+  top: -35px;
+  border-radius: 20px;
 }
 .about__me__description {
   width: 675px;
@@ -68,15 +67,16 @@
     margin-top: 0;
   }
   .about__me {
+    margin-top: 80px;
     display: block;
   }
   .about__me__photo {
+    margin-top: 80px;
     width: 85.7vw;
-    height: 73.4vw;
   }
   .about__me__photo img {
-    left: -5px;
-    top: -20px;
+    left: 10px;
+    top: -10px;
   }
   .about__me__description {
     margin: 60px auto;
@@ -89,6 +89,7 @@
   .about__me__description p {
     font-size: 1.5rem;
     margin-top: 10px;
+    line-height: 135%;
   }
 }
 @media screen and (min-width: 151px) and (max-width: 200px) {
@@ -101,15 +102,16 @@
     margin-top: 0;
   }
   .about__me {
+    margin-top: 80px;
     display: block;
   }
   .about__me__photo {
+    margin-top: 80px;
     width: 85.7vw;
-    height: 73.4vw;
   }
   .about__me__photo img {
-    left: -5px;
-    top: -25px;
+    left: 15px;
+    top: -15px;
   }
   .about__me__description {
     margin: 60px auto;
@@ -122,6 +124,7 @@
   .about__me__description p {
     font-size: 1.4rem;
     margin-top: 12px;
+    line-height: 135%;
   }
 }
 @media screen and (min-width: 201px) and (max-width: 280px) {
@@ -134,14 +137,16 @@
     margin-top: 0px;
   }
   .about__me {
+    margin-top: 80px;
     display: block;
   }
   .about__me__photo {
-    width: 85.7vw;
-    height: 73.4vw;
+    margin-top: 80px;
+    width: 81vw;
   }
   .about__me__photo img {
-    top: -35px;
+    left: 20px;
+    top: -20px;
   }
   .about__me__description {
     margin: 70px auto;
@@ -154,6 +159,7 @@
   .about__me__description p {
     font-size: 1.3rem;
     margin-top: 15px;
+    line-height: 135%;
   }
 }
 @media screen and (min-width: 281px) and (max-width: 350px) {
@@ -164,14 +170,16 @@
     width: 6.3rem;
   }
   .about__me {
+    margin-top: 80px;
     display: block;
   }
   .about__me__photo {
-    width: 85.7vw;
-    height: 73.4vw;
+    margin-top: 80px;
+    width: 72vw;
   }
   .about__me__photo img {
-    top: -50px;
+    left: 25px;
+    top: -25px;
   }
   .about__me__description {
     margin: 70px auto;
@@ -184,6 +192,7 @@
   .about__me__description p {
     font-size: 1.2rem;
     margin-top: 15px;
+    line-height: 135%;
   }
 }
 @media screen and (min-width: 351px) and (max-width: 400px) {
@@ -194,14 +203,16 @@
     width: 6.2rem;
   }
   .about__me {
+    margin-top: 80px;
     display: block;
   }
   .about__me__photo {
-    width: 76.5vw;
-    height: 65.5vw;
+    margin-top: 80px;
+    width: 65vw;
   }
   .about__me__photo img {
-    top: -50px;
+    left: 30px;
+    top: -30px;
   }
   .about__me__description {
     margin: 70px auto;
@@ -214,6 +225,7 @@
   .about__me__description p {
     font-size: 1.2rem;
     margin-top: 15px;
+    line-height: 135%;
   }
 }
 @media screen and (min-width: 401px) and (max-width: 470px) {
@@ -224,14 +236,12 @@
     width: 6.1rem;
   }
   .about__me {
+    margin-top: 80px;
     display: block;
   }
   .about__me__photo {
-    width: 76.5vw;
-    height: 65.5vw;
-  }
-  .about__me__photo img {
-    top: -50px;
+    margin-top: 80px;
+    width: 58vw;
   }
   .about__me__description {
     margin: 70px auto;
@@ -244,6 +254,7 @@
   .about__me__description p {
     font-size: 1.2rem;
     margin-top: 15px;
+    line-height: 140%;
   }
 }
 @media screen and (min-width: 471px) and (max-width: 550px) {
@@ -254,14 +265,12 @@
     width: 6rem;
   }
   .about__me {
+    margin-top: 80px;
     display: block;
   }
   .about__me__photo {
-    width: 60vw;
-    height: 51.3vw;
-  }
-  .about__me__photo img {
-    top: -50px;
+    width: 55vw;
+    margin-top: 80px;
   }
   .about__me__description {
     margin: 80px auto;
@@ -274,6 +283,7 @@
   .about__me__description p {
     font-size: 1.1rem;
     margin-top: 15px;
+    line-height: 140%;
   }
 }
 @media screen and (min-width: 551px) and (max-width: 600px) {
@@ -284,14 +294,12 @@
     width: 5.9rem;
   }
   .about__me {
+    margin-top: 80px;
     display: block;
   }
   .about__me__photo {
-    width: 60vw;
-    height: 51.3vw;
-  }
-  .about__me__photo img {
-    top: -50px;
+    margin-top: 80px;
+    width: 50vw;
   }
   .about__me__description {
     margin: 80px auto;
@@ -304,6 +312,7 @@
   .about__me__description p {
     font-size: 1.1rem;
     margin-top: 15px;
+    line-height: 140%;
   }
 }
 @media screen and (min-width: 601px) and (max-width: 740px) {
@@ -314,14 +323,12 @@
     width: 5.7rem;
   }
   .about__me {
+    margin-top: 80px;
     display: block;
   }
   .about__me__photo {
-    width: 52vw;
-    height: 44.3vw;
-  }
-  .about__me__photo img {
-    top: -60px;
+    margin-top: 80px;
+    width: 40vw;
   }
   .about__me__description {
     margin: 80px auto;
@@ -334,6 +341,7 @@
   .about__me__description p {
     font-size: 1.1rem;
     margin-top: 15px;
+    line-height: 140%;
   }
 }
 @media screen and (min-width: 741px) and (max-width: 970px) {
@@ -345,10 +353,11 @@
   }
   .about__me {
     display: block;
+    margin-top: 80px;
   }
   .about__me__photo {
-    width: 39.2vw;
-    height: 32.3vw;
+    width: 34vw;
+    margin-top: 80px;
   }
   .about__me__description {
     margin: 80px auto;
@@ -359,7 +368,7 @@
     margin-bottom: 15px;
   }
   .about__me__description p {
-    font-size: 1.1rem;
+    font-size: 1.02rem;
     margin-top: 15px;
   }
 }
@@ -374,8 +383,7 @@
     margin-top: 140px;
   }
   .about__me__photo {
-    width: 37.4vw;
-    height: 32.1vw;
+    width: 30vw;
   }
   .about__me__description {
     width: 40%;
@@ -399,8 +407,7 @@
     margin-top: 140px;
   }
   .about__me__photo {
-    width: 29.9vw;
-    height: 25.6vw;
+    width: 27vw;
   }
   .about__me__description {
     width: 40%;
@@ -420,8 +427,7 @@
     width: 4.97rem;
   }
   .about__me__photo {
-    width: 24.9vw;
-    height: 21.4vw;
+    width: 22.5vw;
   }
   .about__me__description h4 {
     font-size: 1.98rem;

@@ -37,10 +37,26 @@
       font-size: 30px;
       line-height: 40px;
       margin: 25px 0;
+      white-space: nowrap;
       span {
         color: #f4fa1a;
         font-size: 30px;
         margin-right: 10px;
+      }
+      a {
+        text-decoration: none;
+      }
+      a:visited {
+        color: white;
+      }
+      a:link {
+        color: white;
+      }
+      a:active {
+        color: white;
+      }
+      a:hover {
+        color: #a9a8a8;
       }
     }
     p {
@@ -64,6 +80,7 @@
     rgba(23, 23, 23, 1) 0%,
     rgba(23, 23, 23, 0) 5%
   );
+  pointer-events: none;
 }
 
 @media screen and (min-width: 0px) and (max-width: 150px) {
@@ -82,7 +99,7 @@
       margin-top: 50px;
       width: 100%;
       h3 {
-        font-size: 2rem;
+        font-size: 1.35rem;
         margin: 15px 0;
         span {
           margin-right: 2px;
@@ -112,7 +129,7 @@
       margin-top: 70px;
       width: 100%;
       h3 {
-        font-size: 2rem;
+        font-size: 1.45rem;
         margin: 15px 0;
         span {
           margin-right: 2px;
@@ -141,7 +158,7 @@
     &__content {
       width: 100%;
       h3 {
-        font-size: 2.2rem;
+        font-size: 1.5rem;
         span {
           margin-right: 5px;
           font-size: 2.2rem;
@@ -167,7 +184,7 @@
     &__content {
       width: 100%;
       h3 {
-        font-size: 2.4rem;
+        font-size: 1.65rem;
         span {
           font-size: 2.4rem;
         }
@@ -192,7 +209,7 @@
     &__content {
       width: 100%;
       h3 {
-        font-size: 2.4rem;
+        font-size: 1.8rem;
         span {
           font-size: 2.4rem;
         }
@@ -217,7 +234,7 @@
     &__content {
       width: 90%;
       h3 {
-        font-size: 2.4rem;
+        font-size: 2rem;
         span {
           font-size: 2.4rem;
         }
@@ -243,7 +260,7 @@
     &__content {
       width: 80%;
       h3 {
-        font-size: 2.38rem;
+        font-size: 2.3rem;
         span {
           font-size: 2.38rem;
         }

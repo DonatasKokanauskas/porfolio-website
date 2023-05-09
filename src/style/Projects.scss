@@ -151,6 +151,18 @@
             color: #000000;
             background-color: #f4fa1a;
           }
+          a {
+            text-decoration: none;
+          }
+          a:visited {
+            color: #ffffff;
+          }
+          a:link {
+            color: #ffffff;
+          }
+          a:active {
+            color: #ffffff;
+          }
         }
       }
       &__first-project:hover {

@@ -5,6 +5,7 @@ import { SiGmail } from "react-icons/si";
 import { AiFillLinkedin } from "react-icons/ai";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { MdLocationPin } from "react-icons/md";
+import { AiFillGithub } from "react-icons/ai";
 
 const Contact = () => {
   return (
@@ -18,8 +19,9 @@ const Contact = () => {
       <div className="contact__content">
         <h3>Get in Touch</h3>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut debitis,
-          at aliquid laboriosam pariatur quo hic deserunt voluptatum optio vero.
+          Thank you for stopping by. I am currently looking to join a new team
+          of developers. If you think we might be a good fit for one another,
+          please feel free to contact me.
         </p>
 
         <h3>
@@ -27,13 +29,13 @@ const Contact = () => {
             <BsFillPersonFill />
           </span>
           {"  "}
-          Amir Anwar
+          Donatas Kokanauskas
         </h3>
         <h3>
           <span>
             <SiGmail />{" "}
           </span>{" "}
-          donatas.kokanauskas
+          donatas.kokanauskas@gmail.com
         </h3>
         <h3>
           <span>
@@ -43,9 +45,17 @@ const Contact = () => {
         </h3>
         <h3>
           <span>
+            <AiFillGithub />{" "}
+          </span>{" "}
+          <a href="https://github.com/DonatasKokanauskas">
+            github.com/DonatasKokanauskas
+          </a>
+        </h3>
+        <h3>
+          <span>
             <BsFillTelephoneFill />{" "}
           </span>{" "}
-          860000000
+          +370 6 054 3927
         </h3>
         <h3>
           <span>

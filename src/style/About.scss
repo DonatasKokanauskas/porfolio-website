@@ -2,7 +2,7 @@
   background-color: #191919;
   width: 100vw;
   height: 100vh;
-  min-height: 860px;
+  min-height: 900px;
   padding: 4% 5%;
 
   &__page-name {
@@ -26,17 +26,16 @@
     display: flex;
     justify-content: space-between;
     &__photo {
-      position: relative;
-      width: 479px;
-      height: 411px;
+      width: 430px;
       border: 5px solid #f4fa1a;
       border-radius: 20px;
       margin-top: 100px;
       img {
-        width: 120%;
-        position: absolute;
-        left: -10px;
-        top: -70px;
+        width: 100%;
+        position: relative;
+        left: 35px;
+        top: -35px;
+        border-radius: 20px;
       }
     }
     &__description {
@@ -76,13 +75,14 @@
       }
     }
     &__me {
+      margin-top: 80px;
       display: block;
       &__photo {
+        margin-top: 80px;
         width: 85.7vw;
-        height: 73.4vw;
         img {
-          left: -5px;
-          top: -20px;
+          left: 10px;
+          top: -10px;
         }
       }
       &__description {
@@ -95,6 +95,7 @@
         p {
           font-size: 1.5rem;
           margin-top: 10px;
+          line-height: 135%;
         }
       }
     }
@@ -113,13 +114,14 @@
       }
     }
     &__me {
+      margin-top: 80px;
       display: block;
       &__photo {
+        margin-top: 80px;
         width: 85.7vw;
-        height: 73.4vw;
         img {
-          left: -5px;
-          top: -25px;
+          left: 15px;
+          top: -15px;
         }
       }
       &__description {
@@ -132,6 +134,7 @@
         p {
           font-size: 1.4rem;
           margin-top: 12px;
+          line-height: 135%;
         }
       }
     }
@@ -151,12 +154,14 @@
       }
     }
     &__me {
+      margin-top: 80px;
       display: block;
       &__photo {
-        width: 85.7vw;
-        height: 73.4vw;
+        margin-top: 80px;
+        width: 81vw;
         img {
-          top: -35px;
+          left: 20px;
+          top: -20px;
         }
       }
       &__description {
@@ -169,6 +174,7 @@
         p {
           font-size: 1.3rem;
           margin-top: 15px;
+          line-height: 135%;
         }
       }
     }
@@ -186,12 +192,14 @@
       }
     }
     &__me {
+      margin-top: 80px;
       display: block;
       &__photo {
-        width: 85.7vw;
-        height: 73.4vw;
+        margin-top: 80px;
+        width: 72vw;
         img {
-          top: -50px;
+          left: 25px;
+          top: -25px;
         }
       }
       &__description {
@@ -204,6 +212,7 @@
         p {
           font-size: 1.2rem;
           margin-top: 15px;
+          line-height: 135%;
         }
       }
     }
@@ -221,12 +230,14 @@
       }
     }
     &__me {
+      margin-top: 80px;
       display: block;
       &__photo {
-        width: 76.5vw;
-        height: 65.5vw;
+        margin-top: 80px;
+        width: 65vw;
         img {
-          top: -50px;
+          left: 30px;
+          top: -30px;
         }
       }
       &__description {
@@ -239,6 +250,7 @@
         p {
           font-size: 1.2rem;
           margin-top: 15px;
+          line-height: 135%;
         }
       }
     }
@@ -256,13 +268,11 @@
       }
     }
     &__me {
+      margin-top: 80px;
       display: block;
       &__photo {
-        width: 76.5vw;
-        height: 65.5vw;
-        img {
-          top: -50px;
-        }
+        margin-top: 80px;
+        width: 58vw;
       }
       &__description {
         margin: 70px auto;
@@ -274,6 +284,7 @@
         p {
           font-size: 1.2rem;
           margin-top: 15px;
+          line-height: 140%;
         }
       }
     }
@@ -291,13 +302,11 @@
       }
     }
     &__me {
+      margin-top: 80px;
       display: block;
       &__photo {
-        width: 60vw;
-        height: 51.3vw;
-        img {
-          top: -50px;
-        }
+        width: 55vw;
+        margin-top: 80px;
       }
       &__description {
         margin: 80px auto;
@@ -309,6 +318,7 @@
         p {
           font-size: 1.1rem;
           margin-top: 15px;
+          line-height: 140%;
         }
       }
     }
@@ -326,13 +336,11 @@
       }
     }
     &__me {
+      margin-top: 80px;
       display: block;
       &__photo {
-        width: 60vw;
-        height: 51.3vw;
-        img {
-          top: -50px;
-        }
+        margin-top: 80px;
+        width: 50vw;
       }
       &__description {
         margin: 80px auto;
@@ -344,6 +352,7 @@
         p {
           font-size: 1.1rem;
           margin-top: 15px;
+          line-height: 140%;
         }
       }
     }
@@ -361,12 +370,10 @@
       }
     }
     &__me {
+      margin-top: 80px;
       &__photo {
-        width: 52vw;
-        height: 44.3vw;
-        img {
-          top: -60px;
-        }
+        margin-top: 80px;
+        width: 40vw;
       }
       display: block;
       &__description {
@@ -379,6 +386,7 @@
         p {
           font-size: 1.1rem;
           margin-top: 15px;
+          line-height: 140%;
         }
       }
     }
@@ -397,9 +405,10 @@
     }
     &__me {
       display: block;
+      margin-top: 80px;
       &__photo {
-        width: 39.2vw;
-        height: 32.3vw;
+        width: 34vw;
+        margin-top: 80px;
       }
       &__description {
         margin: 80px auto;
@@ -409,7 +418,7 @@
           margin-bottom: 15px;
         }
         p {
-          font-size: 1.1rem;
+          font-size: 1.02rem;
           margin-top: 15px;
         }
       }
@@ -430,8 +439,7 @@
     &__me {
       margin-top: 140px;
       &__photo {
-        width: 37.4vw;
-        height: 32.1vw;
+        width: 30vw;
       }
       &__description {
         width: 40%;
@@ -460,8 +468,7 @@
     &__me {
       margin-top: 140px;
       &__photo {
-        width: 29.9vw;
-        height: 25.6vw;
+        width: 27vw;
       }
       &__description {
         width: 40%;
@@ -488,8 +495,7 @@
     }
     &__me {
       &__photo {
-        width: 24.9vw;
-        height: 21.4vw;
+        width: 22.5vw;
       }
       &__description {
         h4 {

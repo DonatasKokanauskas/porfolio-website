@@ -96,6 +96,18 @@
   color: #000000;
   background-color: #f4fa1a;
 }
+.projects__content__first-div .projects__content__first-div__first-project__hovered .buttons-div a {
+  text-decoration: none;
+}
+.projects__content__first-div .projects__content__first-div__first-project__hovered .buttons-div a:visited {
+  color: #ffffff;
+}
+.projects__content__first-div .projects__content__first-div__first-project__hovered .buttons-div a:link {
+  color: #ffffff;
+}
+.projects__content__first-div .projects__content__first-div__first-project__hovered .buttons-div a:active {
+  color: #ffffff;
+}
 .projects__content__first-div__first-project:hover img {
   filter: brightness(30%) blur(2px);
 }
