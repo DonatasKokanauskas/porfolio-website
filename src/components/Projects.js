@@ -27,7 +27,15 @@ const Projects = () => {
             onMouseOver={handleMouseOver}
             onMouseLeave={handleMouseLeave}
           >
-            <img src={netflix} alt="netflix clone" />
+            <img
+              src={netflix}
+              alt="netflix clone"
+              style={
+                mouseOver
+                  ? { filter: "brightness(30%) blur(2px)" }
+                  : { filter: "none" }
+              }
+            />
             {mouseOver && (
               <div className="projects__content__first-div__first-project__hovered">
                 <h3>Netflix Clone</h3>
@@ -46,14 +54,13 @@ const Projects = () => {
                 </div>
 
                 <div className="buttons-div">
-                  <button>
-                    <a href="https://donatas-k.lt/netflix-clone">Visit</a>{" "}
-                  </button>
-                  <button>
-                    <a href="https://github.com/DonatasKokanauskas/netlix-clone">
-                      GitHub{" "}
-                    </a>
-                  </button>
+                  <a href="https://donatas-k.lt/netflix-clone">
+                    <button> Visit</button>
+                  </a>
+
+                  <a href="https://github.com/DonatasKokanauskas/netlix-clone">
+                    <button>GitHub</button>
+                  </a>
                 </div>
               </div>
             )}
