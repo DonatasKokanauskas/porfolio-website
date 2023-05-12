@@ -36,7 +36,10 @@ function App() {
     const id = e.currentTarget.getAttribute("href").slice(1);
     const element = document.querySelector(`.${id}`);
 
-    let position = element.offsetTop - navHeight / 2;
+    let position =
+      e.currentTarget !== "hero"
+        ? element.offsetTop - navHeight / 2
+        : element.offsetTop;
 
     window.scrollTo({
       left: 0,
