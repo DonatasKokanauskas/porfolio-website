@@ -1,5 +1,6 @@
 {
-  "name": "my-porfolio-website",
+  "name": "my-portfolio-website",
+  "homepage": "http://donatas-k.lt",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
