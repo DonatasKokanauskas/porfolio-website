@@ -37,9 +37,7 @@ function App() {
     const element = document.querySelector(`.${id}`);
 
     let position =
-      e.currentTarget !== "hero"
-        ? element.offsetTop - navHeight / 2
-        : element.offsetTop;
+      id !== "home" ? element.offsetTop - navHeight / 2 : element.offsetTop;
 
     window.scrollTo({
       left: 0,

@@ -6,7 +6,7 @@ const ScrollButton = ({ scroll, handleClick }) => {
   return (
     <a
       className={`top-link ${scroll > 500 && "show-link"}`}
-      href="#hero"
+      href="#home"
       onClick={handleClick}
     >
       <FaArrowUp />

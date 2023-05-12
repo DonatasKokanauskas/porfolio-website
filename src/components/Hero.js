@@ -6,11 +6,11 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 
 const Hero = ({ handleClick }) => {
   return (
-    <div className="hero">
-      <img className="hero__cover" src={cover} alt="hero cover" />
+    <div className="home">
+      <img className="home__cover" src={cover} alt="home cover" />
 
-      <div className="hero__content">
-        <div className="hero__content__about-me">
+      <div className="home__content">
+        <div className="home__content__about-me">
           <h3>Hello, I'm</h3>
           <h1>Donatas Kokanauskas</h1>
           <h2>Front-end web developer</h2>
@@ -22,7 +22,7 @@ const Hero = ({ handleClick }) => {
           </a>
         </div>
 
-        <img className="hero__content__my-photo" src={photo} alt="my photo" />
+        <img className="home__content__my-photo" src={photo} alt="my photo" />
       </div>
     </div>
   );
