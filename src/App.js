@@ -12,15 +12,15 @@ import ScrollButton from "./components/ScrollButton";
 
 function App() {
   const [scroll, setScroll] = useState(window.scrollY);
-  const navbar = document.querySelector("header");
   const [navHeight, setNavHeight] = useState(0);
-  useEffect(() => {
-    if (navbar) {
-      setNavHeight(navbar.getBoundingClientRect().height);
-    }
-  }, [navbar]);
 
   useEffect(() => {
+    if (document.querySelector("header")) {
+      setNavHeight(
+        document.querySelector("header").getBoundingClientRect().height
+      );
+    }
+
     const handleScroll = () => {
       setScroll(window.scrollY);
     };
