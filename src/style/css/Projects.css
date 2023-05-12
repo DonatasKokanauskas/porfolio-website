@@ -1,8 +1,9 @@
 .projects {
   background-color: #191919;
   width: 100vw;
-  height: 80vh;
-  padding: 53px 95px;
+  height: 100vh;
+  min-height: 820px;
+  padding: 4% 5%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,61 +25,854 @@
   background: #f4fa1a;
 }
 .projects__content {
-  width: 40%;
-  height: 80%;
+  width: 55%;
+  height: 70vh;
+  min-height: 610px;
   display: flex;
   margin-top: 66px;
 }
 .projects__content__first-div {
   width: 33.3333333333%;
-  height: 100%;
+  height: calc(100% - 21px);
   display: inline-block;
   margin-right: 21px;
 }
 .projects__content__first-div__first-project {
+  position: relative;
   width: 100%;
   height: 60%;
-  background: #c4c4c4;
-  margin: 0 21px 21px 0;
+  box-shadow: rgb(38, 38, 38) 0px 0px 15px;
+  margin-bottom: 21px;
+}
+.projects__content__first-div__first-project img {
+  width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  object-position: left top;
+}
+.projects__content__first-div .projects__content__first-div__first-project__hovered {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 20px;
+  height: 100%;
+  overflow: hidden;
+}
+.projects__content__first-div .projects__content__first-div__first-project__hovered p {
+  margin: 20px 0;
+  font-size: 0.9rem;
+}
+.projects__content__first-div .projects__content__first-div__first-project__hovered .spans-div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.projects__content__first-div .projects__content__first-div__first-project__hovered .spans-div span {
+  font-size: 0.7em;
+  background-color: #696869;
+  padding: 3px 8px;
+  border-radius: 10px;
+}
+.projects__content__first-div .projects__content__first-div__first-project__hovered .buttons-div {
+  margin: 20px 0;
+  display: flex;
+  gap: 10px;
+}
+.projects__content__first-div .projects__content__first-div__first-project__hovered .buttons-div button {
+  font-size: 0.8rem;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 5px 12px;
+  border: 1px solid #f4fa1a;
+  border-radius: 10px;
+  color: #ffffff;
+  background: rgba(19, 19, 19, 0.4);
+  transition: all 0.35s;
+}
+.projects__content__first-div .projects__content__first-div__first-project__hovered .buttons-div button:hover {
+  color: #000000;
+  background-color: #f4fa1a;
+}
+.projects__content__first-div .projects__content__first-div__first-project__hovered .buttons-div a {
+  text-decoration: none;
+}
+.projects__content__first-div .projects__content__first-div__first-project__hovered .buttons-div a:visited {
+  color: #ffffff;
+}
+.projects__content__first-div .projects__content__first-div__first-project__hovered .buttons-div a:link {
+  color: #ffffff;
+}
+.projects__content__first-div .projects__content__first-div__first-project__hovered .buttons-div a:active {
+  color: #ffffff;
+}
+.projects__content__first-div__first-project:hover img {
+  filter: brightness(30%) blur(2px);
 }
 .projects__content__first-div__second-project {
   width: 100%;
-  height: 40%;
   background: #c4c4c4;
-  margin: 0 21px 0 0;
+  margin-bottom: 21px;
+  height: 40%;
 }
 .projects__content__second-div {
   width: 33.3333333333%;
-  height: 100%;
+  height: calc(100% - 21px);
   display: inline-block;
   margin-right: 21px;
 }
 .projects__content__second-div__first-project {
   width: 100%;
-  height: 45%;
   background: #c4c4c4;
-  margin: 0 21px 21px 0;
+  margin-bottom: 21px;
+  height: 50%;
 }
 .projects__content__second-div__second-project {
   width: 100%;
-  height: 55%;
   background: #c4c4c4;
-  margin: 0 21px 0 0;
+  margin-bottom: 21px;
+  height: 50%;
 }
 .projects__content__third-div {
   width: 33.3333333333%;
-  height: 100%;
+  height: calc(100% - 21px);
   display: inline-block;
 }
 .projects__content__third-div__first-project {
   width: 100%;
-  height: 35%;
   background: #c4c4c4;
-  margin: 0 21px 21px 0;
+  margin-bottom: 21px;
+  height: 40%;
 }
 .projects__content__third-div__second-project {
   width: 100%;
-  height: 65%;
   background: #c4c4c4;
-  margin: 0 21px 0 0;
+  margin-bottom: 21px;
+  height: 60%;
+}
+
+@media screen and (min-width: 0px) and (max-width: 150px) {
+  .projects__page-name h2 {
+    font-size: 4.8rem;
+    line-height: 48px;
+  }
+  .projects__page-name__line {
+    width: 7.6rem !important;
+    margin-top: 0;
+  }
+  .projects__content {
+    flex-direction: column;
+    width: 100%;
+    height: 85%;
+  }
+  .projects__content__first-div {
+    width: 100%;
+    height: 35%;
+    margin-bottom: 15px;
+  }
+  .projects__content__first-div__first-project {
+    height: 50%;
+    margin-bottom: 10px;
+  }
+  .projects__content__first-div__second-project {
+    height: 50%;
+  }
+  .projects__content__second-div {
+    width: 100%;
+    height: 35%;
+    margin-bottom: 10px;
+  }
+  .projects__content__second-div__first-project {
+    height: 50%;
+    margin-bottom: 5px;
+  }
+  .projects__content__second-div__second-project {
+    height: 50%;
+  }
+  .projects__content__third-div {
+    width: 100%;
+    height: 35%;
+  }
+  .projects__content__third-div__first-project {
+    height: 50%;
+    margin-bottom: 5px;
+  }
+  .projects__content__third-div__second-project {
+    height: 50%;
+  }
+  .projects__content {
+    margin-top: 33px;
+  }
+  .projects__content__first-div__first-project__hovered {
+    padding: 0px 10px !important;
+  }
+  .projects__content__first-div__first-project__hovered h3 {
+    font-size: 1.4rem;
+  }
+  .projects__content__first-div__first-project__hovered p {
+    font-size: 1.1rem !important;
+    margin: 1px 0 !important;
+    line-height: 9px;
+  }
+  .projects__content__first-div__first-project__hovered .spans-div {
+    gap: 3px !important;
+  }
+  .projects__content__first-div__first-project__hovered .spans-div span {
+    padding: 1px 5px !important;
+    font-size: 1rem !important;
+  }
+  .projects__content__first-div__first-project__hovered .buttons-div {
+    bottom: 7px !important;
+    margin: 4px 0 0 0 !important;
+  }
+  .projects__content__first-div__first-project__hovered .buttons-div button {
+    font-size: 1.2rem !important;
+    padding: 1px 8px !important;
+  }
+}
+@media screen and (min-width: 151px) and (max-width: 200px) {
+  .projects__page-name h2 {
+    font-size: 4.2rem;
+    line-height: 48px;
+  }
+  .projects__page-name__line {
+    width: 6.8rem !important;
+    margin-top: 0;
+  }
+  .projects__content {
+    flex-direction: column;
+    width: 100%;
+    height: 85%;
+  }
+  .projects__content__first-div {
+    width: 100%;
+    height: 35%;
+    margin-bottom: 15px;
+  }
+  .projects__content__first-div__first-project {
+    height: 50%;
+    margin-bottom: 10px;
+  }
+  .projects__content__first-div__second-project {
+    height: 50%;
+  }
+  .projects__content__second-div {
+    width: 100%;
+    height: 35%;
+    margin-bottom: 10px;
+  }
+  .projects__content__second-div__first-project {
+    height: 50%;
+    margin-bottom: 5px;
+  }
+  .projects__content__second-div__second-project {
+    height: 50%;
+  }
+  .projects__content__third-div {
+    width: 100%;
+    height: 35%;
+  }
+  .projects__content__third-div__first-project {
+    height: 50%;
+    margin-bottom: 5px;
+  }
+  .projects__content__third-div__second-project {
+    height: 50%;
+  }
+  .projects__content {
+    margin-top: 33px;
+  }
+  .projects__content__first-div__first-project__hovered {
+    padding: 0px 10px !important;
+  }
+  .projects__content__first-div__first-project__hovered h3 {
+    font-size: 1.4rem;
+  }
+  .projects__content__first-div__first-project__hovered p {
+    font-size: 1rem !important;
+    margin: 2px 0 !important;
+    line-height: 11px;
+  }
+  .projects__content__first-div__first-project__hovered .spans-div {
+    gap: 3px !important;
+  }
+  .projects__content__first-div__first-project__hovered .spans-div span {
+    padding: 1px 5px !important;
+    font-size: 1rem !important;
+  }
+  .projects__content__first-div__first-project__hovered .buttons-div {
+    bottom: 7px !important;
+    margin: 4px 0 0 0 !important;
+  }
+  .projects__content__first-div__first-project__hovered .buttons-div button {
+    font-size: 1.2rem !important;
+    padding: 1px 8px !important;
+  }
+}
+@media screen and (min-width: 201px) and (max-width: 280px) {
+  .projects__page-name h2 {
+    font-size: 3.8rem;
+    line-height: 55px;
+  }
+  .projects__page-name__line {
+    width: 6.4rem !important;
+    margin-top: 0px !important;
+  }
+  .projects__content {
+    flex-direction: column;
+    width: 100%;
+    height: 85%;
+  }
+  .projects__content__first-div {
+    width: 100%;
+    height: 35%;
+    margin-bottom: 15px;
+  }
+  .projects__content__first-div__first-project {
+    height: 50%;
+    margin-bottom: 10px;
+  }
+  .projects__content__first-div__second-project {
+    height: 50%;
+  }
+  .projects__content__second-div {
+    width: 100%;
+    height: 35%;
+    margin-bottom: 10px;
+  }
+  .projects__content__second-div__first-project {
+    height: 50%;
+    margin-bottom: 5px;
+  }
+  .projects__content__second-div__second-project {
+    height: 50%;
+  }
+  .projects__content__third-div {
+    width: 100%;
+    height: 35%;
+  }
+  .projects__content__third-div__first-project {
+    height: 50%;
+    margin-bottom: 5px;
+  }
+  .projects__content__third-div__second-project {
+    height: 50%;
+  }
+  .projects__content {
+    margin-top: 33px;
+  }
+  .projects__content__first-div__first-project__hovered {
+    padding: 0px 10px !important;
+  }
+  .projects__content__first-div__first-project__hovered h3 {
+    font-size: 1.3rem;
+  }
+  .projects__content__first-div__first-project__hovered p {
+    font-size: 0.9rem !important;
+    margin: 4px 0 !important;
+  }
+  .projects__content__first-div__first-project__hovered .spans-div {
+    gap: 2px !important;
+  }
+  .projects__content__first-div__first-project__hovered .spans-div span {
+    padding: 1px 3px !important;
+    font-size: 0.95rem !important;
+  }
+  .projects__content__first-div__first-project__hovered .buttons-div {
+    bottom: 0px !important;
+    margin: 4px 0 0 0 !important;
+  }
+  .projects__content__first-div__first-project__hovered .buttons-div button {
+    font-size: 1.1rem !important;
+    padding: 1px 8px !important;
+  }
+}
+@media screen and (min-width: 281px) and (max-width: 350px) {
+  .projects__page-name h2 {
+    font-size: 3.7rem;
+  }
+  .projects__page-name__line {
+    width: 6.3rem !important;
+  }
+  .projects__content {
+    flex-direction: column;
+    width: 100%;
+    height: 85%;
+  }
+  .projects__content__first-div {
+    width: 100%;
+    height: 35%;
+    margin-bottom: 15px;
+  }
+  .projects__content__first-div__first-project {
+    height: 50%;
+    margin-bottom: 10px;
+  }
+  .projects__content__first-div__second-project {
+    height: 50%;
+  }
+  .projects__content__second-div {
+    width: 100%;
+    height: 35%;
+    margin-bottom: 10px;
+  }
+  .projects__content__second-div__first-project {
+    height: 50%;
+    margin-bottom: 5px;
+  }
+  .projects__content__second-div__second-project {
+    height: 50%;
+  }
+  .projects__content__third-div {
+    width: 100%;
+    height: 35%;
+  }
+  .projects__content__third-div__first-project {
+    height: 50%;
+    margin-bottom: 5px;
+  }
+  .projects__content__third-div__second-project {
+    height: 50%;
+  }
+  .projects__content {
+    margin-top: 33px;
+  }
+  .projects__content__first-div__first-project__hovered {
+    padding: 0px 10px !important;
+  }
+  .projects__content__first-div__first-project__hovered h3 {
+    font-size: 1.3rem;
+  }
+  .projects__content__first-div__first-project__hovered p {
+    font-size: 0.9rem !important;
+    margin: 3px 0 !important;
+  }
+  .projects__content__first-div__first-project__hovered .spans-div span {
+    padding: 2px 5px !important;
+    font-size: 0.95rem !important;
+  }
+  .projects__content__first-div__first-project__hovered .buttons-div {
+    bottom: 7px !important;
+    margin: 4px 0 0 0 !important;
+  }
+  .projects__content__first-div__first-project__hovered .buttons-div button {
+    font-size: 1.1rem !important;
+    padding: 1px 7px !important;
+  }
+}
+@media screen and (min-width: 351px) and (max-width: 400px) {
+  .projects__page-name h2 {
+    font-size: 3.6rem;
+  }
+  .projects__page-name__line {
+    width: 6.2rem !important;
+  }
+  .projects__content {
+    flex-direction: column;
+    width: 100%;
+    height: 85%;
+  }
+  .projects__content__first-div {
+    width: 100%;
+    height: 35%;
+    margin-bottom: 15px;
+  }
+  .projects__content__first-div__first-project {
+    height: 50%;
+    margin-bottom: 10px;
+  }
+  .projects__content__first-div__second-project {
+    height: 50%;
+  }
+  .projects__content__second-div {
+    width: 100%;
+    height: 35%;
+    margin-bottom: 10px;
+  }
+  .projects__content__second-div__first-project {
+    height: 50%;
+    margin-bottom: 5px;
+  }
+  .projects__content__second-div__second-project {
+    height: 50%;
+  }
+  .projects__content__third-div {
+    width: 100%;
+    height: 35%;
+  }
+  .projects__content__third-div__first-project {
+    height: 50%;
+    margin-bottom: 5px;
+  }
+  .projects__content__third-div__second-project {
+    height: 50%;
+  }
+  .projects__content {
+    margin-top: 33px;
+  }
+  .projects__content__first-div__first-project__hovered {
+    padding: 0px 10px !important;
+  }
+  .projects__content__first-div__first-project__hovered h3 {
+    font-size: 1.2rem;
+  }
+  .projects__content__first-div__first-project__hovered p {
+    font-size: 0.9rem !important;
+    margin: 3px 0 !important;
+  }
+  .projects__content__first-div__first-project__hovered .spans-div span {
+    padding: 1px 7px !important;
+    font-size: 0.9rem !important;
+  }
+  .projects__content__first-div__first-project__hovered .buttons-div {
+    bottom: 0px !important;
+    margin: 8px 0 0 0 !important;
+  }
+  .projects__content__first-div__first-project__hovered .buttons-div button {
+    font-size: 1.1rem !important;
+    padding: 1px 8px !important;
+  }
+}
+@media screen and (min-width: 401px) and (max-width: 470px) {
+  .projects__page-name h2 {
+    font-size: 3.5rem;
+  }
+  .projects__page-name__line {
+    width: 6.1rem !important;
+  }
+  .projects__content {
+    flex-direction: column;
+    width: 100%;
+    height: 85%;
+  }
+  .projects__content__first-div {
+    width: 100%;
+    height: 35%;
+    margin-bottom: 15px;
+  }
+  .projects__content__first-div__first-project {
+    height: 50%;
+    margin-bottom: 10px;
+  }
+  .projects__content__first-div__second-project {
+    height: 50%;
+  }
+  .projects__content__second-div {
+    width: 100%;
+    height: 35%;
+    margin-bottom: 10px;
+  }
+  .projects__content__second-div__first-project {
+    height: 50%;
+    margin-bottom: 5px;
+  }
+  .projects__content__second-div__second-project {
+    height: 50%;
+  }
+  .projects__content__third-div {
+    width: 100%;
+    height: 35%;
+  }
+  .projects__content__third-div__first-project {
+    height: 50%;
+    margin-bottom: 5px;
+  }
+  .projects__content__third-div__second-project {
+    height: 50%;
+  }
+  .projects__content__first-div__first-project__hovered {
+    padding: 0px 15px !important;
+  }
+  .projects__content__first-div__first-project__hovered h3 {
+    font-size: 1.2rem;
+  }
+  .projects__content__first-div__first-project__hovered p {
+    font-size: 0.85rem !important;
+    margin: 3px 0 !important;
+  }
+  .projects__content__first-div__first-project__hovered .spans-div span {
+    padding: 2px 7px !important;
+    font-size: 0.9rem !important;
+  }
+  .projects__content__first-div__first-project__hovered .buttons-div {
+    bottom: 7px !important;
+    margin: 8px 0 0 0 !important;
+  }
+  .projects__content__first-div__first-project__hovered .buttons-div button {
+    font-size: 1rem !important;
+    padding: 2px 10px !important;
+  }
+}
+@media screen and (min-width: 471px) and (max-width: 550px) {
+  .projects__page-name h2 {
+    font-size: 3.4rem;
+  }
+  .projects__page-name__line {
+    width: 6rem !important;
+  }
+  .projects__content {
+    flex-direction: column;
+    width: 100%;
+    height: 85%;
+  }
+  .projects__content__first-div {
+    width: 100%;
+    height: 35%;
+    margin-bottom: 15px;
+  }
+  .projects__content__first-div__first-project {
+    height: 50%;
+    margin-bottom: 10px;
+  }
+  .projects__content__first-div__second-project {
+    height: 50%;
+  }
+  .projects__content__second-div {
+    width: 100%;
+    height: 35%;
+    margin-bottom: 10px;
+  }
+  .projects__content__second-div__first-project {
+    height: 50%;
+    margin-bottom: 5px;
+  }
+  .projects__content__second-div__second-project {
+    height: 50%;
+  }
+  .projects__content__third-div {
+    width: 100%;
+    height: 35%;
+  }
+  .projects__content__third-div__first-project {
+    height: 50%;
+    margin-bottom: 5px;
+  }
+  .projects__content__third-div__second-project {
+    height: 50%;
+  }
+  .projects__content__first-div__first-project__hovered {
+    padding: 0px 15px !important;
+  }
+  .projects__content__first-div__first-project__hovered h3 {
+    font-size: 1.2rem;
+  }
+  .projects__content__first-div__first-project__hovered p {
+    font-size: 0.85rem !important;
+    margin: 4px 0 !important;
+  }
+  .projects__content__first-div__first-project__hovered .spans-div span {
+    padding: 1.5px 6px !important;
+    font-size: 0.9rem !important;
+  }
+  .projects__content__first-div__first-project__hovered .buttons-div {
+    bottom: 0px !important;
+    margin: 8px 0 0 0 !important;
+  }
+  .projects__content__first-div__first-project__hovered .buttons-div button {
+    font-size: 1rem !important;
+    padding: 2px 10px !important;
+  }
+}
+@media screen and (min-width: 551px) and (max-width: 600px) {
+  .projects__page-name h2 {
+    font-size: 3.3rem;
+  }
+  .projects__page-name__line {
+    width: 5.9rem !important;
+  }
+  .projects__content {
+    flex-direction: column;
+    width: 100%;
+    height: 85%;
+  }
+  .projects__content__first-div {
+    width: 100%;
+    height: 35%;
+    margin-bottom: 15px;
+  }
+  .projects__content__first-div__first-project {
+    height: 50%;
+    margin-bottom: 10px;
+  }
+  .projects__content__first-div__second-project {
+    height: 50%;
+  }
+  .projects__content__second-div {
+    width: 100%;
+    height: 35%;
+    margin-bottom: 10px;
+  }
+  .projects__content__second-div__first-project {
+    height: 50%;
+    margin-bottom: 5px;
+  }
+  .projects__content__second-div__second-project {
+    height: 50%;
+  }
+  .projects__content__third-div {
+    width: 100%;
+    height: 35%;
+  }
+  .projects__content__third-div__first-project {
+    height: 50%;
+    margin-bottom: 5px;
+  }
+  .projects__content__third-div__second-project {
+    height: 50%;
+  }
+  .projects__content__first-div__first-project__hovered {
+    padding: 5px 15px !important;
+  }
+  .projects__content__first-div__first-project__hovered h3 {
+    font-size: 1.2rem;
+  }
+  .projects__content__first-div__first-project__hovered p {
+    margin: 4px 0 !important;
+  }
+  .projects__content__first-div__first-project__hovered .spans-div span {
+    padding: 1.5px 7px !important;
+    font-size: 0.9rem !important;
+  }
+  .projects__content__first-div__first-project__hovered .buttons-div {
+    bottom: 10px !important;
+    margin: 8px 0 0 0 !important;
+  }
+  .projects__content__first-div__first-project__hovered .buttons-div button {
+    font-size: 1rem !important;
+    padding: 3px 10px !important;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 740px) {
+  .projects__page-name h2 {
+    font-size: 3.2rem;
+  }
+  .projects__page-name__line {
+    width: 5.7rem !important;
+  }
+  .projects__content {
+    width: 100%;
+  }
+  .projects__content__first-div {
+    margin-right: 10px;
+  }
+  .projects__content__first-div__first-project {
+    margin-bottom: 10px;
+  }
+  .projects__content__first-div__first-project__hovered {
+    padding: 10px 20px !important;
+  }
+  .projects__content__first-div__first-project__hovered h3 {
+    font-size: 1.2rem;
+  }
+  .projects__content__first-div__first-project__hovered .spans-div span {
+    padding: 2px 7px !important;
+    font-size: 0.95rem !important;
+  }
+  .projects__content__first-div__first-project__hovered .buttons-div button {
+    font-size: 1.1rem !important;
+    padding: 3px 10px !important;
+  }
+  .projects__content__second-div {
+    margin-right: 10px;
+  }
+  .projects__content__second-div__first-project {
+    margin-bottom: 10px;
+  }
+  .projects__content__third-div__first-project {
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 741px) and (max-width: 970px) {
+  .projects__page-name h2 {
+    font-size: 2.9rem;
+  }
+  .projects__page-name__line {
+    width: 5.3rem !important;
+  }
+  .projects__content {
+    width: 90%;
+  }
+  .projects__content__first-div {
+    margin-right: 15px;
+  }
+  .projects__content__first-div__first-project {
+    margin-bottom: 15px;
+  }
+  .projects__content__first-div__first-project__hovered {
+    padding: 10px 20px !important;
+  }
+  .projects__content__first-div__first-project__hovered h3 {
+    font-size: 1.2rem;
+  }
+  .projects__content__first-div__first-project__hovered .spans-div span {
+    font-size: 0.9rem !important;
+    padding: 2px 7px !important;
+  }
+  .projects__content__first-div__first-project__hovered .buttons-div button {
+    font-size: 1.05rem !important;
+    padding: 3px 10px !important;
+  }
+  .projects__content__second-div {
+    margin-right: 15px;
+  }
+  .projects__content__second-div__first-project {
+    margin-bottom: 15px;
+  }
+  .projects__content__third-div__first-project {
+    margin-bottom: 15px;
+  }
+}
+@media screen and (min-width: 971px) and (max-width: 1280px) {
+  .projects__page-name h2 {
+    font-size: 2.77rem;
+  }
+  .projects__page-name__line {
+    width: 5.18rem !important;
+  }
+  .projects__content {
+    width: 80%;
+  }
+  .projects__content__first-div__first-project__hovered h3 {
+    font-size: 1.25rem;
+  }
+  .projects__content__first-div__first-project__hovered .spans-div span {
+    font-size: 0.8rem !important;
+    padding: 2px 7px !important;
+  }
+  .projects__content__first-div__first-project__hovered .buttons-div button {
+    font-size: 0.9rem !important;
+    padding: 3px 10px !important;
+  }
+}
+@media screen and (min-width: 1281px) and (max-width: 1600px) {
+  .projects__page-name h2 {
+    font-size: 2.66rem;
+  }
+  .projects__page-name__line {
+    width: 4.99rem !important;
+  }
+  .projects__content {
+    width: 70%;
+  }
+  .projects__content__first-div__first-project__hovered h3 {
+    font-size: 1.25rem;
+  }
+  .projects__content__first-div__first-project__hovered .spans-div span {
+    font-size: 0.8rem !important;
+    padding: 2px 7px !important;
+  }
+  .projects__content__first-div__first-project__hovered .buttons-div button {
+    font-size: 0.9rem !important;
+    padding: 3px 10px !important;
+  }
+}
+@media screen and (min-width: 1601px) and (max-width: 1920px) {
+  .projects__page-name h2 {
+    font-size: 2.65rem;
+  }
+  .projects__page-name__line {
+    width: 4.97rem !important;
+  }
 }

@@ -1,8 +1,9 @@
 .about {
   background-color: #191919;
   width: 100vw;
-  height: 80vh;
-  padding: 53px 95px;
+  height: 100vh;
+  min-height: 900px;
+  padding: 4% 5%;
 
   &__page-name {
     h2 {
@@ -21,19 +22,20 @@
   }
 
   &__me {
-    margin-top: 66px;
+    margin-top: 120px;
     display: flex;
     justify-content: space-between;
     &__photo {
-      width: 479px;
-      height: 398px;
+      width: 430px;
       border: 5px solid #f4fa1a;
       border-radius: 20px;
       margin-top: 100px;
       img {
+        width: 100%;
         position: relative;
-        left: -10px;
-        top: -90px;
+        left: 35px;
+        top: -35px;
+        border-radius: 20px;
       }
     }
     &__description {
@@ -47,14 +49,461 @@
         margin-bottom: 40px;
       }
       p {
+        font-size: 18px;
         margin-top: 20px;
         font-weight: 400;
-        font-size: 18px;
         line-height: 150.38%;
         display: flex;
         align-items: center;
         text-align: center;
         letter-spacing: 0.03em;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 150px) {
+  .about {
+    &__page-name {
+      h2 {
+        font-size: 4.8rem;
+        line-height: 48px;
+      }
+      &__line {
+        width: 7.6rem;
+        margin-top: 0;
+      }
+    }
+    &__me {
+      margin-top: 80px;
+      display: block;
+      &__photo {
+        margin-top: 80px;
+        width: 85.7vw;
+        img {
+          left: 10px;
+          top: -10px;
+        }
+      }
+      &__description {
+        margin: 60px auto;
+        width: 100%;
+        h4 {
+          font-size: 3.4rem;
+          margin-bottom: 10px;
+        }
+        p {
+          font-size: 1.5rem;
+          margin-top: 10px;
+          line-height: 135%;
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 151px) and (max-width: 200px) {
+  .about {
+    &__page-name {
+      h2 {
+        font-size: 4.2rem;
+        line-height: 48px;
+      }
+      &__line {
+        width: 6.8rem;
+        margin-top: 0;
+      }
+    }
+    &__me {
+      margin-top: 80px;
+      display: block;
+      &__photo {
+        margin-top: 80px;
+        width: 85.7vw;
+        img {
+          left: 15px;
+          top: -15px;
+        }
+      }
+      &__description {
+        margin: 60px auto;
+        width: 100%;
+        h4 {
+          font-size: 3rem;
+          margin-bottom: 12px;
+        }
+        p {
+          font-size: 1.4rem;
+          margin-top: 12px;
+          line-height: 135%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 201px) and (max-width: 280px) {
+  .about {
+    &__page-name {
+      h2 {
+        font-size: 3.8rem;
+        line-height: 55px;
+      }
+      &__line {
+        width: 6.4rem;
+        margin-top: 0px;
+      }
+    }
+    &__me {
+      margin-top: 80px;
+      display: block;
+      &__photo {
+        margin-top: 80px;
+        width: 81vw;
+        img {
+          left: 20px;
+          top: -20px;
+        }
+      }
+      &__description {
+        margin: 70px auto;
+        width: 100%;
+        h4 {
+          font-size: 2.8rem;
+          margin-bottom: 15px;
+        }
+        p {
+          font-size: 1.3rem;
+          margin-top: 15px;
+          line-height: 135%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 281px) and (max-width: 350px) {
+  .about {
+    &__page-name {
+      h2 {
+        font-size: 3.7rem;
+      }
+      &__line {
+        width: 6.3rem;
+      }
+    }
+    &__me {
+      margin-top: 80px;
+      display: block;
+      &__photo {
+        margin-top: 80px;
+        width: 72vw;
+        img {
+          left: 25px;
+          top: -25px;
+        }
+      }
+      &__description {
+        margin: 70px auto;
+        width: 100%;
+        h4 {
+          font-size: 2.7rem;
+          margin-bottom: 15px;
+        }
+        p {
+          font-size: 1.2rem;
+          margin-top: 15px;
+          line-height: 135%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 351px) and (max-width: 400px) {
+  .about {
+    &__page-name {
+      h2 {
+        font-size: 3.6rem;
+      }
+      &__line {
+        width: 6.2rem;
+      }
+    }
+    &__me {
+      margin-top: 80px;
+      display: block;
+      &__photo {
+        margin-top: 80px;
+        width: 65vw;
+        img {
+          left: 30px;
+          top: -30px;
+        }
+      }
+      &__description {
+        margin: 70px auto;
+        width: 100%;
+        h4 {
+          font-size: 2.6rem;
+          margin-bottom: 15px;
+        }
+        p {
+          font-size: 1.2rem;
+          margin-top: 15px;
+          line-height: 135%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 470px) {
+  .about {
+    &__page-name {
+      h2 {
+        font-size: 3.5rem;
+      }
+      &__line {
+        width: 6.1rem;
+      }
+    }
+    &__me {
+      margin-top: 80px;
+      display: block;
+      &__photo {
+        margin-top: 80px;
+        width: 58vw;
+      }
+      &__description {
+        margin: 70px auto;
+        width: 95%;
+        h4 {
+          font-size: 2.6rem;
+          margin-bottom: 15px;
+        }
+        p {
+          font-size: 1.2rem;
+          margin-top: 15px;
+          line-height: 140%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 471px) and (max-width: 550px) {
+  .about {
+    &__page-name {
+      h2 {
+        font-size: 3.4rem;
+      }
+      &__line {
+        width: 6rem;
+      }
+    }
+    &__me {
+      margin-top: 80px;
+      display: block;
+      &__photo {
+        width: 55vw;
+        margin-top: 80px;
+      }
+      &__description {
+        margin: 80px auto;
+        width: 90%;
+        h4 {
+          font-size: 2.5rem;
+          margin-bottom: 15px;
+        }
+        p {
+          font-size: 1.1rem;
+          margin-top: 15px;
+          line-height: 140%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 551px) and (max-width: 600px) {
+  .about {
+    &__page-name {
+      h2 {
+        font-size: 3.3rem;
+      }
+      &__line {
+        width: 5.9rem;
+      }
+    }
+    &__me {
+      margin-top: 80px;
+      display: block;
+      &__photo {
+        margin-top: 80px;
+        width: 50vw;
+      }
+      &__description {
+        margin: 80px auto;
+        width: 90%;
+        h4 {
+          font-size: 2.4rem;
+          margin-bottom: 15px;
+        }
+        p {
+          font-size: 1.1rem;
+          margin-top: 15px;
+          line-height: 140%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 740px) {
+  .about {
+    &__page-name {
+      h2 {
+        font-size: 3.2rem;
+      }
+      &__line {
+        width: 5.7rem;
+      }
+    }
+    &__me {
+      margin-top: 80px;
+      &__photo {
+        margin-top: 80px;
+        width: 40vw;
+      }
+      display: block;
+      &__description {
+        margin: 80px auto;
+        width: 90%;
+        h4 {
+          font-size: 2.3rem;
+          margin-bottom: 15px;
+        }
+        p {
+          font-size: 1.1rem;
+          margin-top: 15px;
+          line-height: 140%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 741px) and (max-width: 970px) {
+  .about {
+    &__page-name {
+      h2 {
+        font-size: 2.9rem;
+      }
+      &__line {
+        width: 5.3rem;
+      }
+    }
+    &__me {
+      display: block;
+      margin-top: 80px;
+      &__photo {
+        width: 34vw;
+        margin-top: 80px;
+      }
+      &__description {
+        margin: 80px auto;
+        width: 80%;
+        h4 {
+          font-size: 2.2rem;
+          margin-bottom: 15px;
+        }
+        p {
+          font-size: 1.02rem;
+          margin-top: 15px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 971px) and (max-width: 1280px) {
+  .about {
+    &__page-name {
+      h2 {
+        font-size: 2.77rem;
+      }
+      &__line {
+        width: 5.18rem;
+      }
+    }
+    &__me {
+      margin-top: 140px;
+      &__photo {
+        width: 30vw;
+      }
+      &__description {
+        width: 40%;
+        h4 {
+          font-size: 2.1rem;
+          margin-bottom: 30px;
+        }
+        p {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1600px) {
+  .about {
+    &__page-name {
+      h2 {
+        font-size: 2.66rem;
+      }
+      &__line {
+        width: 4.99rem;
+      }
+    }
+    &__me {
+      margin-top: 140px;
+      &__photo {
+        width: 27vw;
+      }
+      &__description {
+        width: 40%;
+        h4 {
+          font-size: 2rem;
+        }
+        p {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1601px) and (max-width: 1920px) {
+  .about {
+    &__page-name {
+      h2 {
+        font-size: 2.65rem;
+      }
+      &__line {
+        width: 4.97rem;
+      }
+    }
+    &__me {
+      &__photo {
+        width: 22.5vw;
+      }
+      &__description {
+        h4 {
+          font-size: 1.98rem;
+        }
+        p {
+          font-size: 1rem;
+        }
       }
     }
   }

@@ -11,6 +11,8 @@
   border-radius: 0.5rem;
   color: #f4fa1a;
   animation: bounce 2s ease-in-out infinite;
+  visibility: hidden;
+  z-index: -100;
 }
 
 .show-link {
@@ -27,5 +29,26 @@
   }
   100% {
     transform: scale(1);
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 150px) {
+  .top-link {
+    font-size: 1.7rem;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}
+@media screen and (min-width: 151px) and (max-width: 200px) {
+  .top-link {
+    font-size: 1.6rem;
+    width: 2.35rem;
+    height: 2.35rem;
+  }
+}
+@media screen and (min-width: 201px) and (max-width: 280px) {
+  .top-link {
+    font-size: 1.5rem;
+    width: 2.2rem;
+    height: 2.2rem;
   }
 }

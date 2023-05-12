@@ -1,5 +1,4 @@
 .footer {
-  //   background-color: #191919;
   background: linear-gradient(
     180deg,
     rgba(25, 25, 25, 1) 0%,
@@ -7,6 +6,7 @@
   );
   width: 100vw;
   height: 10vh;
+  min-height: 70px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,5 +15,21 @@
     span {
       color: #f4fa1a;
     }
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 150px) {
+  .footer {
+    height: 8vh;
+  }
+}
+@media screen and (min-width: 151px) and (max-width: 200px) {
+  .footer {
+    height: 8vh;
+  }
+}
+@media screen and (min-width: 201px) and (max-width: 280px) {
+  .footer {
+    height: 8vh;
   }
 }

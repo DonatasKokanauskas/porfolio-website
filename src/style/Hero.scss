@@ -1,7 +1,7 @@
 .hero {
   width: 100vw;
-  height: 80vh;
-  // border-bottom: 1px solid rgb(25, 25, 25);
+  height: 100vh;
+  min-height: 790px;
   position: relative;
   top: 0px;
   background-color: #191919;
@@ -14,30 +14,39 @@
   }
 
   &__content {
+    height: 75%;
+    max-height: 860px;
     position: absolute;
     bottom: 0;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 40px 0 95px;
+    padding: 0 2.1% 0 5%;
     z-index: 1;
     &__about-me {
+      position: absolute;
+      top: 0;
       color: #ffffff;
+      z-index: 1;
       h3 {
         font-size: 24px;
         font-weight: 400;
         line-height: 31.65px;
       }
       h1 {
-        font-size: 96px;
+        font-size: 90px;
         font-weight: 800;
-        line-height: 126.61px;
+        line-height: 126px;
       }
       h2 {
         font-size: 36px;
         font-weight: 400;
         line-height: 47.48px;
+      }
+      a:link {
+        color: #ffffff;
+        text-decoration: none;
+      }
+      a:visited {
+        color: #ffffff;
       }
       button {
         border: 1px solid #f4fa1a;
@@ -55,14 +64,20 @@
         justify-content: center;
         gap: 5px;
         cursor: pointer;
-        transition: background-color 0.35s;
+        transition: all 0.35s;
       }
       button:hover {
-        background-color: rgba(19, 19, 19, 1);
+        background-color: #f4fa1a;
+        color: #000000;
       }
     }
+
     &__my-photo {
+      position: absolute;
+      bottom: 0;
+      right: 40px;
       width: 500px;
+      border-radius: 20px;
     }
   }
 }
@@ -77,10 +92,379 @@
     rgba(23, 23, 23, 1) 0%,
     rgba(23, 23, 23, 0) 5%
   );
-  // background: linear-gradient(
-  //   0deg,
-  //   rgba(45, 45, 45, 0.29735644257703087) 0%,
-  //   rgba(45, 45, 45, 0.10688025210084029) 2%,
-  //   rgba(45, 45, 45, 0) 5%
-  // );
+}
+
+@media screen and (min-width: 0px) and (max-width: 150px) {
+  .hero__content {
+    height: 90%;
+    max-height: 720px;
+    .hero__content__about-me {
+      h3 {
+        font-size: 3rem;
+      }
+      h1 {
+        font-size: 3.8rem;
+        line-height: 52px;
+      }
+      h2 {
+        font-size: 3.6rem;
+      }
+      button {
+        font-size: 3rem;
+        width: 80vw;
+        height: 40px;
+        line-height: 15px;
+      }
+    }
+
+    &__my-photo {
+      width: 100vw;
+      max-width: 150px;
+      right: 0px;
+    }
+  }
+}
+@media screen and (min-width: 151px) and (max-width: 200px) {
+  .hero__content {
+    height: 90%;
+    max-height: 750px;
+    .hero__content__about-me {
+      h3 {
+        font-size: 2.5rem;
+      }
+      h1 {
+        font-size: 4rem;
+        line-height: 60px;
+      }
+      h2 {
+        font-size: 3.1rem;
+      }
+      button {
+        font-size: 2.5rem;
+        width: 70vw;
+        height: 40px;
+      }
+    }
+
+    &__my-photo {
+      width: 99vw;
+      max-width: 200px;
+      right: 0px;
+    }
+  }
+}
+@media screen and (min-width: 201px) and (max-width: 280px) {
+  .hero__content {
+    height: 90%;
+    max-height: 850px;
+    .hero__content__about-me {
+      h3 {
+        font-size: 2rem;
+      }
+      h1 {
+        font-size: 4.2rem;
+        line-height: 65px;
+      }
+      h2 {
+        font-size: 2.6rem;
+      }
+      button {
+        font-size: 2rem;
+        width: 60vw;
+        height: 45px;
+      }
+    }
+    &__my-photo {
+      width: 97vw;
+      max-width: 280px;
+      right: 5px;
+    }
+  }
+}
+@media screen and (min-width: 281px) and (max-width: 350px) {
+  .hero__content {
+    height: 90%;
+    max-height: 900px;
+    .hero__content__about-me {
+      h3 {
+        font-size: 1.8rem;
+      }
+      h1 {
+        font-size: 4.5rem;
+        line-height: 75px;
+      }
+      h2 {
+        font-size: 2.4rem;
+      }
+      button {
+        font-size: 1.8rem;
+        width: 51vw;
+        height: 45px;
+      }
+    }
+
+    &__my-photo {
+      width: 95vw;
+      max-width: 340px;
+      right: 10px;
+    }
+  }
+}
+@media screen and (min-width: 351px) and (max-width: 400px) {
+  .hero__content {
+    height: 90%;
+    max-height: 900px;
+    .hero__content__about-me {
+      h3 {
+        font-size: 1.63rem;
+      }
+      h1 {
+        font-size: 4.5rem;
+        line-height: 80px;
+      }
+      h2 {
+        font-size: 2.26rem;
+      }
+      button {
+        font-size: 1.63rem;
+        width: 45vw;
+        height: 48px;
+      }
+    }
+
+    &__my-photo {
+      width: 82vw;
+      max-width: 340px;
+      right: 20px;
+    }
+  }
+}
+@media screen and (min-width: 401px) and (max-width: 470px) {
+  .hero__content {
+    height: 90%;
+    max-height: 920px;
+    .hero__content__about-me {
+      h3 {
+        font-size: 1.6rem;
+      }
+      h1 {
+        font-size: 4.5rem;
+        line-height: 80px;
+      }
+      h2 {
+        font-size: 2.23rem;
+      }
+      button {
+        font-size: 1.6rem;
+        width: 41vw;
+        height: 48px;
+      }
+    }
+
+    &__my-photo {
+      width: 73vw;
+      max-width: 400px;
+      right: 20px;
+    }
+  }
+}
+
+@media screen and (min-width: 471px) and (max-width: 550px) {
+  .hero__content {
+    height: 88%;
+    max-height: 880px;
+    .hero__content__about-me {
+      h3 {
+        font-size: 1.57rem;
+      }
+      h1 {
+        font-size: 4.5rem;
+        line-height: 85px;
+      }
+      h2 {
+        font-size: 2.2rem;
+      }
+      button {
+        font-size: 1.57rem;
+        width: 37vw;
+        height: 50px;
+      }
+    }
+
+    &__my-photo {
+      width: 60vw;
+      max-width: 370px;
+      right: 20px;
+    }
+  }
+}
+
+@media screen and (min-width: 551px) and (max-width: 600px) {
+  .hero__content {
+    height: 85%;
+    max-height: 830px;
+    .hero__content__about-me {
+      h3 {
+        font-size: 1.52rem;
+      }
+      h1 {
+        font-size: 4.5rem;
+        line-height: 90px;
+      }
+      h2 {
+        font-size: 2.16rem;
+      }
+      button {
+        font-size: 1.52rem;
+        width: 35vw;
+        height: 50px;
+      }
+    }
+
+    &__my-photo {
+      width: 55vw;
+      max-width: 370px;
+      right: 20px;
+    }
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 740px) {
+  .hero__content {
+    height: 85%;
+    max-height: 800px;
+    .hero__content__about-me {
+      h3 {
+        font-size: 1.5rem;
+      }
+      h1 {
+        font-size: 4.5rem;
+        line-height: 95px;
+      }
+      h2 {
+        font-size: 2.14rem;
+      }
+      button {
+        font-size: 1.5rem;
+        width: 30vw;
+        height: 50px;
+      }
+    }
+
+    &__my-photo {
+      width: 48vw;
+      max-width: 380px;
+    }
+  }
+}
+
+@media screen and (min-width: 741px) and (max-width: 970px) {
+  .hero__content {
+    height: 80%;
+    max-height: 840px;
+
+    .hero__content__about-me {
+      h3 {
+        font-size: 1.45rem;
+      }
+      h1 {
+        font-size: 4.5rem;
+        line-height: 105px;
+      }
+      h2 {
+        font-size: 2.09rem;
+      }
+      button {
+        font-size: 1.45rem;
+        width: 23vw;
+        height: 52px;
+      }
+    }
+
+    &__my-photo {
+      width: 43vw;
+      max-width: 400px;
+    }
+  }
+}
+
+@media screen and (min-width: 971px) and (max-width: 1280px) {
+  .hero__content {
+    height: 80%;
+    max-height: 840px;
+    .hero__content__about-me {
+      h3 {
+        font-size: 1.42rem;
+      }
+      h1 {
+        font-size: 4.5rem;
+      }
+      h2 {
+        font-size: 2.06rem;
+      }
+      button {
+        font-size: 1.42rem;
+        width: 21.4vw;
+        height: 60px;
+      }
+    }
+    &__my-photo {
+      width: 40vw;
+      max-width: 420px;
+    }
+  }
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1600px) {
+  .hero__content {
+    height: 80%;
+    max-height: 840px;
+    .hero__content__about-me {
+      h3 {
+        font-size: 1.4rem;
+      }
+      h1 {
+        font-size: 4.5rem;
+      }
+      h2 {
+        font-size: 2.03rem;
+      }
+      button {
+        font-size: 1.4rem;
+        width: 17.188vw;
+        height: 66px;
+      }
+    }
+    &__my-photo {
+      width: 32vw;
+      max-width: 480px;
+    }
+  }
+}
+
+@media screen and (min-width: 1601px) and (max-width: 1920px) {
+  .hero__content {
+    height: 80%;
+    max-height: 790px;
+    .hero__content__about-me {
+      h3 {
+        font-size: 1.38rem;
+      }
+      h1 {
+        font-size: 4.5rem;
+      }
+      h2 {
+        font-size: 1.99rem;
+      }
+      button {
+        font-size: 1.38rem;
+        width: 14.323vw;
+        height: 66px;
+      }
+    }
+    &__my-photo {
+      width: 27vw;
+      max-width: 500px;
+    }
+  }
 }

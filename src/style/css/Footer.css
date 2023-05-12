@@ -2,6 +2,7 @@
   background: linear-gradient(180deg, rgb(25, 25, 25) 0%, rgb(34, 34, 34) 100%);
   width: 100vw;
   height: 10vh;
+  min-height: 70px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11,4 +12,20 @@
 }
 .footer h3 span {
   color: #f4fa1a;
+}
+
+@media screen and (min-width: 0px) and (max-width: 150px) {
+  .footer {
+    height: 8vh;
+  }
+}
+@media screen and (min-width: 151px) and (max-width: 200px) {
+  .footer {
+    height: 8vh;
+  }
+}
+@media screen and (min-width: 201px) and (max-width: 280px) {
+  .footer {
+    height: 8vh;
+  }
 }

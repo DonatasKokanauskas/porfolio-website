@@ -1,10 +1,10 @@
 .skills {
   background-color: #191919;
   width: 100vw;
-  height: 80vh;
-  padding: 53px 95px;
+  height: 100vh;
+  min-height: 860px;
+  padding: 4% 5%;
   position: relative;
-  // border-top: 1px solid rgb(25, 25, 25);
 
   &__page-name {
     display: flex;
@@ -16,6 +16,7 @@
         font-weight: 700;
         font-size: 48px;
         line-height: 63px;
+        white-space: nowrap;
       }
       .skills__page-name__line {
         position: absolute;
@@ -31,19 +32,21 @@
   &__content {
     display: flex;
     justify-content: space-between;
-    margin-top: 66px;
+    align-items: center;
+    margin-top: 220px;
     &__first-div {
-      width: 604px;
+      width: 35%;
       h4 {
         font-weight: 500;
         font-size: 30px;
         line-height: 40px;
+        margin-bottom: 40px;
         span {
           color: #f4fa1a;
         }
       }
       p {
-        margin-top: 40px;
+        margin-top: 10px;
         font-weight: 500;
         font-size: 18px;
         line-height: 32px;
@@ -73,10 +76,489 @@
     rgba(23, 23, 23, 1) 0%,
     rgba(23, 23, 23, 0) 5%
   );
-  // background: linear-gradient(
-  //   180deg,
-  //   rgba(45, 45, 45, 0.29735644257703087) 0%,
-  //   rgba(45, 45, 45, 0.10688025210084029) 2%,
-  //   rgba(45, 45, 45, 0) 5%
-  // );
+}
+
+@media screen and (min-width: 0px) and (max-width: 150px) {
+  .skills {
+    &__page-name {
+      h2 {
+        font-size: 4.8rem;
+        line-height: 48px;
+      }
+      &__line {
+        width: 7.6rem !important;
+        margin-top: 0;
+      }
+    }
+    &__content {
+      margin-top: 50px;
+      &__first-div {
+        width: 100%;
+        h4 {
+          font-size: 3.4rem;
+          line-height: 30px;
+          margin-bottom: 20px;
+        }
+        p {
+          font-size: 1.5rem;
+          line-height: 15px;
+        }
+      }
+      &__second-div {
+        position: absolute;
+        right: 5%;
+        bottom: 7%;
+        p {
+          font-size: 1.5rem;
+        }
+        &__line {
+          width: 40vw;
+          margin: 6px 0;
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 151px) and (max-width: 200px) {
+  .skills {
+    &__page-name {
+      h2 {
+        font-size: 4.2rem;
+        line-height: 48px;
+      }
+      &__line {
+        width: 6.8rem !important;
+        margin-top: 0;
+      }
+    }
+    &__content {
+      margin-top: 70px;
+      &__first-div {
+        width: 100%;
+        h4 {
+          font-size: 3rem;
+          line-height: 30px;
+        }
+        p {
+          font-size: 1.4rem;
+          line-height: 17px;
+        }
+      }
+      &__second-div {
+        position: absolute;
+        right: 5%;
+        bottom: 7%;
+        p {
+          font-size: 1.4rem;
+        }
+        &__line {
+          width: 40vw;
+          margin: 6px 0;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 201px) and (max-width: 280px) {
+  .skills {
+    &__page-name {
+      h2 {
+        font-size: 3.8rem;
+        line-height: 55px;
+      }
+      &__line {
+        width: 6.4rem !important;
+        margin-top: 0px !important;
+      }
+    }
+    &__content {
+      margin-top: 70px;
+      &__first-div {
+        width: 100%;
+        h4 {
+          font-size: 2.8rem;
+          line-height: 35px;
+        }
+        p {
+          font-size: 1.3rem;
+          line-height: 19px;
+        }
+      }
+      &__second-div {
+        position: absolute;
+        right: 5%;
+        bottom: 7%;
+        p {
+          font-size: 1.3rem;
+        }
+        &__line {
+          width: 40vw;
+          margin: 6px 0;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 281px) and (max-width: 350px) {
+  .skills {
+    &__page-name {
+      h2 {
+        font-size: 3.7rem;
+      }
+      &__line {
+        width: 6.3rem !important;
+      }
+    }
+    &__content {
+      margin-top: 75px;
+      &__first-div {
+        width: 100%;
+        h4 {
+          font-size: 2.7rem;
+        }
+        p {
+          font-size: 1.2rem;
+          line-height: 22px;
+        }
+      }
+      &__second-div {
+        position: absolute;
+        right: 5%;
+        bottom: 7%;
+        p {
+          font-size: 1.2rem;
+        }
+        &__line {
+          width: 40vw;
+          margin: 6px 0;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 351px) and (max-width: 400px) {
+  .skills {
+    &__page-name {
+      h2 {
+        font-size: 3.6rem;
+      }
+      &__line {
+        width: 6.2rem !important;
+      }
+    }
+    &__content {
+      margin-top: 75px;
+      &__first-div {
+        width: 100%;
+        h4 {
+          font-size: 2.6rem;
+        }
+        p {
+          font-size: 1.2rem;
+          line-height: 23px;
+        }
+      }
+      &__second-div {
+        position: absolute;
+        right: 5%;
+        bottom: 7%;
+        p {
+          font-size: 1.2rem;
+        }
+        &__line {
+          width: 40vw;
+          margin: 6px 0;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 470px) {
+  .skills {
+    &__page-name {
+      h2 {
+        font-size: 3.5rem;
+      }
+      &__line {
+        width: 6.1rem !important;
+      }
+    }
+    &__content {
+      margin-top: 75px;
+      &__first-div {
+        width: 100%;
+        h4 {
+          font-size: 2.6rem;
+        }
+        p {
+          font-size: 1.2rem;
+          line-height: 24px;
+        }
+      }
+      &__second-div {
+        position: absolute;
+        right: 5%;
+        bottom: 7%;
+        p {
+          font-size: 1.2rem;
+        }
+        &__line {
+          width: 40vw;
+          margin: 10px 0;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 471px) and (max-width: 550px) {
+  .skills {
+    &__page-name {
+      h2 {
+        font-size: 3.4rem;
+      }
+      &__line {
+        width: 6rem !important;
+      }
+    }
+    &__content {
+      margin-top: 90px;
+      &__first-div {
+        width: 100%;
+        h4 {
+          font-size: 2.5rem;
+        }
+        p {
+          font-size: 1.1rem;
+          line-height: 26px;
+        }
+      }
+      &__second-div {
+        position: absolute;
+        right: 5%;
+        bottom: 7%;
+        p {
+          font-size: 1.1rem;
+        }
+        &__line {
+          width: 40vw;
+          margin: 10px 0;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 551px) and (max-width: 600px) {
+  .skills {
+    &__page-name {
+      h2 {
+        font-size: 3.3rem;
+      }
+      &__line {
+        width: 5.9rem !important;
+      }
+    }
+    &__content {
+      margin-top: 90px;
+      &__first-div {
+        width: 100%;
+        h4 {
+          font-size: 2.4rem;
+        }
+        p {
+          font-size: 1.1rem;
+          line-height: 26px;
+        }
+      }
+      &__second-div {
+        position: absolute;
+        right: 5%;
+        bottom: 7%;
+        p {
+          font-size: 1.1rem;
+        }
+        &__line {
+          width: 40vw;
+          margin: 10px 0;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 740px) {
+  .skills {
+    &__page-name {
+      h2 {
+        font-size: 3.2rem;
+      }
+      &__line {
+        width: 5.7rem !important;
+      }
+    }
+    &__content {
+      margin-top: 90px;
+      &__first-div {
+        width: 100%;
+        h4 {
+          font-size: 2.3rem;
+        }
+        p {
+          font-size: 1.1rem;
+          line-height: 28px;
+        }
+      }
+      &__second-div {
+        position: absolute;
+        right: 5%;
+        bottom: 8%;
+        p {
+          font-size: 1.1rem;
+        }
+        &__line {
+          width: 40vw;
+          margin: 10px 0;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 741px) and (max-width: 970px) {
+  .skills {
+    &__page-name {
+      h2 {
+        font-size: 2.9rem;
+      }
+      &__line {
+        width: 5.3rem !important;
+      }
+    }
+    &__content {
+      margin-top: 90px;
+      &__first-div {
+        width: 100%;
+        h4 {
+          font-size: 2.2rem;
+        }
+        p {
+          font-size: 1.1rem;
+        }
+      }
+      &__second-div {
+        position: absolute;
+        right: 5%;
+        bottom: 8%;
+        p {
+          font-size: 1.1rem;
+        }
+        &__line {
+          width: 38.5vw;
+          margin: 10px 0;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 971px) and (max-width: 1280px) {
+  .skills {
+    &__page-name {
+      h2 {
+        font-size: 2.77rem;
+      }
+      &__line {
+        width: 5.18rem !important;
+      }
+    }
+    &__content {
+      margin-top: 110px;
+      &__first-div {
+        width: 50%;
+        h4 {
+          font-size: 2.1rem;
+        }
+        p {
+          font-size: 1rem;
+        }
+      }
+      &__second-div {
+        position: absolute;
+        right: 5%;
+        bottom: 8%;
+        p {
+          font-size: 1rem;
+        }
+        &__line {
+          width: 38.5vw;
+          margin: 10px 0;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1600px) {
+  .skills {
+    &__page-name {
+      h2 {
+        font-size: 2.66rem;
+      }
+      &__line {
+        width: 4.99rem !important;
+      }
+    }
+    &__content {
+      &__first-div {
+        width: 40%;
+        h4 {
+          font-size: 2rem;
+        }
+        p {
+          font-size: 1rem;
+        }
+      }
+      &__second-div {
+        p {
+          font-size: 1rem;
+        }
+        &__line {
+          width: 35vw;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1601px) and (max-width: 1920px) {
+  .skills {
+    &__page-name {
+      h2 {
+        font-size: 2.65rem;
+      }
+      &__line {
+        width: 4.97rem !important;
+      }
+    }
+    &__content {
+      &__first-div {
+        h4 {
+          font-size: 1.98rem;
+        }
+        p {
+          font-size: 1rem;
+        }
+      }
+      &__second-div {
+        p {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
 }

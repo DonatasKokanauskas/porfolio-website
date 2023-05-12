@@ -1,8 +1,9 @@
 .about {
   background-color: #191919;
   width: 100vw;
-  height: 80vh;
-  padding: 53px 95px;
+  height: 100vh;
+  min-height: 900px;
+  padding: 4% 5%;
 }
 .about__page-name h2 {
   font-weight: 700;
@@ -17,21 +18,22 @@
   background-color: #f4fa1a;
 }
 .about__me {
-  margin-top: 66px;
+  margin-top: 120px;
   display: flex;
   justify-content: space-between;
 }
 .about__me__photo {
-  width: 479px;
-  height: 398px;
+  width: 430px;
   border: 5px solid #f4fa1a;
   border-radius: 20px;
   margin-top: 100px;
 }
 .about__me__photo img {
+  width: 100%;
   position: relative;
-  left: -10px;
-  top: -90px;
+  left: 35px;
+  top: -35px;
+  border-radius: 20px;
 }
 .about__me__description {
   width: 675px;
@@ -45,12 +47,392 @@
   margin-bottom: 40px;
 }
 .about__me__description p {
+  font-size: 18px;
   margin-top: 20px;
   font-weight: 400;
-  font-size: 18px;
   line-height: 150.38%;
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+@media screen and (min-width: 0px) and (max-width: 150px) {
+  .about__page-name h2 {
+    font-size: 4.8rem;
+    line-height: 48px;
+  }
+  .about__page-name__line {
+    width: 7.6rem;
+    margin-top: 0;
+  }
+  .about__me {
+    margin-top: 80px;
+    display: block;
+  }
+  .about__me__photo {
+    margin-top: 80px;
+    width: 85.7vw;
+  }
+  .about__me__photo img {
+    left: 10px;
+    top: -10px;
+  }
+  .about__me__description {
+    margin: 60px auto;
+    width: 100%;
+  }
+  .about__me__description h4 {
+    font-size: 3.4rem;
+    margin-bottom: 10px;
+  }
+  .about__me__description p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    line-height: 135%;
+  }
+}
+@media screen and (min-width: 151px) and (max-width: 200px) {
+  .about__page-name h2 {
+    font-size: 4.2rem;
+    line-height: 48px;
+  }
+  .about__page-name__line {
+    width: 6.8rem;
+    margin-top: 0;
+  }
+  .about__me {
+    margin-top: 80px;
+    display: block;
+  }
+  .about__me__photo {
+    margin-top: 80px;
+    width: 85.7vw;
+  }
+  .about__me__photo img {
+    left: 15px;
+    top: -15px;
+  }
+  .about__me__description {
+    margin: 60px auto;
+    width: 100%;
+  }
+  .about__me__description h4 {
+    font-size: 3rem;
+    margin-bottom: 12px;
+  }
+  .about__me__description p {
+    font-size: 1.4rem;
+    margin-top: 12px;
+    line-height: 135%;
+  }
+}
+@media screen and (min-width: 201px) and (max-width: 280px) {
+  .about__page-name h2 {
+    font-size: 3.8rem;
+    line-height: 55px;
+  }
+  .about__page-name__line {
+    width: 6.4rem;
+    margin-top: 0px;
+  }
+  .about__me {
+    margin-top: 80px;
+    display: block;
+  }
+  .about__me__photo {
+    margin-top: 80px;
+    width: 81vw;
+  }
+  .about__me__photo img {
+    left: 20px;
+    top: -20px;
+  }
+  .about__me__description {
+    margin: 70px auto;
+    width: 100%;
+  }
+  .about__me__description h4 {
+    font-size: 2.8rem;
+    margin-bottom: 15px;
+  }
+  .about__me__description p {
+    font-size: 1.3rem;
+    margin-top: 15px;
+    line-height: 135%;
+  }
+}
+@media screen and (min-width: 281px) and (max-width: 350px) {
+  .about__page-name h2 {
+    font-size: 3.7rem;
+  }
+  .about__page-name__line {
+    width: 6.3rem;
+  }
+  .about__me {
+    margin-top: 80px;
+    display: block;
+  }
+  .about__me__photo {
+    margin-top: 80px;
+    width: 72vw;
+  }
+  .about__me__photo img {
+    left: 25px;
+    top: -25px;
+  }
+  .about__me__description {
+    margin: 70px auto;
+    width: 100%;
+  }
+  .about__me__description h4 {
+    font-size: 2.7rem;
+    margin-bottom: 15px;
+  }
+  .about__me__description p {
+    font-size: 1.2rem;
+    margin-top: 15px;
+    line-height: 135%;
+  }
+}
+@media screen and (min-width: 351px) and (max-width: 400px) {
+  .about__page-name h2 {
+    font-size: 3.6rem;
+  }
+  .about__page-name__line {
+    width: 6.2rem;
+  }
+  .about__me {
+    margin-top: 80px;
+    display: block;
+  }
+  .about__me__photo {
+    margin-top: 80px;
+    width: 65vw;
+  }
+  .about__me__photo img {
+    left: 30px;
+    top: -30px;
+  }
+  .about__me__description {
+    margin: 70px auto;
+    width: 100%;
+  }
+  .about__me__description h4 {
+    font-size: 2.6rem;
+    margin-bottom: 15px;
+  }
+  .about__me__description p {
+    font-size: 1.2rem;
+    margin-top: 15px;
+    line-height: 135%;
+  }
+}
+@media screen and (min-width: 401px) and (max-width: 470px) {
+  .about__page-name h2 {
+    font-size: 3.5rem;
+  }
+  .about__page-name__line {
+    width: 6.1rem;
+  }
+  .about__me {
+    margin-top: 80px;
+    display: block;
+  }
+  .about__me__photo {
+    margin-top: 80px;
+    width: 58vw;
+  }
+  .about__me__description {
+    margin: 70px auto;
+    width: 95%;
+  }
+  .about__me__description h4 {
+    font-size: 2.6rem;
+    margin-bottom: 15px;
+  }
+  .about__me__description p {
+    font-size: 1.2rem;
+    margin-top: 15px;
+    line-height: 140%;
+  }
+}
+@media screen and (min-width: 471px) and (max-width: 550px) {
+  .about__page-name h2 {
+    font-size: 3.4rem;
+  }
+  .about__page-name__line {
+    width: 6rem;
+  }
+  .about__me {
+    margin-top: 80px;
+    display: block;
+  }
+  .about__me__photo {
+    width: 55vw;
+    margin-top: 80px;
+  }
+  .about__me__description {
+    margin: 80px auto;
+    width: 90%;
+  }
+  .about__me__description h4 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+  .about__me__description p {
+    font-size: 1.1rem;
+    margin-top: 15px;
+    line-height: 140%;
+  }
+}
+@media screen and (min-width: 551px) and (max-width: 600px) {
+  .about__page-name h2 {
+    font-size: 3.3rem;
+  }
+  .about__page-name__line {
+    width: 5.9rem;
+  }
+  .about__me {
+    margin-top: 80px;
+    display: block;
+  }
+  .about__me__photo {
+    margin-top: 80px;
+    width: 50vw;
+  }
+  .about__me__description {
+    margin: 80px auto;
+    width: 90%;
+  }
+  .about__me__description h4 {
+    font-size: 2.4rem;
+    margin-bottom: 15px;
+  }
+  .about__me__description p {
+    font-size: 1.1rem;
+    margin-top: 15px;
+    line-height: 140%;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 740px) {
+  .about__page-name h2 {
+    font-size: 3.2rem;
+  }
+  .about__page-name__line {
+    width: 5.7rem;
+  }
+  .about__me {
+    margin-top: 80px;
+    display: block;
+  }
+  .about__me__photo {
+    margin-top: 80px;
+    width: 40vw;
+  }
+  .about__me__description {
+    margin: 80px auto;
+    width: 90%;
+  }
+  .about__me__description h4 {
+    font-size: 2.3rem;
+    margin-bottom: 15px;
+  }
+  .about__me__description p {
+    font-size: 1.1rem;
+    margin-top: 15px;
+    line-height: 140%;
+  }
+}
+@media screen and (min-width: 741px) and (max-width: 970px) {
+  .about__page-name h2 {
+    font-size: 2.9rem;
+  }
+  .about__page-name__line {
+    width: 5.3rem;
+  }
+  .about__me {
+    display: block;
+    margin-top: 80px;
+  }
+  .about__me__photo {
+    width: 34vw;
+    margin-top: 80px;
+  }
+  .about__me__description {
+    margin: 80px auto;
+    width: 80%;
+  }
+  .about__me__description h4 {
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+  }
+  .about__me__description p {
+    font-size: 1.02rem;
+    margin-top: 15px;
+  }
+}
+@media screen and (min-width: 971px) and (max-width: 1280px) {
+  .about__page-name h2 {
+    font-size: 2.77rem;
+  }
+  .about__page-name__line {
+    width: 5.18rem;
+  }
+  .about__me {
+    margin-top: 140px;
+  }
+  .about__me__photo {
+    width: 30vw;
+  }
+  .about__me__description {
+    width: 40%;
+  }
+  .about__me__description h4 {
+    font-size: 2.1rem;
+    margin-bottom: 30px;
+  }
+  .about__me__description p {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 1281px) and (max-width: 1600px) {
+  .about__page-name h2 {
+    font-size: 2.66rem;
+  }
+  .about__page-name__line {
+    width: 4.99rem;
+  }
+  .about__me {
+    margin-top: 140px;
+  }
+  .about__me__photo {
+    width: 27vw;
+  }
+  .about__me__description {
+    width: 40%;
+  }
+  .about__me__description h4 {
+    font-size: 2rem;
+  }
+  .about__me__description p {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 1601px) and (max-width: 1920px) {
+  .about__page-name h2 {
+    font-size: 2.65rem;
+  }
+  .about__page-name__line {
+    width: 4.97rem;
+  }
+  .about__me__photo {
+    width: 22.5vw;
+  }
+  .about__me__description h4 {
+    font-size: 1.98rem;
+  }
+  .about__me__description p {
+    font-size: 1rem;
+  }
 }
