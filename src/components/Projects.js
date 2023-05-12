@@ -54,7 +54,7 @@ const Projects = () => {
                 </div>
 
                 <div className="buttons-div">
-                  <a href="https://donatas-k.lt/netflix-clone">
+                  <a href="https://netflix.donatas-k.lt">
                     <button> Visit</button>
                   </a>
 
