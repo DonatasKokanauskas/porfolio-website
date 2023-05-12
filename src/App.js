@@ -37,7 +37,7 @@ function App() {
     const element = document.querySelector(`.${id}`);
 
     let position =
-      e.currentTarget !== "hero"
+      e.currentTarget !== "home"
         ? element.offsetTop - navHeight / 2
         : element.offsetTop;
 
