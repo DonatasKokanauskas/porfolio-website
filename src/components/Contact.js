@@ -41,15 +41,15 @@ const Contact = () => {
           <span>
             <AiFillLinkedin />{" "}
           </span>{" "}
-          my linkedin
+          <a href="https://www.linkedin.com/in/donatas-kokanauskas-9b5b06275/">
+            LinkedIn
+          </a>
         </h3>
         <h3>
           <span>
             <AiFillGithub />{" "}
           </span>{" "}
-          <a href="https://github.com/DonatasKokanauskas">
-            github.com/DonatasKokanauskas
-          </a>
+          <a href="https://github.com/DonatasKokanauskas">GitHub</a>
         </h3>
         <h3>
           <span>

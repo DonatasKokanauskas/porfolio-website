@@ -63,7 +63,7 @@
 }
 .projects__content__first-div .projects__content__first-div__first-project__hovered p {
   margin: 20px 0;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 .projects__content__first-div .projects__content__first-div__first-project__hovered .spans-div {
   display: flex;
@@ -165,7 +165,7 @@
   .projects__content {
     flex-direction: column;
     width: 100%;
-    height: 90vh;
+    height: 85%;
   }
   .projects__content__first-div {
     width: 100%;
@@ -206,15 +206,15 @@
     margin-top: 33px;
   }
   .projects__content__first-div__first-project__hovered {
-    padding: 7px 20px !important;
+    padding: 0px 10px !important;
   }
   .projects__content__first-div__first-project__hovered h3 {
     font-size: 1.4rem;
   }
   .projects__content__first-div__first-project__hovered p {
-    font-size: 1.2rem !important;
+    font-size: 1.1rem !important;
     margin: 1px 0 !important;
-    line-height: 10px;
+    line-height: 9px;
   }
   .projects__content__first-div__first-project__hovered .spans-div {
     gap: 3px !important;
@@ -229,7 +229,7 @@
   }
   .projects__content__first-div__first-project__hovered .buttons-div button {
     font-size: 1.2rem !important;
-    padding: 2px 8px !important;
+    padding: 1px 8px !important;
   }
 }
 @media screen and (min-width: 151px) and (max-width: 200px) {
@@ -244,7 +244,7 @@
   .projects__content {
     flex-direction: column;
     width: 100%;
-    height: 90vh;
+    height: 85%;
   }
   .projects__content__first-div {
     width: 100%;
@@ -285,13 +285,13 @@
     margin-top: 33px;
   }
   .projects__content__first-div__first-project__hovered {
-    padding: 7px 20px !important;
+    padding: 0px 10px !important;
   }
   .projects__content__first-div__first-project__hovered h3 {
     font-size: 1.4rem;
   }
   .projects__content__first-div__first-project__hovered p {
-    font-size: 1.2rem !important;
+    font-size: 1rem !important;
     margin: 2px 0 !important;
     line-height: 11px;
   }
@@ -308,7 +308,7 @@
   }
   .projects__content__first-div__first-project__hovered .buttons-div button {
     font-size: 1.2rem !important;
-    padding: 2px 8px !important;
+    padding: 1px 8px !important;
   }
 }
 @media screen and (min-width: 201px) and (max-width: 280px) {
@@ -323,7 +323,7 @@
   .projects__content {
     flex-direction: column;
     width: 100%;
-    height: 90vh;
+    height: 85%;
   }
   .projects__content__first-div {
     width: 100%;
@@ -364,13 +364,13 @@
     margin-top: 33px;
   }
   .projects__content__first-div__first-project__hovered {
-    padding: 0px 20px !important;
+    padding: 0px 10px !important;
   }
   .projects__content__first-div__first-project__hovered h3 {
     font-size: 1.3rem;
   }
   .projects__content__first-div__first-project__hovered p {
-    font-size: 1.1rem !important;
+    font-size: 0.9rem !important;
     margin: 4px 0 !important;
   }
   .projects__content__first-div__first-project__hovered .spans-div {
@@ -386,7 +386,7 @@
   }
   .projects__content__first-div__first-project__hovered .buttons-div button {
     font-size: 1.1rem !important;
-    padding: 2px 8px !important;
+    padding: 1px 8px !important;
   }
 }
 @media screen and (min-width: 281px) and (max-width: 350px) {
@@ -399,7 +399,7 @@
   .projects__content {
     flex-direction: column;
     width: 100%;
-    height: 90vh;
+    height: 85%;
   }
   .projects__content__first-div {
     width: 100%;
@@ -440,13 +440,13 @@
     margin-top: 33px;
   }
   .projects__content__first-div__first-project__hovered {
-    padding: 7px 20px !important;
+    padding: 0px 10px !important;
   }
   .projects__content__first-div__first-project__hovered h3 {
     font-size: 1.3rem;
   }
   .projects__content__first-div__first-project__hovered p {
-    font-size: 1.1rem !important;
+    font-size: 0.9rem !important;
     margin: 3px 0 !important;
   }
   .projects__content__first-div__first-project__hovered .spans-div span {
@@ -459,7 +459,7 @@
   }
   .projects__content__first-div__first-project__hovered .buttons-div button {
     font-size: 1.1rem !important;
-    padding: 2px 7px !important;
+    padding: 1px 7px !important;
   }
 }
 @media screen and (min-width: 351px) and (max-width: 400px) {
@@ -472,7 +472,7 @@
   .projects__content {
     flex-direction: column;
     width: 100%;
-    height: 90vh;
+    height: 85%;
   }
   .projects__content__first-div {
     width: 100%;
@@ -513,14 +513,14 @@
     margin-top: 33px;
   }
   .projects__content__first-div__first-project__hovered {
-    padding: 0px 20px !important;
+    padding: 0px 10px !important;
   }
   .projects__content__first-div__first-project__hovered h3 {
     font-size: 1.2rem;
   }
   .projects__content__first-div__first-project__hovered p {
-    font-size: 1rem !important;
-    margin: 4px 0 !important;
+    font-size: 0.9rem !important;
+    margin: 3px 0 !important;
   }
   .projects__content__first-div__first-project__hovered .spans-div span {
     padding: 1px 7px !important;
@@ -545,7 +545,7 @@
   .projects__content {
     flex-direction: column;
     width: 100%;
-    height: 90vh;
+    height: 85%;
   }
   .projects__content__first-div {
     width: 100%;
@@ -583,14 +583,14 @@
     height: 50%;
   }
   .projects__content__first-div__first-project__hovered {
-    padding: 7px 20px !important;
+    padding: 0px 15px !important;
   }
   .projects__content__first-div__first-project__hovered h3 {
     font-size: 1.2rem;
   }
   .projects__content__first-div__first-project__hovered p {
-    font-size: 1rem !important;
-    margin: 4px 0 !important;
+    font-size: 0.85rem !important;
+    margin: 3px 0 !important;
   }
   .projects__content__first-div__first-project__hovered .spans-div span {
     padding: 2px 7px !important;
@@ -602,7 +602,7 @@
   }
   .projects__content__first-div__first-project__hovered .buttons-div button {
     font-size: 1rem !important;
-    padding: 3px 10px !important;
+    padding: 2px 10px !important;
   }
 }
 @media screen and (min-width: 471px) and (max-width: 550px) {
@@ -615,7 +615,7 @@
   .projects__content {
     flex-direction: column;
     width: 100%;
-    height: 90vh;
+    height: 85%;
   }
   .projects__content__first-div {
     width: 100%;
@@ -653,13 +653,13 @@
     height: 50%;
   }
   .projects__content__first-div__first-project__hovered {
-    padding: 0px 20px !important;
+    padding: 0px 15px !important;
   }
   .projects__content__first-div__first-project__hovered h3 {
     font-size: 1.2rem;
   }
   .projects__content__first-div__first-project__hovered p {
-    font-size: 1rem !important;
+    font-size: 0.85rem !important;
     margin: 4px 0 !important;
   }
   .projects__content__first-div__first-project__hovered .spans-div span {
@@ -672,7 +672,7 @@
   }
   .projects__content__first-div__first-project__hovered .buttons-div button {
     font-size: 1rem !important;
-    padding: 3px 10px !important;
+    padding: 2px 10px !important;
   }
 }
 @media screen and (min-width: 551px) and (max-width: 600px) {
@@ -685,7 +685,7 @@
   .projects__content {
     flex-direction: column;
     width: 100%;
-    height: 90vh;
+    height: 85%;
   }
   .projects__content__first-div {
     width: 100%;
@@ -723,13 +723,12 @@
     height: 50%;
   }
   .projects__content__first-div__first-project__hovered {
-    padding: 5px 20px !important;
+    padding: 5px 15px !important;
   }
   .projects__content__first-div__first-project__hovered h3 {
     font-size: 1.2rem;
   }
   .projects__content__first-div__first-project__hovered p {
-    font-size: 1rem !important;
     margin: 4px 0 !important;
   }
   .projects__content__first-div__first-project__hovered .spans-div span {
@@ -766,9 +765,6 @@
   }
   .projects__content__first-div__first-project__hovered h3 {
     font-size: 1.2rem;
-  }
-  .projects__content__first-div__first-project__hovered p {
-    font-size: 1.1rem !important;
   }
   .projects__content__first-div__first-project__hovered .spans-div span {
     padding: 2px 7px !important;
@@ -810,9 +806,6 @@
   .projects__content__first-div__first-project__hovered h3 {
     font-size: 1.2rem;
   }
-  .projects__content__first-div__first-project__hovered p {
-    font-size: 1.05rem !important;
-  }
   .projects__content__first-div__first-project__hovered .spans-div span {
     font-size: 0.9rem !important;
     padding: 2px 7px !important;
@@ -844,9 +837,6 @@
   .projects__content__first-div__first-project__hovered h3 {
     font-size: 1.25rem;
   }
-  .projects__content__first-div__first-project__hovered p {
-    font-size: 0.9rem !important;
-  }
   .projects__content__first-div__first-project__hovered .spans-div span {
     font-size: 0.8rem !important;
     padding: 2px 7px !important;
@@ -868,9 +858,6 @@
   }
   .projects__content__first-div__first-project__hovered h3 {
     font-size: 1.25rem;
-  }
-  .projects__content__first-div__first-project__hovered p {
-    font-size: 0.9rem !important;
   }
   .projects__content__first-div__first-project__hovered .spans-div span {
     font-size: 0.8rem !important;

@@ -12,7 +12,7 @@
   &__content {
     flex-direction: column;
     width: 100%;
-    height: 90vh;
+    height: 85%;
     &__first-div {
       width: 100%;
       height: 35%;
@@ -118,7 +118,7 @@
 
         p {
           margin: 20px 0;
-          font-size: 0.8rem;
+          font-size: 0.9rem;
         }
         .spans-div {
           display: flex;
@@ -220,14 +220,14 @@
     &__content {
       margin-top: 33px;
       &__first-div__first-project__hovered {
-        padding: 7px 20px !important;
+        padding: 0px 10px !important;
         h3 {
           font-size: 1.4rem;
         }
         p {
-          font-size: 1.2rem !important;
+          font-size: 1.1rem !important;
           margin: 1px 0 !important;
-          line-height: 10px;
+          line-height: 9px;
         }
         .spans-div {
           gap: 3px !important;
@@ -241,7 +241,7 @@
           margin: 4px 0 0 0 !important;
           button {
             font-size: 1.2rem !important;
-            padding: 2px 8px !important;
+            padding: 1px 8px !important;
           }
         }
       }
@@ -264,12 +264,12 @@
     &__content {
       margin-top: 33px;
       &__first-div__first-project__hovered {
-        padding: 7px 20px !important;
+        padding: 0px 10px !important;
         h3 {
           font-size: 1.4rem;
         }
         p {
-          font-size: 1.2rem !important;
+          font-size: 1rem !important;
           margin: 2px 0 !important;
           line-height: 11px;
         }
@@ -285,7 +285,7 @@
           margin: 4px 0 0 0 !important;
           button {
             font-size: 1.2rem !important;
-            padding: 2px 8px !important;
+            padding: 1px 8px !important;
           }
         }
       }
@@ -308,12 +308,12 @@
     &__content {
       margin-top: 33px;
       &__first-div__first-project__hovered {
-        padding: 0px 20px !important;
+        padding: 0px 10px !important;
         h3 {
           font-size: 1.3rem;
         }
         p {
-          font-size: 1.1rem !important;
+          font-size: 0.9rem !important;
           margin: 4px 0 !important;
         }
         .spans-div {
@@ -328,7 +328,7 @@
           margin: 4px 0 0 0 !important;
           button {
             font-size: 1.1rem !important;
-            padding: 2px 8px !important;
+            padding: 1px 8px !important;
           }
         }
       }
@@ -349,12 +349,12 @@
     &__content {
       margin-top: 33px;
       &__first-div__first-project__hovered {
-        padding: 7px 20px !important;
+        padding: 0px 10px !important;
         h3 {
           font-size: 1.3rem;
         }
         p {
-          font-size: 1.1rem !important;
+          font-size: 0.9rem !important;
           margin: 3px 0 !important;
         }
         .spans-div {
@@ -368,7 +368,7 @@
           margin: 4px 0 0 0 !important;
           button {
             font-size: 1.1rem !important;
-            padding: 2px 7px !important;
+            padding: 1px 7px !important;
           }
         }
       }
@@ -389,13 +389,13 @@
     &__content {
       margin-top: 33px;
       &__first-div__first-project__hovered {
-        padding: 0px 20px !important;
+        padding: 0px 10px !important;
         h3 {
           font-size: 1.2rem;
         }
         p {
-          font-size: 1rem !important;
-          margin: 4px 0 !important;
+          font-size: 0.9rem !important;
+          margin: 3px 0 !important;
         }
         .spans-div {
           span {
@@ -428,13 +428,13 @@
     @include projects-to-column;
     &__content {
       &__first-div__first-project__hovered {
-        padding: 7px 20px !important;
+        padding: 0px 15px !important;
         h3 {
           font-size: 1.2rem;
         }
         p {
-          font-size: 1rem !important;
-          margin: 4px 0 !important;
+          font-size: 0.85rem !important;
+          margin: 3px 0 !important;
         }
         .spans-div {
           span {
@@ -447,7 +447,7 @@
           margin: 8px 0 0 0 !important;
           button {
             font-size: 1rem !important;
-            padding: 3px 10px !important;
+            padding: 2px 10px !important;
           }
         }
       }
@@ -468,12 +468,12 @@
     @include projects-to-column;
     &__content {
       &__first-div__first-project__hovered {
-        padding: 0px 20px !important;
+        padding: 0px 15px !important;
         h3 {
           font-size: 1.2rem;
         }
         p {
-          font-size: 1rem !important;
+          font-size: 0.85rem !important;
           margin: 4px 0 !important;
         }
         .spans-div {
@@ -487,7 +487,7 @@
           margin: 8px 0 0 0 !important;
           button {
             font-size: 1rem !important;
-            padding: 3px 10px !important;
+            padding: 2px 10px !important;
           }
         }
       }
@@ -508,12 +508,11 @@
     @include projects-to-column;
     &__content {
       &__first-div__first-project__hovered {
-        padding: 5px 20px !important;
+        padding: 5px 15px !important;
         h3 {
           font-size: 1.2rem;
         }
         p {
-          font-size: 1rem !important;
           margin: 4px 0 !important;
         }
         .spans-div {
@@ -555,9 +554,6 @@
             padding: 10px 20px !important;
             h3 {
               font-size: 1.2rem;
-            }
-            p {
-              font-size: 1.1rem !important;
             }
             .spans-div {
               span {
@@ -610,10 +606,6 @@
             h3 {
               font-size: 1.2rem;
             }
-            p {
-              font-size: 1.05rem !important;
-              // margin: 10px 0 !important;
-            }
             .spans-div {
               span {
                 font-size: 0.9rem !important;
@@ -662,9 +654,6 @@
             h3 {
               font-size: 1.25rem;
             }
-            p {
-              font-size: 0.9rem !important;
-            }
             .spans-div {
               span {
                 font-size: 0.8rem !important;
@@ -701,9 +690,6 @@
           &__hovered {
             h3 {
               font-size: 1.25rem;
-            }
-            p {
-              font-size: 0.9rem !important;
             }
             .spans-div {
               span {

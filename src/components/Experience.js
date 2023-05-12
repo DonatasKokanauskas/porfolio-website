@@ -30,13 +30,13 @@ const Experience = () => {
           </h3>
           <p>JAVASCRIPT COURSE</p>
           <p>Vilnius Coding School</p>
-          <p>2020-12-14 - 2023-04-20, 160 hours</p>
+          <p>2022-12-14 - 2023-04-20, 160 hours</p>
           <p>
-            I gained a deeper understanding of website development and testing.
-            Welearned all the necessary and most popular technologies, such as
-            HTML5,CSS3, JavaScript, React, SASS, GIT, Bootstrap, Material UI,
-            JEST, TypeScript,and more. The main focus was on the JavaScript
-            programming language.
+            I have gained a deeper understanding of website development and
+            testing. During the course, we learned all the necessary and most
+            popular technologies such as HTML5, CSS3, JavaScript, React, SASS,
+            GIT, Bootstrap, Material UI, JEST, TypeScript, and more. The main
+            focus of the course was on the JavaScript programming language.
           </p>
           <div className="experience__content__div__line"></div>
           <p>PUBLIC SECURITY SERVICE TRAINING</p>
