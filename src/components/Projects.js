@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../style/css/Projects.css";
-import netflix from "../images/netflix-clone2.png";
+import netflix from "../images/netflix-clone.png";
 
 const Projects = () => {
   const [mouseOver, setMouseOver] = useState(false);
