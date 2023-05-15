@@ -58,7 +58,7 @@ const Projects = () => {
                     <button> Visit</button>
                   </a>
 
-                  <a href="https://github.com/DonatasKokanauskas/netlix-clone">
+                  <a href="https://github.com/DonatasKokanauskas/netlix-clone/tree/final">
                     <button>GitHub</button>
                   </a>
                 </div>
