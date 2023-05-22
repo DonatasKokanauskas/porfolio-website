@@ -37,7 +37,7 @@ function App() {
     const element = document.querySelector(`.${id}`);
 
     let position =
-      id !== "home" ? element.offsetTop - navHeight / 2 : element.offsetTop;
+      id !== "home" ? element.offsetTop - navHeight / 1.6 : element.offsetTop;
 
     window.scrollTo({
       left: 0,
