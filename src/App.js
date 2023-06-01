@@ -39,7 +39,7 @@ function App() {
     let position =
       id !== "home" ? element.offsetTop - navHeight / 1.6 : element.offsetTop;
 
-    window.scrollTo({
+    window.scroll({
       left: 0,
       top: position,
       behavior: "smooth",

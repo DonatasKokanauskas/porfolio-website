@@ -19,7 +19,7 @@
   position: absolute;
   bottom: 0;
   width: 100%;
-  padding: 0 2.1% 0 5%;
+  padding: 0 5%;
   z-index: 1;
 }
 .home__content__about-me {
@@ -50,6 +50,9 @@
 .home__content__about-me a:visited {
   color: #ffffff;
 }
+.home__content__about-me .scroll-link {
+  display: inline-block;
+}
 .home__content__about-me button {
   border: 1px solid #f4fa1a;
   border-radius: 15px;
@@ -75,7 +78,7 @@
 .home__content__my-photo {
   position: absolute;
   bottom: 0;
-  right: 40px;
+  right: 5%;
   width: 500px;
   border-radius: 20px;
 }
@@ -162,9 +165,9 @@
     height: 45px;
   }
   .home__content__my-photo {
-    width: 97vw;
+    width: 96vw;
     max-width: 280px;
-    right: 5px;
+    right: 2%;
   }
 }
 @media screen and (min-width: 281px) and (max-width: 350px) {
@@ -188,9 +191,8 @@
     height: 45px;
   }
   .home__content__my-photo {
-    width: 95vw;
-    max-width: 340px;
-    right: 10px;
+    width: 90vw;
+    max-width: 265px;
   }
 }
 @media screen and (min-width: 351px) and (max-width: 400px) {
@@ -215,8 +217,7 @@
   }
   .home__content__my-photo {
     width: 82vw;
-    max-width: 340px;
-    right: 20px;
+    max-width: 330px;
   }
 }
 @media screen and (min-width: 401px) and (max-width: 470px) {
@@ -240,9 +241,8 @@
     height: 48px;
   }
   .home__content__my-photo {
-    width: 73vw;
-    max-width: 400px;
-    right: 20px;
+    width: 70vw;
+    max-width: 370px;
   }
 }
 @media screen and (min-width: 471px) and (max-width: 550px) {
@@ -266,9 +266,8 @@
     height: 50px;
   }
   .home__content__my-photo {
-    width: 60vw;
-    max-width: 370px;
-    right: 20px;
+    width: 58vw;
+    max-width: 350px;
   }
 }
 @media screen and (min-width: 551px) and (max-width: 600px) {
@@ -292,9 +291,8 @@
     height: 50px;
   }
   .home__content__my-photo {
-    width: 55vw;
-    max-width: 370px;
-    right: 20px;
+    width: 52vw;
+    max-width: 320px;
   }
 }
 @media screen and (min-width: 601px) and (max-width: 740px) {
