@@ -1,14 +1,17 @@
 import React, { useState } from "react";
 import "../style/css/Projects.css";
-import netflix from "../images/netflix-clone.png";
+import clone from "../images/clone.jpg";
+import emailValidation from "../images/emailValidation.png";
 
 const Projects = () => {
-  const [mouseOver, setMouseOver] = useState(false);
-  const handleMouseOver = () => {
-    setMouseOver(true);
+  const [mouseOverFirstProject, setMouseOverFirstProject] = useState(false);
+  const [mouseOverSecondProject, setMouseOverSecondProject] = useState(false);
+
+  const handleMouseOver = (state) => {
+    state(true);
   };
-  const handleMouseLeave = () => {
-    setMouseOver(false);
+  const handleMouseLeave = (state) => {
+    state(false);
   };
 
   return (
@@ -24,20 +27,20 @@ const Projects = () => {
         <div className="projects__content__first-div">
           <div
             className="projects__content__first-div__first-project"
-            onMouseOver={handleMouseOver}
-            onMouseLeave={handleMouseLeave}
+            onMouseOver={() => handleMouseOver(setMouseOverFirstProject)}
+            onMouseLeave={() => handleMouseLeave(setMouseOverFirstProject)}
           >
             <img
-              src={netflix}
+              src={clone}
               alt="netflix clone"
               style={
-                mouseOver
+                mouseOverFirstProject
                   ? { filter: "brightness(30%) blur(2px)" }
                   : { filter: "none" }
               }
             />
-            {mouseOver && (
-              <div className="projects__content__first-div__first-project__hovered">
+            {mouseOverFirstProject && (
+              <div className="projects__content__first-div__project__hovered">
                 <h3>Netflix Clone</h3>
                 <p>
                   This is my first larger React project, in which I created a
@@ -54,11 +57,14 @@ const Projects = () => {
                 </div>
 
                 <div className="buttons-div">
-                  <a href="https://clone.donatas-k.com">
+                  <a href="https://clone.donatas-k.com" target="_blank">
                     <button> Visit</button>
                   </a>
 
-                  <a href="https://github.com/DonatasKokanauskas/netlix-clone">
+                  <a
+                    href="https://github.com/DonatasKokanauskas/netlix-clone"
+                    target="_blank"
+                  >
                     <button>GitHub</button>
                   </a>
                 </div>
@@ -66,7 +72,52 @@ const Projects = () => {
             )}
           </div>
 
-          <div className="projects__content__first-div__second-project"></div>
+          <div
+            className="projects__content__first-div__second-project"
+            onMouseOver={() => handleMouseOver(setMouseOverSecondProject)}
+            onMouseLeave={() => handleMouseLeave(setMouseOverSecondProject)}
+          >
+            <img
+              src={emailValidation}
+              alt="email validation"
+              style={
+                mouseOverSecondProject
+                  ? { filter: "brightness(30%) blur(2px)" }
+                  : { filter: "none" }
+              }
+            />
+            {mouseOverSecondProject && (
+              <div className="projects__content__first-div__project__hovered">
+                <h3>Email validation</h3>
+                <p>
+                  This is a small and simple email validation project that I
+                  have completed for the purpose of learning TypeScript and
+                  Regex.
+                </p>
+                <div className="spans-div">
+                  <span>React</span>
+                  <span>TypeScript</span>
+                  <span>Sass & CSS</span>
+                </div>
+
+                <div className="buttons-div">
+                  <a
+                    href="https://email-validation.donatas-k.com/"
+                    target="_blank"
+                  >
+                    <button> Visit</button>
+                  </a>
+
+                  <a
+                    href="https://github.com/DonatasKokanauskas/Email-validation"
+                    target="_blank"
+                  >
+                    <button>GitHub</button>
+                  </a>
+                </div>
+              </div>
+            )}
+          </div>
         </div>
         <div className="projects__content__second-div">
           <div className="projects__content__second-div__first-project"></div>
