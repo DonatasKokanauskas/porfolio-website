@@ -3,6 +3,7 @@
   width: 100vw;
   height: 10vh;
   min-height: 70px;
+  max-height: 150px;
   display: flex;
   align-items: center;
   justify-content: center;
