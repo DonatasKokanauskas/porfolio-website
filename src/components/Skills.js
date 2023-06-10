@@ -19,11 +19,11 @@ const Skills = () => {
           <p>
             I have a solid understanding of HTML, CSS, and JavaScript, and I
             spend a considerable amount of time learning and working on projects
-            with the React library. I have completed several smaller projects
-            and one larger project using these technologies. For styling, SASS
-            is my preferred choice, since it simplifies CSS usage, speeds up
-            development, and provides many useful features. I am always learning
-            and deepening my skills in these web development tools.
+            with the React library. I have completed several projects using
+            these technologies. For styling, SASS is my preferred choice, since
+            it simplifies CSS usage, speeds up development, and provides many
+            useful features. I am always learning and deepening my skills in
+            these web development tools.
           </p>
           <p>
             I have become familiar with several other technologies, such as
