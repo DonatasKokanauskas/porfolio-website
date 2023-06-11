@@ -8,7 +8,7 @@
   background: #c4c4c4;
   margin-bottom: 21px;
 }
-@mixin projects-to-column {
+@mixin projects-to-mobile {
   &__content {
     flex-direction: column;
     gap: 10px;
@@ -19,30 +19,28 @@
       height: 33.33%;
       margin: 0;
       display: flex;
-      flex-direction: column;
       gap: 10px;
       &__first-project {
-        height: 50%;
+        height: 100%;
         margin: 0;
       }
       &__second-project {
+        height: 100%;
         margin: 0;
-        height: 50%;
       }
     }
     &__second-div {
       width: 100%;
       height: 33.33%;
-      margin: 10px 0 0 0;
+      margin: 0;
       display: flex;
-      flex-direction: column;
       gap: 10px;
       &__first-project {
-        height: 50%;
-        margin-bottom: 0;
+        height: 100%;
+        margin: 0;
       }
       &__second-project {
-        height: 50%;
+        height: 100%;
         margin: 0;
       }
     }
@@ -50,16 +48,46 @@
       width: 100%;
       height: 33.33%;
       display: flex;
-      flex-direction: column;
       gap: 10px;
       &__first-project {
-        height: 50%;
+        height: 100%;
         margin: 0;
       }
       &__second-project {
-        height: 50%;
+        height: 100%;
         margin: 0;
       }
+    }
+  }
+}
+
+@mixin projects-to-column {
+  &__first-div {
+    flex-direction: column;
+    margin-bottom: 10px;
+    &__first-project {
+      height: 50%;
+    }
+    &__second-project {
+      height: 50%;
+    }
+  }
+  &__second-div {
+    flex-direction: column;
+    &__first-project {
+      height: 50%;
+    }
+    &__second-project {
+      height: 50%;
+    }
+  }
+  &__third-div {
+    flex-direction: column;
+    &__first-project {
+      height: 50%;
+    }
+    &__second-project {
+      height: 50%;
     }
   }
 }
@@ -236,9 +264,10 @@
         margin-top: 0;
       }
     }
-    @include projects-to-column;
+    @include projects-to-mobile;
     &__content {
       margin-top: 33px;
+      @include projects-to-column;
       .projects__content__first-div__project__hovered {
         padding: 0px 5px !important;
         h3 {
@@ -280,9 +309,10 @@
         margin-top: 0;
       }
     }
-    @include projects-to-column;
+    @include projects-to-mobile;
     &__content {
       margin-top: 33px;
+      @include projects-to-column;
       .projects__content__first-div__project__hovered {
         padding: 0px 5px !important;
         h3 {
@@ -312,7 +342,7 @@
     }
   }
 }
-@media screen and (min-width: 201px) and (max-width: 280px) {
+@media screen and (min-width: 201px) and (max-width: 299px) {
   .projects {
     &__page-name {
       h2 {
@@ -324,9 +354,10 @@
         margin-top: 0px !important;
       }
     }
-    @include projects-to-column;
+    @include projects-to-mobile;
     &__content {
       margin-top: 33px;
+      @include projects-to-column;
       .projects__content__first-div__project__hovered {
         padding: 0px 5px !important;
         h3 {
@@ -355,7 +386,7 @@
     }
   }
 }
-@media screen and (min-width: 281px) and (max-width: 350px) {
+@media screen and (min-width: 300px) and (max-width: 350px) {
   .projects {
     &__page-name {
       h2 {
@@ -365,7 +396,7 @@
         width: 6.3rem !important;
       }
     }
-    @include projects-to-column;
+    @include projects-to-mobile;
     &__content {
       margin-top: 33px;
       .projects__content__first-div__project__hovered {
@@ -405,7 +436,7 @@
         width: 6.2rem !important;
       }
     }
-    @include projects-to-column;
+    @include projects-to-mobile;
     &__content {
       margin-top: 33px;
       .projects__content__first-div__project__hovered {
@@ -445,7 +476,7 @@
         width: 6.1rem !important;
       }
     }
-    @include projects-to-column;
+    @include projects-to-mobile;
     &__content {
       margin-top: 40px;
       .projects__content__first-div__project__hovered {
@@ -486,7 +517,7 @@
         width: 6rem !important;
       }
     }
-    @include projects-to-column;
+    @include projects-to-mobile;
     &__content {
       margin-top: 40px;
       .projects__content__first-div__project__hovered {
@@ -527,7 +558,7 @@
         width: 5.9rem !important;
       }
     }
-    @include projects-to-column;
+    @include projects-to-mobile;
     &__content {
       margin-top: 40px;
       .projects__content__first-div__project__hovered {

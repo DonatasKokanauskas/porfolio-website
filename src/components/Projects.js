@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../style/css/Projects.css";
 import clone from "../images/clone.jpg";
-import emailValidation from "../images/emailValidation.png";
+import emailValidation from "../images/emailValidation.jpg";
 
 const Projects = () => {
   const [mouseOverFirstProject, setMouseOverFirstProject] = useState(false);
@@ -98,6 +98,7 @@ const Projects = () => {
                   <span>React</span>
                   <span>TypeScript</span>
                   <span>Sass & CSS</span>
+                  <span>Axios</span>
                 </div>
 
                 <div className="buttons-div">

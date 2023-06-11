@@ -178,50 +178,75 @@
     height: 33.33%;
     margin: 0;
     display: flex;
-    flex-direction: column;
     gap: 10px;
   }
   .projects__content__first-div__first-project {
-    height: 50%;
+    height: 100%;
     margin: 0;
   }
   .projects__content__first-div__second-project {
+    height: 100%;
     margin: 0;
-    height: 50%;
   }
   .projects__content__second-div {
     width: 100%;
     height: 33.33%;
-    margin: 10px 0 0 0;
+    margin: 0;
     display: flex;
-    flex-direction: column;
     gap: 10px;
   }
   .projects__content__second-div__first-project {
-    height: 50%;
-    margin-bottom: 0;
+    height: 100%;
+    margin: 0;
   }
   .projects__content__second-div__second-project {
-    height: 50%;
+    height: 100%;
     margin: 0;
   }
   .projects__content__third-div {
     width: 100%;
     height: 33.33%;
     display: flex;
-    flex-direction: column;
     gap: 10px;
   }
   .projects__content__third-div__first-project {
-    height: 50%;
+    height: 100%;
     margin: 0;
   }
   .projects__content__third-div__second-project {
-    height: 50%;
+    height: 100%;
     margin: 0;
   }
   .projects__content {
     margin-top: 33px;
+  }
+  .projects__content__first-div {
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .projects__content__first-div__first-project {
+    height: 50%;
+  }
+  .projects__content__first-div__second-project {
+    height: 50%;
+  }
+  .projects__content__second-div {
+    flex-direction: column;
+  }
+  .projects__content__second-div__first-project {
+    height: 50%;
+  }
+  .projects__content__second-div__second-project {
+    height: 50%;
+  }
+  .projects__content__third-div {
+    flex-direction: column;
+  }
+  .projects__content__third-div__first-project {
+    height: 50%;
+  }
+  .projects__content__third-div__second-project {
+    height: 50%;
   }
   .projects__content .projects__content__first-div__project__hovered {
     padding: 0px 5px !important;
@@ -270,50 +295,75 @@
     height: 33.33%;
     margin: 0;
     display: flex;
-    flex-direction: column;
     gap: 10px;
   }
   .projects__content__first-div__first-project {
-    height: 50%;
+    height: 100%;
     margin: 0;
   }
   .projects__content__first-div__second-project {
+    height: 100%;
     margin: 0;
-    height: 50%;
   }
   .projects__content__second-div {
     width: 100%;
     height: 33.33%;
-    margin: 10px 0 0 0;
+    margin: 0;
     display: flex;
-    flex-direction: column;
     gap: 10px;
   }
   .projects__content__second-div__first-project {
-    height: 50%;
-    margin-bottom: 0;
+    height: 100%;
+    margin: 0;
   }
   .projects__content__second-div__second-project {
-    height: 50%;
+    height: 100%;
     margin: 0;
   }
   .projects__content__third-div {
     width: 100%;
     height: 33.33%;
     display: flex;
-    flex-direction: column;
     gap: 10px;
   }
   .projects__content__third-div__first-project {
-    height: 50%;
+    height: 100%;
     margin: 0;
   }
   .projects__content__third-div__second-project {
-    height: 50%;
+    height: 100%;
     margin: 0;
   }
   .projects__content {
     margin-top: 33px;
+  }
+  .projects__content__first-div {
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .projects__content__first-div__first-project {
+    height: 50%;
+  }
+  .projects__content__first-div__second-project {
+    height: 50%;
+  }
+  .projects__content__second-div {
+    flex-direction: column;
+  }
+  .projects__content__second-div__first-project {
+    height: 50%;
+  }
+  .projects__content__second-div__second-project {
+    height: 50%;
+  }
+  .projects__content__third-div {
+    flex-direction: column;
+  }
+  .projects__content__third-div__first-project {
+    height: 50%;
+  }
+  .projects__content__third-div__second-project {
+    height: 50%;
   }
   .projects__content .projects__content__first-div__project__hovered {
     padding: 0px 5px !important;
@@ -342,7 +392,7 @@
     padding: 1px 5px !important;
   }
 }
-@media screen and (min-width: 201px) and (max-width: 280px) {
+@media screen and (min-width: 201px) and (max-width: 299px) {
   .projects__page-name h2 {
     font-size: 3.8rem;
     line-height: 55px;
@@ -362,50 +412,75 @@
     height: 33.33%;
     margin: 0;
     display: flex;
-    flex-direction: column;
     gap: 10px;
   }
   .projects__content__first-div__first-project {
-    height: 50%;
+    height: 100%;
     margin: 0;
   }
   .projects__content__first-div__second-project {
+    height: 100%;
     margin: 0;
-    height: 50%;
   }
   .projects__content__second-div {
     width: 100%;
     height: 33.33%;
-    margin: 10px 0 0 0;
+    margin: 0;
     display: flex;
-    flex-direction: column;
     gap: 10px;
   }
   .projects__content__second-div__first-project {
-    height: 50%;
-    margin-bottom: 0;
+    height: 100%;
+    margin: 0;
   }
   .projects__content__second-div__second-project {
-    height: 50%;
+    height: 100%;
     margin: 0;
   }
   .projects__content__third-div {
     width: 100%;
     height: 33.33%;
     display: flex;
-    flex-direction: column;
     gap: 10px;
   }
   .projects__content__third-div__first-project {
-    height: 50%;
+    height: 100%;
     margin: 0;
   }
   .projects__content__third-div__second-project {
-    height: 50%;
+    height: 100%;
     margin: 0;
   }
   .projects__content {
     margin-top: 33px;
+  }
+  .projects__content__first-div {
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .projects__content__first-div__first-project {
+    height: 50%;
+  }
+  .projects__content__first-div__second-project {
+    height: 50%;
+  }
+  .projects__content__second-div {
+    flex-direction: column;
+  }
+  .projects__content__second-div__first-project {
+    height: 50%;
+  }
+  .projects__content__second-div__second-project {
+    height: 50%;
+  }
+  .projects__content__third-div {
+    flex-direction: column;
+  }
+  .projects__content__third-div__first-project {
+    height: 50%;
+  }
+  .projects__content__third-div__second-project {
+    height: 50%;
   }
   .projects__content .projects__content__first-div__project__hovered {
     padding: 0px 5px !important;
@@ -433,7 +508,7 @@
     padding: 1px 6px !important;
   }
 }
-@media screen and (min-width: 281px) and (max-width: 350px) {
+@media screen and (min-width: 300px) and (max-width: 350px) {
   .projects__page-name h2 {
     font-size: 3.7rem;
   }
@@ -451,46 +526,43 @@
     height: 33.33%;
     margin: 0;
     display: flex;
-    flex-direction: column;
     gap: 10px;
   }
   .projects__content__first-div__first-project {
-    height: 50%;
+    height: 100%;
     margin: 0;
   }
   .projects__content__first-div__second-project {
+    height: 100%;
     margin: 0;
-    height: 50%;
   }
   .projects__content__second-div {
     width: 100%;
     height: 33.33%;
-    margin: 10px 0 0 0;
+    margin: 0;
     display: flex;
-    flex-direction: column;
     gap: 10px;
   }
   .projects__content__second-div__first-project {
-    height: 50%;
-    margin-bottom: 0;
+    height: 100%;
+    margin: 0;
   }
   .projects__content__second-div__second-project {
-    height: 50%;
+    height: 100%;
     margin: 0;
   }
   .projects__content__third-div {
     width: 100%;
     height: 33.33%;
     display: flex;
-    flex-direction: column;
     gap: 10px;
   }
   .projects__content__third-div__first-project {
-    height: 50%;
+    height: 100%;
     margin: 0;
   }
   .projects__content__third-div__second-project {
-    height: 50%;
+    height: 100%;
     margin: 0;
   }
   .projects__content {
@@ -537,46 +609,43 @@
     height: 33.33%;
     margin: 0;
     display: flex;
-    flex-direction: column;
     gap: 10px;
   }
   .projects__content__first-div__first-project {
-    height: 50%;
+    height: 100%;
     margin: 0;
   }
   .projects__content__first-div__second-project {
+    height: 100%;
     margin: 0;
-    height: 50%;
   }
   .projects__content__second-div {
     width: 100%;
     height: 33.33%;
-    margin: 10px 0 0 0;
+    margin: 0;
     display: flex;
-    flex-direction: column;
     gap: 10px;
   }
   .projects__content__second-div__first-project {
-    height: 50%;
-    margin-bottom: 0;
+    height: 100%;
+    margin: 0;
   }
   .projects__content__second-div__second-project {
-    height: 50%;
+    height: 100%;
     margin: 0;
   }
   .projects__content__third-div {
     width: 100%;
     height: 33.33%;
     display: flex;
-    flex-direction: column;
     gap: 10px;
   }
   .projects__content__third-div__first-project {
-    height: 50%;
+    height: 100%;
     margin: 0;
   }
   .projects__content__third-div__second-project {
-    height: 50%;
+    height: 100%;
     margin: 0;
   }
   .projects__content {
@@ -623,46 +692,43 @@
     height: 33.33%;
     margin: 0;
     display: flex;
-    flex-direction: column;
     gap: 10px;
   }
   .projects__content__first-div__first-project {
-    height: 50%;
+    height: 100%;
     margin: 0;
   }
   .projects__content__first-div__second-project {
+    height: 100%;
     margin: 0;
-    height: 50%;
   }
   .projects__content__second-div {
     width: 100%;
     height: 33.33%;
-    margin: 10px 0 0 0;
+    margin: 0;
     display: flex;
-    flex-direction: column;
     gap: 10px;
   }
   .projects__content__second-div__first-project {
-    height: 50%;
-    margin-bottom: 0;
+    height: 100%;
+    margin: 0;
   }
   .projects__content__second-div__second-project {
-    height: 50%;
+    height: 100%;
     margin: 0;
   }
   .projects__content__third-div {
     width: 100%;
     height: 33.33%;
     display: flex;
-    flex-direction: column;
     gap: 10px;
   }
   .projects__content__third-div__first-project {
-    height: 50%;
+    height: 100%;
     margin: 0;
   }
   .projects__content__third-div__second-project {
-    height: 50%;
+    height: 100%;
     margin: 0;
   }
   .projects__content {
@@ -709,46 +775,43 @@
     height: 33.33%;
     margin: 0;
     display: flex;
-    flex-direction: column;
     gap: 10px;
   }
   .projects__content__first-div__first-project {
-    height: 50%;
+    height: 100%;
     margin: 0;
   }
   .projects__content__first-div__second-project {
+    height: 100%;
     margin: 0;
-    height: 50%;
   }
   .projects__content__second-div {
     width: 100%;
     height: 33.33%;
-    margin: 10px 0 0 0;
+    margin: 0;
     display: flex;
-    flex-direction: column;
     gap: 10px;
   }
   .projects__content__second-div__first-project {
-    height: 50%;
-    margin-bottom: 0;
+    height: 100%;
+    margin: 0;
   }
   .projects__content__second-div__second-project {
-    height: 50%;
+    height: 100%;
     margin: 0;
   }
   .projects__content__third-div {
     width: 100%;
     height: 33.33%;
     display: flex;
-    flex-direction: column;
     gap: 10px;
   }
   .projects__content__third-div__first-project {
-    height: 50%;
+    height: 100%;
     margin: 0;
   }
   .projects__content__third-div__second-project {
-    height: 50%;
+    height: 100%;
     margin: 0;
   }
   .projects__content {
@@ -795,46 +858,43 @@
     height: 33.33%;
     margin: 0;
     display: flex;
-    flex-direction: column;
     gap: 10px;
   }
   .projects__content__first-div__first-project {
-    height: 50%;
+    height: 100%;
     margin: 0;
   }
   .projects__content__first-div__second-project {
+    height: 100%;
     margin: 0;
-    height: 50%;
   }
   .projects__content__second-div {
     width: 100%;
     height: 33.33%;
-    margin: 10px 0 0 0;
+    margin: 0;
     display: flex;
-    flex-direction: column;
     gap: 10px;
   }
   .projects__content__second-div__first-project {
-    height: 50%;
-    margin-bottom: 0;
+    height: 100%;
+    margin: 0;
   }
   .projects__content__second-div__second-project {
-    height: 50%;
+    height: 100%;
     margin: 0;
   }
   .projects__content__third-div {
     width: 100%;
     height: 33.33%;
     display: flex;
-    flex-direction: column;
     gap: 10px;
   }
   .projects__content__third-div__first-project {
-    height: 50%;
+    height: 100%;
     margin: 0;
   }
   .projects__content__third-div__second-project {
-    height: 50%;
+    height: 100%;
     margin: 0;
   }
   .projects__content {
