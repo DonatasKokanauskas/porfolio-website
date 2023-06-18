@@ -98,7 +98,8 @@ const Projects = () => {
                   <span>React</span>
                   <span>TypeScript</span>
                   <span>Sass & CSS</span>
-                  <span>Axios</span>
+                  <span>localStorage</span>
+                  <span>Regex</span>
                 </div>
 
                 <div className="buttons-div">
