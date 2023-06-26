@@ -2,10 +2,12 @@ import React, { useState } from "react";
 import "../style/css/Projects.css";
 import clone from "../images/clone.jpg";
 import emailValidation from "../images/emailValidation.jpg";
+import stockAppImage from "../images/stockAppImage.jpg";
 
 const Projects = () => {
   const [mouseOverFirstProject, setMouseOverFirstProject] = useState(false);
   const [mouseOverSecondProject, setMouseOverSecondProject] = useState(false);
+  const [mouseOverThirdProject, setMouseOverThirdProject] = useState(false);
 
   const handleMouseOver = (state) => {
     state(true);
@@ -40,7 +42,7 @@ const Projects = () => {
               }
             />
             {mouseOverFirstProject && (
-              <div className="projects__content__first-div__project__hovered">
+              <div className="projects__content__project__hovered">
                 <h3>Netflix Clone</h3>
                 <p>
                   This is my first larger React project, in which I created a
@@ -52,6 +54,7 @@ const Projects = () => {
                   <span>React</span>
                   <span>JavaScript</span>
                   <span>Sass & CSS</span>
+                  <span>Axios</span>
                   <span>Context</span>
                   <span>Router</span>
                 </div>
@@ -87,7 +90,7 @@ const Projects = () => {
               }
             />
             {mouseOverSecondProject && (
-              <div className="projects__content__first-div__project__hovered">
+              <div className="projects__content__project__hovered">
                 <h3>Email validation</h3>
                 <p>
                   This is a small and simple email validation project that I
@@ -103,10 +106,7 @@ const Projects = () => {
                 </div>
 
                 <div className="buttons-div">
-                  <a
-                    href="https://email-validation.donatas-k.com/"
-                    target="_blank"
-                  >
+                  <a href="https://email.donatas-k.com/" target="_blank">
                     <button> Visit</button>
                   </a>
 
@@ -121,8 +121,55 @@ const Projects = () => {
             )}
           </div>
         </div>
+
         <div className="projects__content__second-div">
-          <div className="projects__content__second-div__first-project"></div>
+          <div
+            className="projects__content__second-div__first-project"
+            onMouseOver={() => handleMouseOver(setMouseOverThirdProject)}
+            onMouseLeave={() => handleMouseLeave(setMouseOverThirdProject)}
+          >
+            <img
+              src={stockAppImage}
+              alt="stock price app"
+              style={
+                mouseOverThirdProject
+                  ? { filter: "brightness(30%) blur(2px)" }
+                  : { filter: "none" }
+              }
+            />
+            {mouseOverThirdProject && (
+              <div className="projects__content__project__hovered">
+                <h3>Stock Price App</h3>
+                <p>
+                  In this project, it is possible to enter a stock symbol, add
+                  it to the list, and obtain data to monitor price changes at
+                  the current time, over one week, one month, and one year.
+                </p>
+                <div className="spans-div">
+                  <span>React</span>
+                  <span>JavaScript</span>
+                  <span>Sass & CSS</span>
+                  <span>localStorage</span>
+                  <span>Axios</span>
+                  <span>Context</span>
+                  <span>Router</span>
+                </div>
+
+                <div className="buttons-div">
+                  <a href="https://stock.donatas-k.com/" target="_blank">
+                    <button> Visit</button>
+                  </a>
+
+                  <a
+                    href="https://github.com/DonatasKokanauskas/stock-price-app"
+                    target="_blank"
+                  >
+                    <button>GitHub</button>
+                  </a>
+                </div>
+              </div>
+            )}
+          </div>
           <div className="projects__content__second-div__second-project"></div>
         </div>
         <div className="projects__content__third-div">
