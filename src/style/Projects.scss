@@ -164,73 +164,25 @@
           object-position: left top;
         }
       }
-      .projects__content__first-div__project__hovered {
-        position: absolute;
-        top: 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        padding: 20px 20px;
-        height: 100%;
-        overflow: hidden;
-
-        p {
-          margin: 5px 0;
-          font-size: 0.9rem;
-        }
-        .spans-div {
-          display: flex;
-          flex-wrap: wrap;
-          gap: 6px;
-          span {
-            font-size: 0.7em;
-            background-color: #696869;
-            padding: 3px 8px;
-            border-radius: 10px;
-          }
-        }
-
-        .buttons-div {
-          margin: 10px 0;
-          display: flex;
-          gap: 10px;
-          button {
-            font-size: 0.8rem;
-            font-weight: 500;
-            cursor: pointer;
-            padding: 5px 12px;
-            border: 1px solid #f4fa1a;
-            border-radius: 10px;
-            color: #ffffff;
-            background: rgba(19, 19, 19, 0.4);
-            transition: all 0.35s;
-          }
-          button:hover {
-            color: #000000;
-            background-color: #f4fa1a;
-          }
-          a {
-            text-decoration: none;
-          }
-          a:visited {
-            color: #ffffff;
-          }
-          a:link {
-            color: #ffffff;
-          }
-          a:active {
-            color: #ffffff;
-          }
-        }
-      }
     }
 
     &__second-div {
       @include div;
       margin-right: 21px;
       &__first-project {
-        @include project;
+        position: relative;
         height: 50%;
+        width: 100%;
+
+        box-shadow: rgb(38, 38, 38) 0px 0px 15px;
+        margin-bottom: 21px;
+        img {
+          width: 100%;
+          min-height: 100%;
+          max-height: 100%;
+          object-fit: cover;
+          object-position: left top;
+        }
       }
       &__second-project {
         @include project;
@@ -247,6 +199,65 @@
       &__second-project {
         @include project;
         height: 60%;
+      }
+    }
+    &__project__hovered {
+      position: absolute;
+      top: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      padding: 20px 20px;
+      height: 100%;
+      overflow: hidden;
+
+      p {
+        margin: 5px 0;
+        font-size: 0.9rem;
+      }
+      .spans-div {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        span {
+          font-size: 0.7em;
+          background-color: #696869;
+          padding: 3px 8px;
+          border-radius: 10px;
+        }
+      }
+
+      .buttons-div {
+        margin: 10px 0;
+        display: flex;
+        gap: 10px;
+        button {
+          font-size: 0.8rem;
+          font-weight: 500;
+          cursor: pointer;
+          padding: 5px 12px;
+          border: 1px solid #f4fa1a;
+          border-radius: 10px;
+          color: #ffffff;
+          background: rgba(19, 19, 19, 0.4);
+          transition: all 0.35s;
+        }
+        button:hover {
+          color: #000000;
+          background-color: #f4fa1a;
+        }
+        a {
+          text-decoration: none;
+        }
+        a:visited {
+          color: #ffffff;
+        }
+        a:link {
+          color: #ffffff;
+        }
+        a:active {
+          color: #ffffff;
+        }
       }
     }
   }
@@ -268,7 +279,7 @@
     &__content {
       margin-top: 33px;
       @include projects-to-column;
-      .projects__content__first-div__project__hovered {
+      .projects__content__project__hovered {
         padding: 0px 5px !important;
         h3 {
           font-size: 1.5rem;
@@ -313,7 +324,7 @@
     &__content {
       margin-top: 33px;
       @include projects-to-column;
-      .projects__content__first-div__project__hovered {
+      .projects__content__project__hovered {
         padding: 0px 5px !important;
         h3 {
           font-size: 1.4rem;
@@ -358,7 +369,7 @@
     &__content {
       margin-top: 33px;
       @include projects-to-column;
-      .projects__content__first-div__project__hovered {
+      .projects__content__project__hovered {
         padding: 0px 5px !important;
         h3 {
           font-size: 1.3rem;
@@ -399,7 +410,7 @@
     @include projects-to-mobile;
     &__content {
       margin-top: 33px;
-      .projects__content__first-div__project__hovered {
+      .projects__content__project__hovered {
         padding: 0px 5px !important;
         h3 {
           font-size: 1.3rem;
@@ -439,7 +450,7 @@
     @include projects-to-mobile;
     &__content {
       margin-top: 33px;
-      .projects__content__first-div__project__hovered {
+      .projects__content__project__hovered {
         padding: 0px 10px !important;
         h3 {
           font-size: 1.2rem;
@@ -479,7 +490,7 @@
     @include projects-to-mobile;
     &__content {
       margin-top: 40px;
-      .projects__content__first-div__project__hovered {
+      .projects__content__project__hovered {
         padding: 0px 10px !important;
         h3 {
           font-size: 1.2rem;
@@ -520,7 +531,7 @@
     @include projects-to-mobile;
     &__content {
       margin-top: 40px;
-      .projects__content__first-div__project__hovered {
+      .projects__content__project__hovered {
         padding: 0px 15px !important;
         h3 {
           font-size: 1.2rem;
@@ -561,7 +572,7 @@
     @include projects-to-mobile;
     &__content {
       margin-top: 40px;
-      .projects__content__first-div__project__hovered {
+      .projects__content__project__hovered {
         padding: 0px 15px !important;
         h3 {
           font-size: 1.2rem;
@@ -606,7 +617,7 @@
         &__first-project {
           margin-bottom: 10px;
         }
-        .projects__content__first-div__project__hovered {
+        .projects__content__project__hovered {
           padding: 0px 15px !important;
           h3 {
             font-size: 1.2rem;
@@ -657,7 +668,7 @@
         &__first-project {
           margin-bottom: 15px;
         }
-        .projects__content__first-div__project__hovered {
+        .projects__content__project__hovered {
           padding: 10px 20px !important;
           h3 {
             font-size: 1.2rem;
@@ -704,7 +715,7 @@
     &__content {
       width: 80%;
       &__first-div {
-        .projects__content__first-div__project__hovered {
+        .projects__content__project__hovered {
           h3 {
             font-size: 1.25rem;
           }
@@ -739,7 +750,7 @@
     &__content {
       width: 70%;
       &__first-div {
-        .projects__content__first-div__project__hovered {
+        .projects__content__project__hovered {
           h3 {
             font-size: 1.25rem;
           }
