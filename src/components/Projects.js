@@ -91,7 +91,7 @@ const Projects = () => {
             />
             {mouseOverSecondProject && (
               <div className="projects__content__project__hovered">
-                <h3>Email validation</h3>
+                <h3>Email Validation</h3>
                 <p>
                   This is a small and simple email validation project that I
                   have completed for the purpose of learning TypeScript and
