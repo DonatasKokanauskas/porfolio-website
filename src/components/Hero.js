@@ -22,7 +22,11 @@ const Hero = ({ handleClick }) => {
           </a>
         </div>
 
-        <img className="home__content__my-photo" src={photo} alt="my photo" />
+        <img
+          className="home__content__my-photo"
+          src={photo}
+          alt="Donatas Kokanauskas"
+        />
       </div>
     </div>
   );

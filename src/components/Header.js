@@ -60,7 +60,7 @@ const Header = ({ scroll, handleClick, navHeight }) => {
           projects.getBoundingClientRect().height * 0.3
       );
     }
-  });
+  }, [about, skills, experience, projects, contact, navHeight, hero]);
 
   return (
     <header
@@ -104,7 +104,7 @@ const Header = ({ scroll, handleClick, navHeight }) => {
           <ul className="links">
             <li
               style={
-                scroll >= aboutOffSetTop && aboutOffSetTop != 0
+                scroll >= aboutOffSetTop && aboutOffSetTop !== 0
                   ? { paddingBottom: "0px", border: "none" }
                   : {}
               }

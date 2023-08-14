@@ -98,7 +98,7 @@
   .skills__content__second-div {
     position: absolute;
     right: 5%;
-    bottom: 7%;
+    bottom: 5%;
   }
   .skills__content__second-div p {
     font-size: 1.5rem;
@@ -106,6 +106,7 @@
   .skills__content__second-div__line {
     width: 40vw;
     margin: 6px 0;
+    height: 2px;
   }
 }
 @media screen and (min-width: 151px) and (max-width: 200px) {
@@ -134,7 +135,7 @@
   .skills__content__second-div {
     position: absolute;
     right: 5%;
-    bottom: 7%;
+    bottom: 5%;
   }
   .skills__content__second-div p {
     font-size: 1.4rem;
@@ -142,6 +143,7 @@
   .skills__content__second-div__line {
     width: 40vw;
     margin: 6px 0;
+    height: 2px;
   }
 }
 @media screen and (min-width: 201px) and (max-width: 280px) {
@@ -170,7 +172,7 @@
   .skills__content__second-div {
     position: absolute;
     right: 5%;
-    bottom: 7%;
+    bottom: 5%;
   }
   .skills__content__second-div p {
     font-size: 1.3rem;
@@ -178,6 +180,7 @@
   .skills__content__second-div__line {
     width: 40vw;
     margin: 6px 0;
+    height: 2px;
   }
 }
 @media screen and (min-width: 281px) and (max-width: 350px) {
@@ -198,12 +201,12 @@
   }
   .skills__content__first-div p {
     font-size: 1.2rem;
-    line-height: 22px;
+    line-height: 21px;
   }
   .skills__content__second-div {
     position: absolute;
     right: 5%;
-    bottom: 7%;
+    bottom: 5%;
   }
   .skills__content__second-div p {
     font-size: 1.2rem;
@@ -211,6 +214,7 @@
   .skills__content__second-div__line {
     width: 40vw;
     margin: 6px 0;
+    height: 2px;
   }
 }
 @media screen and (min-width: 351px) and (max-width: 400px) {
@@ -231,12 +235,12 @@
   }
   .skills__content__first-div p {
     font-size: 1.2rem;
-    line-height: 23px;
+    line-height: 22px;
   }
   .skills__content__second-div {
     position: absolute;
     right: 5%;
-    bottom: 7%;
+    bottom: 5%;
   }
   .skills__content__second-div p {
     font-size: 1.2rem;
@@ -244,6 +248,7 @@
   .skills__content__second-div__line {
     width: 40vw;
     margin: 6px 0;
+    height: 2px;
   }
 }
 @media screen and (min-width: 401px) and (max-width: 470px) {
@@ -269,14 +274,15 @@
   .skills__content__second-div {
     position: absolute;
     right: 5%;
-    bottom: 7%;
+    bottom: 6%;
   }
   .skills__content__second-div p {
     font-size: 1.2rem;
   }
   .skills__content__second-div__line {
     width: 40vw;
-    margin: 10px 0;
+    margin: 7px 0;
+    height: 2px;
   }
 }
 @media screen and (min-width: 471px) and (max-width: 550px) {
@@ -309,7 +315,7 @@
   }
   .skills__content__second-div__line {
     width: 40vw;
-    margin: 10px 0;
+    margin: 8px 0;
   }
 }
 @media screen and (min-width: 551px) and (max-width: 600px) {
@@ -342,7 +348,7 @@
   }
   .skills__content__second-div__line {
     width: 40vw;
-    margin: 10px 0;
+    margin: 8px 0;
   }
 }
 @media screen and (min-width: 601px) and (max-width: 740px) {
@@ -368,14 +374,14 @@
   .skills__content__second-div {
     position: absolute;
     right: 5%;
-    bottom: 8%;
+    bottom: 7%;
   }
   .skills__content__second-div p {
     font-size: 1.1rem;
   }
   .skills__content__second-div__line {
     width: 40vw;
-    margin: 10px 0;
+    margin: 9px 0;
   }
 }
 @media screen and (min-width: 741px) and (max-width: 970px) {
@@ -400,14 +406,14 @@
   .skills__content__second-div {
     position: absolute;
     right: 5%;
-    bottom: 8%;
+    bottom: 7%;
   }
   .skills__content__second-div p {
     font-size: 1.1rem;
   }
   .skills__content__second-div__line {
     width: 38.5vw;
-    margin: 10px 0;
+    margin: 9px 0;
   }
 }
 @media screen and (min-width: 971px) and (max-width: 1280px) {

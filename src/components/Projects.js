@@ -60,13 +60,18 @@ const Projects = () => {
                 </div>
 
                 <div className="buttons-div">
-                  <a href="https://clone.donatas-k.com" target="_blank">
+                  <a
+                    href="https://clone.donatas-k.com"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <button> Visit</button>
                   </a>
 
                   <a
                     href="https://github.com/DonatasKokanauskas/netlix-clone"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <button>GitHub</button>
                   </a>
@@ -106,13 +111,18 @@ const Projects = () => {
                 </div>
 
                 <div className="buttons-div">
-                  <a href="https://email.donatas-k.com/" target="_blank">
+                  <a
+                    href="https://email.donatas-k.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <button> Visit</button>
                   </a>
 
                   <a
                     href="https://github.com/DonatasKokanauskas/Email-validation"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <button>GitHub</button>
                   </a>
@@ -156,13 +166,18 @@ const Projects = () => {
                 </div>
 
                 <div className="buttons-div">
-                  <a href="https://stock.donatas-k.com/" target="_blank">
+                  <a
+                    href="https://stock.donatas-k.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <button> Visit</button>
                   </a>
 
                   <a
                     href="https://github.com/DonatasKokanauskas/stock-price-app"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <button>GitHub</button>
                   </a>
