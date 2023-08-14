@@ -33,6 +33,8 @@ function App() {
   }, []);
 
   const handleClick = (e) => {
+    e.preventDefault();
+
     const id = e.currentTarget.getAttribute("href").slice(1);
     const element = document.querySelector(`.${id}`);
 

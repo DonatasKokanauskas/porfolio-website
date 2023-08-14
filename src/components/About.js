@@ -11,12 +11,12 @@ const About = () => {
       </div>
       <div className="about__me">
         <div className="about__me__photo">
-          <img src={photo2} alt="my photo" />
+          <img src={photo2} alt="Donatas Kokanauskas" />
         </div>
         <div className="about__me__description">
           <h4>Who I Am?</h4>
           <p>
-            I am a front-end web developer with over six months of intense
+            I am a front-end web developer with over a year of intense
             self-learning experience. Additionally, I am certified by Vilnius
             Coding School with excellent grades. My passion for new technologies
             and interest in website structure and functionality led me to pursue
