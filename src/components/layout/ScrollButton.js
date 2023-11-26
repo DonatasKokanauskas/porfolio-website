@@ -1,5 +1,5 @@
 import React from "react";
-import "../style/css/ScrollButton.css";
+import "../../style/css/ScrollButton.css";
 import { FaArrowUp } from "react-icons/fa";
 
 const ScrollButton = ({ scroll, handleClick }) => {

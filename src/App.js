@@ -1,14 +1,14 @@
 import { useState, useEffect } from "react";
 import "./style/css/App.css";
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Skills from "./components/Skills";
-import Experience from "./components/Experience";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import ScrollButton from "./components/ScrollButton";
+import Navbar from "./components/layout/Navbar";
+import Hero from "./components/home/Hero";
+import About from "./pages/About";
+import Skills from "./pages/Skills";
+import Experience from "./pages/Experience";
+import Projects from "./pages/Projects";
+import Contact from "./pages/Contact";
+import Footer from "./components/layout/Footer";
+import ScrollButton from "./components/layout/ScrollButton";
 
 function App() {
   const [scroll, setScroll] = useState(window.scrollY);
@@ -49,7 +49,7 @@ function App() {
   };
   return (
     <div className="app">
-      <Header scroll={scroll} handleClick={handleClick} navHeight={navHeight} />
+      <Navbar scroll={scroll} handleClick={handleClick} navHeight={navHeight} />
       <Hero handleClick={handleClick} />
       <About />
       <Skills />

@@ -2,7 +2,7 @@
   background-color: #191919;
   width: 100vw;
   height: 100vh;
-  min-height: 840px;
+  min-height: 1100px;
   max-height: 1400px;
   padding: 4% 5%;
   display: flex;
@@ -27,7 +27,7 @@
 }
 .projects__content {
   width: 55%;
-  height: 70vh;
+  height: 90vh;
   min-height: 610px;
   display: flex;
   margin-top: 66px;
@@ -86,10 +86,17 @@
   object-position: left top;
 }
 .projects__content__second-div__second-project {
-  width: 100%;
-  background: #c4c4c4;
-  margin-bottom: 21px;
+  position: relative;
   height: 50%;
+  width: 100%;
+  box-shadow: rgb(38, 38, 38) 0px 0px 15px;
+}
+.projects__content__second-div__second-project img {
+  width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  object-position: left top;
 }
 .projects__content__third-div {
   width: 33.3333333333%;

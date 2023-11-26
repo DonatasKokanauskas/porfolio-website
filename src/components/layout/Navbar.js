@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { useEffect } from "react";
-import "../style/css/Header.css";
+import "../../style/css/Navbar.css";
 
-const Header = ({ scroll, handleClick, navHeight }) => {
+const Navbar = ({ scroll, handleClick, navHeight }) => {
   const liLine = { paddingBottom: "2px", borderBottom: "3px solid #f4fa1a" };
 
   const hero = document.querySelector(".home");
@@ -180,4 +180,4 @@ const Header = ({ scroll, handleClick, navHeight }) => {
   );
 };
 
-export default Header;
+export default Navbar;
