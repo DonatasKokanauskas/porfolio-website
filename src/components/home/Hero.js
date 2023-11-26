@@ -1,7 +1,7 @@
 import React from "react";
-import "../style/css/Hero.css";
-import cover from "../images/cover.png";
-import photo from "../images/my-photo.jpeg";
+import "../../style/css/Hero.css";
+import cover from "../../images/cover.png";
+import photo from "../../images/my-photo.jpeg";
 import { IoIosArrowRoundForward } from "react-icons/io";
 
 const Hero = ({ handleClick }) => {

@@ -17,8 +17,10 @@ const About = () => {
           <h4>Who I Am?</h4>
           <p>
             I am a front-end web developer with over a year of intense
-            self-learning experience. Additionally, I am certified by Vilnius
-            Coding School with excellent grades. My passion for new technologies
+            self-learning experience, and I have also completed a full-time
+            internship lasting two months in the field. Additionally, I am
+            certified by Vilnius Coding School with excellent grades, and I also
+            hold several online certificates. My passion for new technologies
             and interest in website structure and functionality led me to pursue
             this profession. In my previous job, I gained valuable experience by
             working collaboratively with a team, which gave me the necessary
