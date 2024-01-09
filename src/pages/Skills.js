@@ -26,9 +26,10 @@ const Skills = () => {
           </p>
           <p>
             I have become familiar with several other technologies, such as
-            Tailwind, Bootstrap, Material UI. Additionally, I have gained some
-            experience in testing using Jest and Cypress. I am continually
-            expanding and deepening my skills in these web development tools.
+            Tailwind, Bootstrap, Material UI, Framer Motion animation library.
+            Additionally, I have gained some experience in testing using Jest
+            and Cypress. I am continually expanding and deepening my skills in
+            these web development tools.
           </p>
         </div>
         <div className="skills__content__second-div">
@@ -41,6 +42,8 @@ const Skills = () => {
           <p>Vue.js</p>
           <div className="skills__content__second-div__line"></div>
           <p>React</p>
+          <div className="skills__content__second-div__line"></div>
+          <p>Redux</p>
           <div className="skills__content__second-div__line"></div>
           <p>SASS</p>
           <div className="skills__content__second-div__line"></div>

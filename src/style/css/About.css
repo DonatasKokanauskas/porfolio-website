@@ -197,6 +197,9 @@
   }
 }
 @media screen and (min-width: 351px) and (max-width: 400px) {
+  .about {
+    min-height: 910px;
+  }
   .about__page-name h2 {
     font-size: 3.6rem;
   }
@@ -230,6 +233,9 @@
   }
 }
 @media screen and (min-width: 401px) and (max-width: 470px) {
+  .about {
+    min-height: 930px;
+  }
   .about__page-name h2 {
     font-size: 3.5rem;
   }
@@ -259,6 +265,9 @@
   }
 }
 @media screen and (min-width: 471px) and (max-width: 550px) {
+  .about {
+    min-height: 930px;
+  }
   .about__page-name h2 {
     font-size: 3.4rem;
   }
@@ -288,6 +297,9 @@
   }
 }
 @media screen and (min-width: 551px) and (max-width: 600px) {
+  .about {
+    min-height: 930px;
+  }
   .about__page-name h2 {
     font-size: 3.3rem;
   }
@@ -346,6 +358,9 @@
   }
 }
 @media screen and (min-width: 741px) and (max-width: 970px) {
+  .about {
+    min-height: 950px;
+  }
   .about__page-name h2 {
     font-size: 2.9rem;
   }

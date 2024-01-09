@@ -34,7 +34,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 220px;
+    margin-top: 200px;
     &__first-div {
       width: 35%;
       h4 {
@@ -123,6 +123,7 @@
 }
 @media screen and (min-width: 151px) and (max-width: 200px) {
   .skills {
+    min-height: 940px;
     &__page-name {
       h2 {
         font-size: 4.2rem;
@@ -165,6 +166,7 @@
 
 @media screen and (min-width: 201px) and (max-width: 280px) {
   .skills {
+    min-height: 940px;
     &__page-name {
       h2 {
         font-size: 3.8rem;
@@ -207,6 +209,7 @@
 
 @media screen and (min-width: 281px) and (max-width: 350px) {
   .skills {
+    min-height: 940px;
     &__page-name {
       h2 {
         font-size: 3.7rem;
@@ -246,6 +249,7 @@
 
 @media screen and (min-width: 351px) and (max-width: 400px) {
   .skills {
+    min-height: 940px;
     &__page-name {
       h2 {
         font-size: 3.6rem;
@@ -285,6 +289,7 @@
 
 @media screen and (min-width: 401px) and (max-width: 470px) {
   .skills {
+    min-height: 940px;
     &__page-name {
       h2 {
         font-size: 3.5rem;
@@ -324,6 +329,7 @@
 
 @media screen and (min-width: 471px) and (max-width: 550px) {
   .skills {
+    min-height: 940px;
     &__page-name {
       h2 {
         font-size: 3.4rem;
@@ -362,6 +368,7 @@
 
 @media screen and (min-width: 551px) and (max-width: 600px) {
   .skills {
+    min-height: 940px;
     &__page-name {
       h2 {
         font-size: 3.3rem;
@@ -400,6 +407,7 @@
 
 @media screen and (min-width: 601px) and (max-width: 740px) {
   .skills {
+    min-height: 940px;
     &__page-name {
       h2 {
         font-size: 3.2rem;
@@ -438,6 +446,7 @@
 
 @media screen and (min-width: 741px) and (max-width: 970px) {
   .skills {
+    min-height: 940px;
     &__page-name {
       h2 {
         font-size: 2.9rem;
