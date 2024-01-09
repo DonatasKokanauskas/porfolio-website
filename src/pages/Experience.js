@@ -26,7 +26,8 @@ const Experience = () => {
               <p>2023-09-28 - 2023-11-24, 311 hours.</p>
               <p>
                 I have worked in front-end development using the Vue.js
-                framework.
+                framework, including Vue Router and Vuex. I have also written
+                unit tests and applied style for components.
               </p>
               <div className="experience__content__div__line"></div>
             </div>
@@ -46,9 +47,11 @@ const Experience = () => {
             <h3>CERTIFICATES</h3>
 
             <div>
-              <p>VUE - THE COMPLETE GUIDE (incl. ROUTER & COMPOSITION API)</p>
-              <p>2023-10-01, 32 hours.</p>
-              <p>Certificate no: UC-70c4227e-9a15-4c3a-8d14-eb0854533d0d</p>
+              <p>
+                React - The Complete Guide 2024 (incl. React Router & Redux)
+              </p>
+              <p>2024-01-09, 74.5 hours.</p>
+              <p>Certificate no: UC-5886a2f8-9edb-4698-93d6-cf0c27ee3d07</p>
               <div className="experience__content__div__line"></div>
             </div>
 
@@ -56,6 +59,13 @@ const Experience = () => {
               <p>JavaScript Unit Testing - The Practical Guide</p>
               <p>2023-11-12, 5.5 hours.</p>
               <p>Certificate no: UC-f0469e92-44c8-47f8-8b2b-26dd052f8110</p>
+              <div className="experience__content__div__line"></div>
+            </div>
+
+            <div>
+              <p>VUE - THE COMPLETE GUIDE (incl. ROUTER & COMPOSITION API)</p>
+              <p>2023-10-01, 32 hours.</p>
+              <p>Certificate no: UC-70c4227e-9a15-4c3a-8d14-eb0854533d0d</p>
               <div className="experience__content__div__line"></div>
             </div>
           </div>
